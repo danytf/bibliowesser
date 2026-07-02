@@ -1,0 +1,87 @@
+# Verificación de datos — Biblioteca ONG · Wesser
+
+Registro de verificación de cada cifra/afirmación de la app contra sus fuentes oficiales.
+
+## Metodología
+
+- **Criterio de "verificado"**: la fuente es oficial — de la propia ONG (memoria, informe auditado, informe anual, web/área de prensa institucional) o de otra institución oficial/reputada del sector (p. ej. SEOM, UNICEF, EAPN, una fundación de premios) — con URL accesible, y el dato se localiza literalmente (o de forma inequívocamente equivalente) en esa fuente. No vale prensa que simplemente repite una cifra sin citar su origen.
+- **Estados**: ✅ Verificado · ⚠️ Sin fuente oficial confirmada (se mantiene en la app, documentado aquí) · 🔲 Pendiente de revisar.
+- Este documento refleja el estado actual de cada dato, no el historial de revisiones.
+
+## Progreso general
+
+| ONG | Estado |
+|---|---|
+| AECC | ✅ Cerrado |
+| Aldeas Infantiles | ✅ Cerrado |
+| Cruz Roja | ✅ Cerrado |
+| FEC | ✅ Cerrado |
+| FJC | ✅ Cerrado |
+| FPM | ✅ Cerrado |
+| WWF | ✅ Cerrado |
+
+---
+
+## AECC
+
+**Fuentes oficiales**: Memoria Anual AECC 2025 · Informe Anual Fundación Científica AECC 2025 · SEOM (Las Cifras del Cáncer en España 2025) · Informe de Auditoría y Cuentas Anuales AECC 2025.
+
+Todas las cifras de la ficha están verificadas contra estas fuentes: atención a personas (177.577, desglose por necesidad —incluidas 58.720 personas por necesidades psicoemocionales—, +1.800 puntos), investigación (792 ayudas, 157M€, 160 instituciones, 38 provincias, becas y su desglose por categoría), estructura y finanzas (764.745 socios, 1.355 profesionales, 37.014 voluntarios, 44 pisos y residencias, ingresos y gastos, 90% de ingresos privados), supervivencia por tipo de cáncer (85% mama, 7-10% páncreas), cooperación internacional, centros acreditados, Ciencia para Todos y Patient Advocacy. También se verificó de forma independiente (cuenta oficial de AECC, Wikipedia y prensa) el relato fundacional: José Biosca funda la AECC en 1953.
+
+Sin puntos abiertos.
+
+## Aldeas Infantiles SOS España
+
+**Fuentes oficiales**: web y área de prensa institucional de Aldeas Infantiles SOS (las cifras 2025 aún no están recogidas en una Memoria 2025 en PDF, que se publicará previsiblemente en septiembre de 2026); Memoria 2024 para datos de ese año; Fundación Princesa de Asturias para el premio de 2016; UNICEF/EAPN/Plataforma de Infancia para el dato de pobreza infantil en España.
+
+Todas las cifras de la ficha están verificadas: atención en España y Latinoamérica en 2025 (20.900 niños/4.763 familias España, 47.505/13.567 total, cooperación internacional), estructura de programas (8 Aldeas, 5 Residencias de Jóvenes, 30 Centros de Día, 9 Programas de Familias, 5 CEI, 10 Programas de Acogimiento Familiar), finanzas (+300.000 socios, 59,9M€ ingresos, reparto de fondos), certificaciones (EFQM 400+, Keeping Children Safe Nivel 1, CONGDE), Educación en Valores (231.600 alumnos/2.316 centros, campaña Diputados por un Día: 140 niños de 7 colegios y 14 propuestas votadas), campaña Historias en Juego (14.172 firmas), Academia SOS, Aldeas Inclusiva, Premio Princesa de Asturias 2016, y el dato de pobreza infantil en España. La guía "Enredados con las pantallas" se cita con su fecha real (marzo 2026) y su URL vigente.
+
+Todas las URLs de `fuentesCompletas` de las tres ONGs (AECC, Aldeas Infantiles, Cruz Roja) están comprobadas y accesibles, y corresponden a la versión más reciente disponible de cada documento (ninguna de las tres tiene todavía Memoria 2025/2026 publicada donde aplica).
+
+Sin puntos abiertos.
+
+## Fundación Española del Corazón (FEC)
+
+**Fuentes oficiales**: Memoria Anual FEC 2025 · Informe de Actividad SEC-FEC 2025 (ambas de la propia entidad/su promotora, con URL, comprobadas accesibles).
+
+Verificado contra estas fuentes: base social (14.306 socios, 8.593 miembros SEC), PACS/Ariadna (29.164 DEAs, 71.099 usuarios, integración en el 061 de Galicia y convenio con Canarias), Declaración "Comprometidos por el corazón" (sept. 2025), Premios imPULSO (3ª ed., 28 empresas), PASFEC (25 empresas, 39 productos, 200 referencias, Monte Nevado), PECS (9 empresas), Carrera Popular del Corazón (4.632 inscritos, edición 16/6), Escuela de Paciente Experto (32 profesores), Organización de Asociaciones de Pacientes (53, III Congreso 107 pacientes), investigación e I+D de la SEC (775.225€, Congreso SEC25: 3.107 inscritos/319 sesiones/1.577 comunicaciones, factor de impacto REC 4,9, inclusión de REC:IC en PubMed Central, Liga de Casos Clínicos 2.182/59/159), formación (Campus SEC 45 cursos/8.749 alumnos, 9 presenciales/348 alumnos, 14 postgrados/1.164 alumnos, simulación 159 R2 + 12 R4-R5), divulgación (CardioTV 57 piezas, CardioPODCAST 32 episodios/1.092 escuchas, Blog 142 artículos/1,6M visitas, newsletter 44.882 suscriptores), SECoopera (Bolivia: 344 telemedicina/27 marcapasos/28 cirugías/70 ecografías; Ruanda: 12 voluntarios), examen europeo residentes (71 inscritos, 97% aprobados), actividad internacional (EHN, WHF, cribado ESC Madrid: 1.360 personas), y las cifras epidemiológicas externas (10,8% supervivencia parada cardíaca extrahospitalaria vs. 7,5% media europea y +30% en países nórdicos — Fundación MAPFRE/OHSCAR 2025; 57,3% con 2+ factores de riesgo y 36,2% duerme mal — ESFEC 2021; 17,9M muertes cardiovasculares mundiales, 120.000 en España y 7.700M€ de coste — OMS / PwC-Farmaindustria; 10M hipertensos en España con 3M sin diagnosticar — FEC/Revista Española de Cardiología).
+
+Sin puntos abiertos.
+
+## Fundación Josep Carreras contra la Leucemia (FJC)
+
+**Fuentes oficiales**: Memoria de Actividades FJC 2024 · REDMO (balance/notas de prensa oficiales del Ministerio de Sanidad-ONT, para datos 2025, ya que la Memoria 2025 aún no está publicada) · Wikipedia/prensa institucional para el Instituto Josep Carreras.
+
+Verificado contra estas fuentes: fundación 1988/REDMO 1991, 520.508 donantes activos a 31/12/2025 (5.º registro de Europa/13.º mundo), 481 donaciones efectivas 2025, 748 trasplantes coordinados 2024, 15.435 trasplantes totales coordinados desde 1991 (14.641 al cierre de 2024 + 794 de 2025), 60.886 unidades de sangre de cordón umbilical (1.º Europa/3.º mundo), acreditación Full Standard WMDA 2024, edad media de nuevos donantes 2025 (30 años) y autoabastecimiento (27%, vs 3% en 2012), proyecto Ready to Ship con 7% de unidades pre-liberadas, 149.867 socios activos (cuota media 38,23€, 18.513.764€ en cuotas regulares), Instituto Josep Carreras (5 sedes: Can Ruti, Sant Pau, Clínic, Mar, Trueta; 400 profesionales/40 grupos/4 programas; Dr. Ari Melnick director desde abril 2025), Pisos de Acogida (105 pacientes 2024, 8 pisos + 5 hoteles con su desglose completo de estancias y pernoctaciones), Día de los Imparables 2024 en CaixaForum Valencia, Ley del Derecho al Olvido Oncológico (junio 2023), spin-offs OneChain Immunotherapeutics y Leukos Biotech/AOP208.
+
+Sin puntos abiertos.
+
+## Fundación Pasqual Maragall (FPM)
+
+**Fuentes oficiales**: Informe de Impacto 2025 de la FPM · barcelonabeta.org (BBRC) · prensa científica especializada (Vademecum, Geriatricarea, IM Médico, biotech-spain.com) · Estudio sobre la percepción social del Alzheimer en España 2025 (Observatorio del Alzheimer y las Demencias, FPM + Novo Nordisk) · nota oficial IHI/AD-RIDDLE.
+
+Verificado contra estas fuentes: fundación 2008, Cristina Maragall presidenta, Dr. Arcadi Navarro director general de la Fundación y del BBRC, 112.842 socios, 93M€ invertidos en investigación 2013-2025, 2.743 participantes del Estudio Alfa, 80 publicaciones 2025; 900.000 afectados en España (1/10 >65 años, 1/3 >85 años); p-tau217 >90% de precisión (Nature Medicine), SCAP-AD, SpeechDx; Estudio Alfa (23.947 muestras, 965 RM, 3.563 sesiones en 2025); ALFA10 (cohorte histórica de +2.000 personas recontactada, visitas presenciales desde 2026, conectado a AD-RIDDLE — 31M€, 2024-2028, 6 países europeos + EE.UU.); los 4 ensayos clínicos activos (AHEAD, LAKI —España y Reino Unido, únicos 2 países europeos—, ReTain, AACO) y el historial de fármacos aprobados; Minicerebros (Dra. Laura García González, campaña con objetivo de 250.000€); ALFASleep y PENSA (×4,5 cognición, -25% riesgo demencia); 7 grupos de investigación y 6 consorcios internacionales, incluido el nuevo grupo de IA y Datos de Salud del Dr. Joaquín Dopazo (2026); Grupos Terapéuticos y programa "Aprende a Cuidar y a Cuidarte"; Estudio Cuidar Mejor (con IMSERSO); Plenamente Activas y Estudio PLENA; AreaAlzheimer (1.867 usuarios, incluye CuiDem, Co-Care y Test de Zarit); divulgación 2025 (76 charlas, Brain Film Fest, impactos en medios, seguidores); Parlamento de Cataluña (encuentro con el presidente Josep Rull); Premios Diana Garrigosa; actividad económica completa (30.735.836€ de presupuesto, desglose de ingresos y gastos, 290 trabajadores: 176 Fundación + 114 BBRC, 66-68% mujeres).
+
+Sin puntos abiertos.
+
+## WWF España
+
+**Fuentes oficiales**: Memoria de Conservación 2025 de WWF España · Informe Planeta Vivo 2024 (WWF global) · wwf.es (páginas de programas: Bosques, Especies invasoras, Grupos Locales, Campamentos de Montejo, transparencia) · MITECO/ONT/BOE para datos oficiales cruzados · prensa especializada (Infobae, Ecoticias, Mongabay, Servimedia) para hechos de 2026 posteriores a la memoria.
+
+Verificado contra estas fuentes: fundación en España el 30 de julio de 1968 (como ADENA), red global +5 millones de socios en +100 países, 3 metas globales WWF 2030; lince ibérico (2.663 ejemplares 2025, +10%, <100 a principios de siglo), Refugio de Montejo de la Vega (fundado 13 enero 1975 por Félix Rodríguez de la Fuente, primer acuerdo de custodia del territorio de España, origen de los campamentos juveniles de naturaleza), 857 parejas de buitre leonado y 11 de alimoche en 2025, Parque Natural Hoces del Río Riaza (5.185 ha, 2004); 22,5% de superficie marina española protegida (meta 30% en 2030), Tratado BBNJ en vigor enero 2026, Parque Nacional Mar de las Calmas, LIFE INTEMARES, informe CGPM-FAO 2025 (Mediterráneo); +134 ha de humedales restauradas en Doñana 2025, LIFE HumedalES 2026-2036 (mayor proyecto de la historia del programa LIFE, 26.200 ha en 107 espacios Natura 2000), Tablas de Daimiel (100.000 ha de regadío a retirar), Mar Menor (135 km², eutrofización 2019), salmón atlántico -82%; 73% de reducción de vertebrados desde 1970 (Informe Planeta Vivo 2024), 11 años consecutivos más cálidos; 55.900 firmas #StopCrimenAmbiental, <7% de crímenes ambientales juzgados en España, tráfico global de fauna (100 tigres/30.000 elefantes/+1.000 rinocerontes al año), Directiva europea de Delitos Ambientales sin transponer (plazo vencido 21 mayo 2026); RD 716/2025 sobre prevención de incendios, +390.000 ha quemadas en 2025, incendios de "6ª generación"; bosques españoles al 29% de su superficie potencial, 2/3 de bosques perdidos globalmente en 10.000 años, ~10.000 ha certificadas FSC en Cuenca/Guadalajara, restauración del río Mijares con Allianz tras la DANA de 2024, Alianza por la Restauración (30 organizaciones); censo del lobo ibérico (+12% de manadas en una década), acciones legales del Departamento Legal en Galicia/Asturias/La Rioja/Cantabria y recurso ante el Defensor del Pueblo, desmán ibérico en situación crítica 2025 (LIFE SAVE Desmán), visón americano en la lista europea de especies invasoras 2025, proyecto ODISEC (2026) de seguimiento digital de ciervo/corzo/perdiz; Ley de Prevención de Pérdidas y Desperdicio Alimentario (2025), sistema alimentario (26% emisiones GEI / 75% deforestación mundial); Red de Grupos Locales (12 activos), Plan Allen en Doñana, campañas Plantación en Red/Hora del Planeta/Walking Rivers; Departamento Legal (Convenio de Aarhus, +80 acuerdos, 9 herencias/legados, caso Doñana ante la Comisión Europea); encuentro "40 años de España en la UE: entender la PAC" (7 mayo 2026, con Por Otra PAC).
+
+Sin puntos abiertos.
+
+## Cruz Roja Española
+
+**Fuentes oficiales**: Memoria 2024 · Presupuesto Ordinario 2024 (ambos documentos propios de Cruz Roja, con URL).
+
+Verificado contra la Memoria 2024: base social (1.285.834 socios/empresas, 231.236 voluntarios), personas atendidas (11.687.497 = 2.786.628 nacional + 7.295.659 internacional + 1.605.210 sensibilización, suma exacta), DANA (323.063 asistencias, 6.019 movilizados, 112M€, 213 equipos con su desglose completo, albergues, kits, vehículos), cooperación internacional (41 países, 301 proyectos, 122,2M€, desglose por región), teleasistencia y mayores (225.010 y su desglose), inclusión social (933.514 y desglose), salud (1.177.803 y desglose), empleo (274.978 y desglose), infancia (152.564 y las 13 cifras de desglose), migración (48.496 solicitantes de asilo, 231.245 otros programas, 10.000 plazas), violencia de género (26.697 ATENPRO, 55.505 total y desglose), Cruz Roja Juventud (16.520 voluntarios, 489.000 horas, 285.257 actividades), medio ambiente (24.496 personas), fundación en 1864 y 160 aniversario en 2024.
+
+Verificado contra el Presupuesto Ordinario 2024: **979 M€** de presupuesto de ingresos (cifra presupuestada, distinta de los 1.114M€ de ingresos reales que recoge la Memoria porque esta última incluye la recaudación extraordinaria de la DANA) y el reparto de fondos por planes (Inclusión social 52%, Centros sociosanitarios 13%, Promoción de fondos 8%, Empleo 6%, Socorros y emergencias 5%, Internacional 4%, Servicios tecnológicos digitales 3%, resto agrupado 9%) — coincide cifra a cifra con el documento oficial.
+
+Cooperación internacional por región (Memoria 2024, p.55): África = 15 países/125 proyectos/39,85M€/4.638.244 beneficiarios; América = 14 países/88 proyectos/43,77M€/1.682.792 beneficiarios; Oriente Medio = 4 países/38 proyectos/9,2M€/325.287 beneficiarios; Europa = 6 países/18 proyectos/16,72M€/105.591 beneficiarios; Asia-Pacífico = 1 país/8 proyectos/5,18M€/32.217 beneficiarios.
+
+Teleasistencia y mayores (Memoria 2024, p.65): 225.010 personas atendidas — 125.712 domiciliaria, 7.274 móvil (más de 132.000 personas con un dispositivo 24h/365), 532 en centros de día para mayores (168 especializados), 20.942 en procesos de intervención directa, 3.106 en programas de buen trato y protección frente al maltrato.
+
+Sin puntos abiertos.
