@@ -603,6 +603,8 @@ function toggleCaptacion(){
   state.captacionMode=!state.captacionMode;
   updateTabs();
   renderFicha();
+  var btn=dom.ficha.querySelector('.cappill');
+  if(btn)btn.focus();
 }
 function toggleTheme(){
   var l=dom.body.classList.toggle('light');
