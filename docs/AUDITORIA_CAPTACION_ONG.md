@@ -361,6 +361,22 @@ incorporar. Los dos matices detectados (origen fundacional fuera del
 `claim`, ausencia de un testimonio nombrado real) se resolvieron en la
 misma sesión.
 
+**Recurso adicional procesado (2026-07-03):** Memoria Aldeas 2025 (PDF
+oficial, vía `docs/PROCESAR_RECURSO.md`). Incorporado: escala global de
+la federación (7,9M personas en 139 países, en `claim`), cifra exacta
+de base social (307.991 socios, sustituye el redondeo "+300.000"),
+nueva entrada en `cifras` (40,9% de quienes salen del sistema de
+protección en riesgo de pobreza/exclusión vs. 24,5% de la población
+general — cuantifica el argumento central de la ficha), actualización
+de "Diputados por un Día" a su 4ª edición (2025) y la intervención de
+Mariam en el Foro de Derechos de la Infancia de la UE en
+`motivosSocio`, y tres testimonios reales adicionales con cita textual:
+Yaritsa (Programa de Jóvenes de Las Palmas — el ángulo diferencial de
+acompañamiento tras los 18), Stephana (madre biológica, Acogimiento en
+Familia Ajena de Tenerife) y familia G.O. (Centro de Día de Madrid,
+Prevención). Todos verificados línea a línea contra el PDF, no solo
+contra el resumen de un agente.
+
 **Estado final Aldeas Infantiles SOS:** ✅ Datos verificados · ✅
 Auditoría de captación cerrada · ⬜ Estilo editorial (`GUIA_EDITORIAL.md`)
 pendiente de aplicar.
