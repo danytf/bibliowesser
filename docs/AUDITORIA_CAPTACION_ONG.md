@@ -267,7 +267,91 @@ lista.
 
 # Fundación Josep Carreras
 
-> Pendiente de auditoría.
+## Estado general
+
+**Veredicto:** ✅ Excelente
+
+### 1. Visión y propósito
+
+Bien cubierto: el `claim` da el origen personal y emotivo (Josep
+Carreras, superviviente de leucemia, trasplantado en 1987), el mandato
+oficial del REDMO (por encargo del Ministerio de Sanidad) y las dos
+patas complementarias (investigación vía el Instituto, acompañamiento
+a pacientes). Cifra de apertura sólida (520.508 donantes, 5.º registro
+de Europa).
+
+### 2. Problema que intenta resolver
+
+Muy bien resuelto: arranca con la estadística que humaniza el
+problema (3 de cada 4 pacientes sin familiar compatible, probabilidad
+de 1 entre 3.500 con un desconocido), y ya incluye un caso real y
+verificable (Hugo, donante que salvó una vida en 2020) en vez de
+quedarse solo en lo abstracto.
+
+### 3. Programas
+
+10 programas con datos muy precisos y actualizados a 2025: REDMO
+(con los testimonios reales de Hugo y Pastora), proceso de donación,
+Instituto de Investigación, avances científicos 2025-2026, Pisos de
+Acogida, spin-offs (OneChain, Leukos), red WMDA/cordón umbilical,
+Comunidad Imparable (socios y campañas), Programa de Experiencia del
+Paciente, y alianzas internacionales del Instituto. Cubre con detalle
+"en qué se usa mi dinero" y ya tiene testimonios reales en más de un
+punto — no hay hueco de "caso ficticio disfrazado de real" ni de
+ausencia de nombres propios.
+
+### 4. Diferenciadores
+
+`motivosSocio` tiene 5 argumentos sólidos y no redundantes: el ciclo
+completo REDMO+Instituto+acompañamiento, el mandato oficial del
+Ministerio de Sanidad (ya con la aclaración de que el mandato no
+implica financiación estatal — ver punto 5), la evolución de 35 a 481
+donaciones anuales, la historia fundacional de Josep Carreras, y la
+red internacional de fundaciones hermanas.
+
+### 5. Datos imprescindibles
+
+Bien cubiertos: desglose de `fondos` (uso del presupuesto) preciso y
+no estimado (38% búsqueda/trasplante, 35% investigación, 10% REDMO,
+10% administración, 7% sensibilización), cifras de donantes,
+trasplantes, tiempos de búsqueda, cuota media (38,23€), y ya incluye
+un ejemplo verificado de que el mandato oficial del Ministerio de
+Sanidad no implica financiación estatal del funcionamiento de la FJC:
+el convenio ONT-FJC de 2023 (BOE) se cofinanció al 50% (100.000€
+públicos + 100.000€ de la propia Fundación).
+
+### 6. Argumentario implícito
+
+El argumentario (`captacion.argumentario`, que apunta a los 3 primeros
+`motivosSocio`: ciclo completo, mandato oficial, evolución de
+donaciones) es sólido y ya incluye la respuesta a la objeción de
+financiación pública. No cubre los otros dos `motivosSocio` (historia
+de Josep Carreras, red internacional), patrón estructural ya visto en
+el resto de ONGs auditadas.
+
+### 7. Carencias
+
+Sin carencias abiertas. La única detectada (financiación: mandato
+oficial del Ministerio de Sanidad vs. cuotas de socios) se investigó y
+resolvió: no existe un desglose oficial global de ingresos por origen
+(se comprobó directamente — no hay fuente pública con ese %), pero sí
+un ejemplo concreto y verificado en el BOE de cofinanciación 50/50 en
+una colaboración oficial, que ya está incorporado en `motivosSocio #1`.
+
+### Resumen ejecutivo
+
+La ficha de FJC es sólida en Visión, Problema, Programas y
+Diferenciadores, con testimonios reales ya integrados de forma nativa
+(Hugo, Pastora, el vídeo de Carmen) — algo que en otras ONGs del
+proyecto fue una carencia y aquí no lo es. La única carencia detectada
+—el mandato oficial del Ministerio de Sanidad podía sugerir
+financiación estatal sin contrapartida— ya está resuelta con un dato
+real y verificado (BOE-A-2023-1948): incluso en las colaboraciones
+oficiales, la Fundación pone la mitad del dinero.
+
+**Estado final FJC:** ✅ Datos verificados · ✅ Auditoría de captación
+cerrada · ✅ Estilo editorial aplicado (`GUIA_EDITORIAL.md`: párrafos en
+`claim`, `problema` y los 10 `desc` de programas). Ficha lista.
 
 ------------------------------------------------------------------------
 
