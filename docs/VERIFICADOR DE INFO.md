@@ -24,11 +24,13 @@ Registro de verificación de cada cifra/afirmación de la app contra sus fuentes
 
 ## AECC
 
-**Fuentes oficiales**: Memoria Anual AECC 2025 · Informe Anual Fundación Científica AECC 2025 · SEOM (Las Cifras del Cáncer en España 2025) · Informe de Auditoría y Cuentas Anuales AECC 2025.
+**Fuentes oficiales**: Memoria Anual AECC 2025 · Informe Anual Fundación Científica AECC 2025 · SEOM (Las Cifras del Cáncer en España 2025) · Informe de Auditoría y Cuentas Anuales AECC 2025 · Memoria AECC 2024 · REDECAN (Supervivencia de cáncer en población adulta en España, 2003-2017, dic. 2025) · AECC + Fundación "la Caixa" (Comprometidos con la Investigación en Cáncer).
 
 Todas las cifras de la ficha están verificadas contra estas fuentes: atención a personas (177.577, desglose por necesidad —incluidas 58.720 personas por necesidades psicoemocionales—, +1.800 puntos), investigación (792 ayudas, 157M€, 160 instituciones, 38 provincias, becas y su desglose por categoría), estructura y finanzas (764.745 socios, 1.355 profesionales, 37.014 voluntarios, 44 pisos y residencias, ingresos y gastos, 90% de ingresos privados), supervivencia por tipo de cáncer (85% mama, 7-10% páncreas), cooperación internacional, centros acreditados, Ciencia para Todos y Patient Advocacy. También se verificó de forma independiente (cuenta oficial de AECC, Wikipedia y prensa) el relato fundacional: José Biosca funda la AECC en 1953.
 
-Sin puntos abiertos.
+**Añadido en auditoría de captación (2026-07-03)**, tras `AUDITORIA_CAPTACION_ONG.md`: "1 de cada 2 hombres y 1 de cada 3 mujeres" desarrollará cáncer a lo largo de su vida en España (SEOM 2017, recogido textualmente en la Memoria AECC 2024); supervivencia neta a 5 años del conjunto de tumores en España = 60,9% (ambos sexos, diagnosticados 2013-2017, +1,9 puntos vs. 2008-2012 — REDECAN, informe dic. 2025, p.17); la inversión filantrópica en investigación del cáncer en España se triplicó en 2015-2020 hasta 140M€, igualando a la Agencia Estatal de Investigación (informe "Comprometidos con la Investigación en Cáncer", AECC + Fundación "la Caixa"). Se investigó también un caso concreto y nombrado de avance médico nacido de una beca/spin-off de la Fundación Científica AECC (equivalente al caso OneChain de FJC): no se encontró ninguno trazable en fuentes públicas — queda sin incorporar, documentado como carencia abierta en `AUDITORIA_CAPTACION_ONG.md`, no como dato pendiente de verificar.
+
+Sin puntos abiertos (salvo el caso de éxito investigador nombrado, que se deja fuera por falta de fuente, no por falta de verificación).
 
 ## Aldeas Infantiles SOS España
 
