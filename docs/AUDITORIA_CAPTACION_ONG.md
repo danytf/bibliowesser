@@ -445,7 +445,87 @@ cerrada · ✅ Estilo editorial aplicado (`GUIA_EDITORIAL.md`: párrafos en
 
 # WWF
 
-> Pendiente de auditoría.
+## Estado general
+
+**Veredicto:** ✅ Excelente
+
+### 1. Visión y propósito
+
+Bien cubierto: el `claim` da el origen en España (1968), la escala
+global (+5 millones de socios, +100 países), el proyecto más antiguo
+(Refugio de Montejo, 1975, Félix Rodríguez de la Fuente) y el caso de
+éxito más reconocible (lince ibérico) como gancho de apertura, además
+de las 3 metas globales 2030.
+
+### 2. Problema que intenta resolver
+
+Muy bien resuelto: combina la estadística global más contundente del
+sector (73% de reducción de vertebrados desde 1970) con casos
+concretos y nombrados en España (Mar Menor, Doñana, crimen ambiental
+sin juzgar). Conecta bien lo global con lo local.
+
+### 3. Programas
+
+12 programas que cubren con detalle todo el espectro: especies
+emblemáticas (lince, lobo, especies marinas), clima y energía, agua,
+incendios forestales, restauración forestal, pesca sostenible,
+alimentos, crimen ambiental, participación/voluntariado y el
+Departamento Legal. Al revisar la ficha se detectó y corrigió una
+inconsistencia: el `speech.discurso` seguía citando la cifra antigua
+de incendios (390.000 ha) en vez de la ya actualizada en el programa
+correspondiente (392.000 ha, con las cifras humanas de la temporada
+2025) — corregido durante esta auditoría.
+
+### 4. Diferenciadores
+
+`motivosSocio` tiene 5 argumentos sólidos: el lince como prueba de que
+la reversión es posible, independencia total de gobiernos y empresas
+(con un argumento muy fuerte: poder denunciar al propio Gobierno
+español ante la Comisión Europea), tecnología aplicada a la defensa
+del territorio, la recuperación del mar cuando se protege, y 51 años
+de historia con raíces en Montejo.
+
+### 5. Datos imprescindibles
+
+Muy bien cubiertos: el desglose de `fondos` es preciso (66% proyectos
+de conservación, 29% personal especializado, 5% inversiones/otros,
+con importes en euros, no solo porcentajes) y la financiación privada
+ya está cuantificada y convertida en argumento (53% del presupuesto
+financiado por los socios, motivoSocio #1) — no hace falta investigar
+nada adicional en este punto, a diferencia de otras ONGs del proyecto.
+
+### 6. Argumentario implícito
+
+El argumentario (`captacion.argumentario`, que apunta a los 3 primeros
+`motivosSocio`: lince, independencia, tecnología territorial) es
+sólido. No cubre los otros dos `motivosSocio` (recuperación del mar,
+51 años de historia), patrón estructural ya visto en el resto de ONGs
+auditadas.
+
+### 7. Carencias
+
+Sin carencias abiertas. Se detectó y corrigió una inconsistencia de
+mantenimiento (cifra de incendios desactualizada en `speech.discurso`,
+390.000 → 392.000 ha, alineada con la actualización ya aplicada al
+programa de incendios en una sesión anterior). No se identificó
+ninguna carencia estructural: financiación ya resuelta, sin necesidad
+de testimonios de beneficiarios (no aplica al tipo de organización —
+los casos de éxito de especies, ya nombrados y verificados, cumplen
+ese papel narrativo).
+
+### Resumen ejecutivo
+
+La ficha de WWF es sólida en las 8 dimensiones evaluadas: Visión,
+Problema, Programas, Diferenciadores y Datos imprescindibles están
+listos para formar a un captador sin matices, incluyendo una respuesta
+ya preparada a la objeción de financiación (independencia del 53% de
+la base social, con el argumento añadido de poder litigar contra el
+propio Gobierno). La única incidencia real de esta auditoría fue de
+consistencia interna, ya corregida.
+
+**Estado final WWF:** ✅ Datos verificados · ✅ Auditoría de captación
+cerrada · ✅ Estilo editorial aplicado (`GUIA_EDITORIAL.md`: párrafos en
+`claim`, `problema` y los 12 `desc` de programas). Ficha lista.
 
 ------------------------------------------------------------------------
 
