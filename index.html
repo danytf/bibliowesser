@@ -113,9 +113,11 @@ body.light::before{background:radial-gradient(ellipse at 20% 0%,rgba(229,26,26,.
 .fsec-h.open .fsec-arr{transform:rotate(180deg)}
 .fsec-i{font-size:.88rem}
 .fsec-t{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.12em;color:var(--muted)}
-.fsec-b{padding:0 .875rem;overflow:hidden;max-height:0}
-.ready .fsec-b{transition:max-height .22s ease,padding .22s ease}
-.fsec-h.open + .fsec-b{max-height:3000px;padding:.75rem .875rem}
+/* Plegado animado con grid 0fr→1fr: sin tope de altura, el contenido nunca se recorta */
+.fsec-b{padding:0 .875rem;display:grid;grid-template-rows:0fr}
+.fsec-b>div{overflow:hidden;min-height:0}
+.ready .fsec-b{transition:grid-template-rows .22s ease,padding .22s ease}
+.fsec-h.open + .fsec-b{grid-template-rows:1fr;padding:.75rem .875rem}
 .sec-actions{display:flex;justify-content:flex-end;padding:.25rem .75rem 0;margin-bottom:-.3rem}
 .sec-toggle-all{background:none;border:1px solid var(--border);color:var(--muted);font-size:.75rem;font-family:inherit;cursor:pointer;padding:.3rem .6rem;border-radius:var(--r-sm);line-height:1;transition:color .15s,border-color .15s}
 .sec-toggle-all:hover{color:var(--text);border-color:var(--border-2)}
@@ -146,8 +148,9 @@ body:not(.light) .csrc{color:#85a0c0}
 .parr{color:var(--dim);font-size:.72rem;transition:transform .2s;flex-shrink:0}
 .prog.open .parr{transform:rotate(180deg);color:var(--brand)}
 .pshort{font-size:.72rem;color:var(--muted);line-height:1.5}
-.pfull{overflow:hidden;max-height:0;font-size:.75rem;color:var(--muted);line-height:1.65;margin-top:.35rem;transition:max-height .22s ease}
-.prog.open .pfull{max-height:2000px}
+.pfull{display:grid;grid-template-rows:0fr;font-size:.75rem;color:var(--muted);line-height:1.65;margin-top:.35rem;transition:grid-template-rows .22s ease}
+.pfull>div{overflow:hidden;min-height:0}
+.prog.open .pfull{grid-template-rows:1fr}
 .prog.open .pshort{display:none}
 .pdato{font-size:.7rem;color:var(--muted);margin-top:.3rem;font-style:italic;border-top:1px solid var(--border);padding-top:.25rem}
 
@@ -342,7 +345,7 @@ var dom={
 /* Sección plegable de la ficha (acordeón) */
 function fsec(ongId,num,icon,title,body,open){
   var bid=`fsec-${ongId}-${num}-b`;
-  return `<div class="fsec"><button type="button" class="fsec-h${open?' open':''}" aria-expanded="${open?'true':'false'}" aria-controls="${bid}"><span class="fsec-i" aria-hidden="true">${icon}</span><span class="fsec-t">${title}</span><span class="fsec-arr" aria-hidden="true">▼</span></button><div class="fsec-b" id="${bid}">${body}</div></div>`;
+  return `<div class="fsec"><button type="button" class="fsec-h${open?' open':''}" aria-expanded="${open?'true':'false'}" aria-controls="${bid}"><span class="fsec-i" aria-hidden="true">${icon}</span><span class="fsec-t">${title}</span><span class="fsec-arr" aria-hidden="true">▼</span></button><div class="fsec-b" id="${bid}"><div>${body}</div></div></div>`;
 }
 /* Fila numerada (datos sorprendentes / motivos para colaborar) */
 function sorpItem(n,dato,fuente){
@@ -456,7 +459,7 @@ function renderFicha(){
   }
 
   b='';
-  for(let i=0;i<ong.programas.length;i++){var p=ong.programas[i],pid=`p-${ong.id}-${i}`;b+=`<div class="prog" id="${pid}"><button type="button" class="phdr" data-pid="${pid}" aria-expanded="false" aria-controls="${pid}-body"><span class="pemi" aria-hidden="true">${p.emoji}</span><span class="pnam">${esc(p.name)}</span><span class="parr" aria-hidden="true">▼</span></button><div class="pshort">${esc(p.desc.substring(0,130))}${p.desc.length>130?'...':''}</div><div class="pfull" id="${pid}-body">${esc(p.desc)}${p.dato?`<div class="pdato">→ ${esc(p.dato)}</div>`:''}</div></div>`;}
+  for(let i=0;i<ong.programas.length;i++){var p=ong.programas[i],pid=`p-${ong.id}-${i}`;b+=`<div class="prog" id="${pid}"><button type="button" class="phdr" data-pid="${pid}" aria-expanded="false" aria-controls="${pid}-body"><span class="pemi" aria-hidden="true">${p.emoji}</span><span class="pnam">${esc(p.name)}</span><span class="parr" aria-hidden="true">▼</span></button><div class="pshort">${esc(p.desc.substring(0,130))}${p.desc.length>130?'...':''}</div><div class="pfull" id="${pid}-body"><div>${esc(p.desc)}${p.dato?`<div class="pdato">→ ${esc(p.dato)}</div>`:''}</div></div></div>`;}
   h+=fsec(ong.id,5,'🚀',`Programas (${ong.programas.length})`,b);
 
   if(ong.sorprenden&&ong.sorprenden.length){
