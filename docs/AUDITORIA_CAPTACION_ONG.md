@@ -279,7 +279,91 @@ lista.
 
 # Aldeas Infantiles SOS
 
-> Pendiente de auditoría.
+## Estado general
+
+**Veredicto:** ✅ Excelente
+
+### 1. Visión y propósito
+
+Muy bien cubierto: el `claim` abre con el origen fundacional (Austria,
+1949, hogar para huérfanos de la Segunda Guerra Mundial), da cifras
+actuales de España y del mundo, cita textualmente al presidente (Pedro
+Puig) conectando la misión con crisis de actualidad (DANA, Ucrania,
+Gaza), y menciona el Premio Princesa de Asturias 2016.
+
+### 2. Problema que intenta resolver
+
+Muy bien resuelto: el `problema` combina un dato de contexto nacional
+(2,7M de menores en riesgo de pobreza, un tercio de la infancia
+española) con el hueco específico que cubre Aldeas — el "punto ciego"
+del sistema público al cumplir 18 años — y ya menciona el nuevo
+servicio de postacogimiento (2025). Da al captador una frase de
+apertura clara y diferenciada de otras ONGs de infancia.
+
+### 3. Programas
+
+12 programas que cubren todo el ciclo: prevención, acogimiento
+residencial, acogimiento familiar, emancipación, educación en valores,
+cooperación internacional, incidencia política, protección infantil,
+formación institucional, inclusión laboral, educación ambiental/afectivo-sexual
+y voluntariado. Cubre con detalle "en qué se usa mi dinero", y el
+programa de acogimiento residencial ya incluye el testimonio real y
+nombrado de Alexandra (Aldea Infantil SOS de Cuenca). El caso "Sara"
+del `speech.discurso` sigue siendo explícitamente ilustrativo — se
+mantiene así, es un recurso narrativo distinto y válido para el guion
+de 30 segundos.
+
+### 4. Diferenciadores
+
+`motivosSocio` tiene 5 argumentos sólidos y no redundantes:
+acompañamiento más allá de los 18, unión de hermanos (con la campaña
+"Historias en Juego" y sus 14.172 firmas), incidencia política real
+(Congreso, ONU, "Vota por la infancia"), 75 años de trayectoria con
+certificaciones (EFQM 400+, Keeping Children Safe), y una organización
+que se adapta a riesgos actuales (guía "Enredados con las pantallas",
+marzo 2026). Es un conjunto de argumentos actual y bien fundamentado.
+
+### 5. Datos imprescindibles
+
+Muy bien cubiertos, incluyendo un dato que en otras ONGs del proyecto
+fue una carencia real: el desglose de financiación ya está presente en
+`cifras` (72,1% privada / 27,9% pública sobre 59,9M€ de ingresos 2025),
+así que la objeción "¿de dónde sale el dinero?" ya tiene respuesta
+lista sin necesidad de investigar nada nuevo.
+
+### 6. Argumentario implícito
+
+El argumentario (`captacion.argumentario`, que apunta a los 3 primeros
+`motivosSocio`: acompañamiento post-18, unión de hermanos, incidencia
+política) es sólido. No cubre los otros dos `motivosSocio` (75
+años/certificaciones, adaptación a riesgos digitales) — mismo patrón
+estructural ya visto en Cruz Roja, donde el argumentario cubre solo un
+subconjunto.
+
+### 7. Carencias
+
+Sin carencias abiertas. Los dos matices detectados ya están resueltos:
+
+- ✅ Origen fundacional (Austria, 1949) incorporado al `claim`.
+- ✅ Testimonio real y nombrado (Alexandra, Aldea Infantil SOS de
+  Cuenca) incorporado al programa de acogimiento residencial, con cita
+  textual y fuente propia de Aldeas Infantiles verificada
+  directamente (no de un resumen de agente, que en un primer intento
+  citó un caso — "Antonio" — que resultó no existir en la fuente).
+
+### Resumen ejecutivo
+
+La ficha de Aldeas Infantiles SOS es sólida y está lista para formar a
+un captador sin carencias: Problema, Programas, Diferenciadores y
+Datos imprescindibles cubren de forma completa, incluyendo un dato de
+financiación que en otras ONGs del proyecto hubo que investigar e
+incorporar. Los dos matices detectados (origen fundacional fuera del
+`claim`, ausencia de un testimonio nombrado real) se resolvieron en la
+misma sesión.
+
+**Estado final Aldeas Infantiles SOS:** ✅ Datos verificados · ✅
+Auditoría de captación cerrada · ⬜ Estilo editorial (`GUIA_EDITORIAL.md`)
+pendiente de aplicar.
 
 ------------------------------------------------------------------------
 
