@@ -270,6 +270,8 @@ body.light .cappill:hover{box-shadow:0 6px 20px rgba(229,26,26,.3)}
   .otab.active:hover{background:var(--tab-color,var(--brand))}
   .otab-full{display:block;font-size:.68rem;font-weight:600;color:var(--dim);margin-top:.15rem;line-height:1.3}
   .otab.active .otab-full{color:rgba(255,255,255,.78)}
+  body.light .otab.active{color:color-mix(in srgb,var(--tab-color,var(--brand)) 62%,#000)}
+  body.light .otab.active .otab-full{color:color-mix(in srgb,var(--tab-color,var(--brand)) 62%,#000)}
   #fichaView{flex:1;min-width:0}
   .fwrap,.cwrap{max-width:680px;margin-left:auto;margin-right:auto}
   .cgrid{grid-template-columns:repeat(2,1fr)}
