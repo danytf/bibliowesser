@@ -378,8 +378,9 @@ Prevención). Todos verificados línea a línea contra el PDF, no solo
 contra el resumen de un agente.
 
 **Estado final Aldeas Infantiles SOS:** ✅ Datos verificados · ✅
-Auditoría de captación cerrada · ⬜ Estilo editorial (`GUIA_EDITORIAL.md`)
-pendiente de aplicar.
+Auditoría de captación cerrada · ✅ Estilo editorial aplicado
+(`GUIA_EDITORIAL.md`: párrafos en `claim`, `problema` y los 12 `desc`
+de programas). Ficha lista.
 
 ------------------------------------------------------------------------
 
