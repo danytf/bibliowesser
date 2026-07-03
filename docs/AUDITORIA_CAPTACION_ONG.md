@@ -386,4 +386,97 @@ de programas). Ficha lista.
 
 # Fundación Española del Corazón
 
-> Pendiente de auditoría.
+## Estado general
+
+**Veredicto:** ✅ Excelente
+
+### 1. Visión y propósito
+
+Bien cubierto: el `claim` da el origen (1967 como Fundación Hispana de
+Cardiología, renombrada en 1995), la presidencia actual (Dr. Andrés
+Íñiguez Romo, con cita textual), y el respaldo de la SEC (8.593
+miembros) como "el conocimiento médico más especializado de España al
+servicio de la prevención". Cifras de base social ya incluidas.
+
+### 2. Problema que intenta resolver
+
+Muy bien resuelto y muy cuantificado: mortalidad cardiovascular global
+(17,9M/año, más que todo el cáncer combinado), 80% de eventos
+prevenibles, prevalencia de factores de riesgo modificables (57,3% con
+2+ factores, el más común es dormir mal) y la brecha de supervivencia
+ante parada cardíaca (10,8% en España frente a >30% en países
+nórdicos). Esta última cifra es el eje narrativo de toda la ficha —
+conecta directamente con el programa PACS/Ariadna.
+
+### 3. Programas
+
+13 programas que cubren con detalle todo el espectro: emergencia
+(PACS/Ariadna), prevención (campaña de hipertensión, PASFEC, PECS),
+incidencia política (Comprometidos por el corazón), formación desde la
+infancia (Cardioescuelas/RCP), eventos de base social (Carrera Popular
+del Corazón), acompañamiento al paciente (Escuela de Paciente Experto,
+Organización de Asociaciones de Pacientes), investigación (SEC),
+formación/divulgación científica, alianzas internacionales y
+corporativas. La campaña de hipertensión ya incluye el testimonio real
+de Joaquín Henrich (ictus por hipertensión no diagnosticada,
+recuperado sin secuelas). El caso "Javier" del `speech.discurso` sigue
+siendo explícitamente ficticio — se mantiene así, es un recurso
+narrativo distinto y válido para el guion de 30 segundos.
+
+### 4. Diferenciadores
+
+`motivosSocio` tiene 5 argumentos sólidos y no redundantes: la
+tecnología que cierra la brecha de supervivencia (Ariadna), el
+conocimiento médico de la SEC traducido a la calle, incidencia política
+con resultado medible (Declaración de 2025), formación gratuita para
+pacientes ya diagnosticados, y la Carrera Popular como ejemplo tangible
+de "en qué se usa mi cuota".
+
+### 5. Datos imprescindibles
+
+Único matiz: el desglose de `fondos` (uso del presupuesto) tiene las 4
+categorías marcadas explícitamente como "(estimado)" — a diferencia de
+las demás ONGs del proyecto, no hay una cifra oficial verificada de en
+qué se gasta el presupuesto de la FEC. Se investigó a fondo (ver
+Carencias) y no existe fuente pública que lo confirme; la etiqueta
+"estimado" ya es la respuesta honesta a esa limitación.
+
+### 6. Argumentario implícito
+
+El argumentario (`captacion.argumentario`, que apunta a los 3 primeros
+`motivosSocio`: Ariadna, conocimiento SEC, incidencia política) es
+sólido. No cubre los otros dos `motivosSocio` (formación de pacientes,
+Carrera Popular) — mismo patrón estructural ya visto en Cruz Roja y
+Aldeas Infantiles.
+
+### 7. Carencias
+
+Sin carencias abiertas. De las tres investigadas:
+
+- ✅ **Resuelta.** Testimonio real y nombrado incorporado a la campaña
+  de hipertensión: Joaquín Henrich, ictus por hipertensión no
+  diagnosticada, recuperado sin secuelas (Revista FEC nº160, verano
+  2026, verificado directamente contra el PDF).
+- 🔍 **Investigada sin resultado.** Desglose de gasto verificado (las
+  4 categorías de `fondos` siguen marcadas "estimado"). Se comprobó
+  directamente que la sección "Cuentas Anuales" de fundaciondelcorazon.com
+  está vacía ("Preparando contenido") y que las memorias publicadas
+  son solo de actividad, sin datos económicos. No existe fuente
+  pública accesible; conseguirlo requeriría solicitud formal a la
+  fundación o consulta al Registro de Fundaciones. Se mantiene la
+  etiqueta "(estimado)", que ya es honesta sobre esa limitación.
+- 🔍 **Investigada sin resultado**, misma causa: desglose de
+  financiación privada vs. pública. No hay fuente pública de la FEC
+  (separada de la SEC) con ese dato.
+
+### Resumen ejecutivo
+
+La ficha de FEC tiene una Visión, Problema, Programas y Diferenciadores
+muy sólidos, con una narrativa central (la brecha de supervivencia
+10,8% vs 30%) que conecta de forma coherente casi todos los programas,
+y ahora también un testimonio real. Los dos datos económicos que
+faltan (desglose de gasto preciso, financiación privada vs. pública)
+se investigaron a fondo pero no existe fuente pública que los
+respalde — se documenta la limitación en vez de inventar una cifra;
+si la FEC publica en el futuro una memoria económica, es el
+disparador para reabrir este punto.
