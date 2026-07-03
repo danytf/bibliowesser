@@ -305,16 +305,25 @@ var ONG_IDS=['aecc','aldeas','cruzroja','fec','fjc','fpm','wwf'];
    DATOS
    Cada ONG vive en su propio <script type="application/json" id="data-{id}">
 ================================================== */
-var ONGS=ONG_IDS.map(function(id){return JSON.parse(document.getElementById('data-'+id).textContent);});
+/* Un bloque malformado no debe tumbar la app: se omite esa ONG y se avisa por consola */
+var ONGS=[];
 var ONG_BY_ID={};
-ONGS.forEach(function(o){ONG_BY_ID[o.id]=o;});
+ONG_IDS.forEach(function(id){
+  try{
+    var o=JSON.parse(document.getElementById('data-'+id).textContent);
+    ONGS.push(o);
+    ONG_BY_ID[o.id]=o;
+  }catch(e){
+    console.error('Bloque de datos inválido, ONG omitida: '+id,e);
+  }
+});
 
 /* ==================================================
    ESTADO
    Única fuente de verdad de la UI
 ================================================== */
 var state={
-  currentOng:ONGS[0].id,
+  currentOng:ONGS.length?ONGS[0].id:null,
   captacionMode:false
 };
 
