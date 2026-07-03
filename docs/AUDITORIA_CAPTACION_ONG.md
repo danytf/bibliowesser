@@ -261,7 +261,95 @@ lista.
 
 # Fundación Pasqual Maragall
 
-> Pendiente de auditoría.
+## Estado general
+
+**Veredicto:** ✅ Excelente
+
+### 1. Visión y propósito
+
+Bien cubierto: el `claim` da el origen personal (Pasqual Maragall,
+diagnosticado de Alzheimer, cita textual), el liderazgo actual
+(Cristina Maragall, Dr. Arcadi Navarro), la escala de la base social
+(112.842 socios) y el hallazgo científico más reciente (Nature
+Medicine, análisis de sangre >90% de precisión) como gancho de
+actualidad.
+
+### 2. Problema que intenta resolver
+
+Muy bien resuelto y muy cuantificado: la ventana de 20 años antes de
+los síntomas, 900.000 personas con Alzheimer en España, 416 millones
+en el "continuo" mundial, la estadística que universaliza la causa (1
+de cada 2 verá su vida afectada), y el dato que conecta ciencia con
+urgencia real (solo ~6% de pacientes son elegibles para los nuevos
+fármacos modificadores, porque llegan tarde). Es un problema ya
+redactado casi como argumentario.
+
+### 3. Programas
+
+12 programas que cubren con detalle todo el ciclo: diagnóstico
+(análisis de sangre), investigación de cohorte (Estudio Alfa, ALFA10),
+ensayos clínicos, innovación sin animales (minicerebros), prevención
+por hábitos (ALFASleep, PENSA), grupos de investigación y consorcios,
+acompañamiento a cuidadores, acompañamiento a diagnosticados
+(Plenamente Activas), divulgación, incidencia institucional y
+actividad económica. El Estudio Alfa y el programa de acompañamiento a
+cuidadores ya incluyen testimonios reales y nombrados: Julián,
+voluntario del Estudio Alfa ("Aportar algo, por muy poco que sea,
+siempre es conveniente"), y Gladys Hernández, cuidadora que pasó por
+los Grupos Terapéuticos.
+
+### 4. Diferenciadores
+
+`motivosSocio` tiene 5 argumentos sólidos y no redundantes: el hallazgo
+científico como "pitch que se explica solo", la universalización del
+problema (2 de cada 3 españoles conocen un caso), la escala europea
+real (ALFA10/AD-RIDDLE), la innovación sin experimentación animal
+(minicerebros), y el impacto en hábitos cotidianos más allá del
+laboratorio.
+
+### 5. Datos imprescindibles
+
+Muy bien cubiertos — de hecho, el desglose económico de FPM es el más
+completo de las ONGs auditadas hasta ahora: `fondos` da tanto el
+destino del gasto (57% investigación, 22% red de socios, 16% apoyo a
+familias, 4% administración) como, dentro del programa de Actividad
+económica, el origen de los ingresos (59% particulares, 30% empresas y
+fundaciones, 8% fondos públicos, 2% venta de servicios, 1%
+financieros). La objeción "¿de dónde sale el dinero?" ya tiene
+respuesta completa en ambas direcciones — algo que en otras ONGs del
+proyecto (Cruz Roja, FJC, FEC) hizo falta investigar o quedó sin
+resolver.
+
+### 6. Argumentario implícito
+
+El argumentario (`captacion.argumentario`, que apunta a los 3 primeros
+`motivosSocio`: hallazgo científico, universalización, escala europea)
+es sólido. No cubre los otros dos `motivosSocio` (minicerebros,
+impacto en hábitos), patrón estructural ya visto en el resto de ONGs
+auditadas.
+
+### 7. Carencias
+
+Sin carencias abiertas. La única detectada (sin testimonio real y
+nombrado en ningún programa) se resolvió incorporando a Julián
+(Estudio Alfa) y Gladys Hernández (cuidadora), ambos verificados
+directamente contra el blog oficial de la Fundación. No se encontró un
+testimonio trazable específico de "Plenamente Activas" (solo datos
+agregados del piloto sin nombres públicos) — no bloqueante, cubierto
+por los otros dos ángulos.
+
+### Resumen ejecutivo
+
+La ficha de FPM es, en cifras económicas, la más completa y
+transparente de las auditadas hasta ahora: da tanto el destino del
+gasto como el origen de los ingresos, sin estimaciones ni huecos.
+Visión, Problema, Programas y Diferenciadores están listos para formar
+a un captador sin matices, y ahora también cuenta con dos testimonios
+reales que dan rostro humano a las cifras.
+
+**Estado final FPM:** ✅ Datos verificados · ✅ Auditoría de captación
+cerrada · ✅ Estilo editorial aplicado (`GUIA_EDITORIAL.md`: párrafos en
+`claim`, `problema` y los 12 `desc` de programas). Ficha lista.
 
 ------------------------------------------------------------------------
 
