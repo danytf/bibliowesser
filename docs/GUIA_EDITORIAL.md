@@ -1,4 +1,12 @@
-# GUIA_EDITORIAL.md
+# Estado del documento
+
+**Documento:** GUIA_EDITORIAL.md
+**Versión:** 1.0
+**Última actualización:** 03/07/2026
+**Proyecto:** Biblioteca ONG
+**Estado:** Activo
+
+---
 
 # Guía Editorial --- Biblioteca de ONG
 
@@ -21,13 +29,13 @@ veracidad y completitud de la información.
 
 Una revisión editorial no debe:
 
--   añadir información;
--   eliminar información relevante;
--   modificar cifras;
--   cambiar el significado;
--   alterar el tono;
--   resumir contenido;
--   ampliar contenido.
+- añadir información;
+- eliminar información relevante;
+- modificar cifras;
+- cambiar el significado;
+- alterar el tono;
+- resumir contenido;
+- ampliar contenido.
 
 Solo debe hacer que el mismo contenido sea más fácil y agradable de
 leer.
@@ -50,8 +58,8 @@ Evitar "paredes de texto".
 
 Como referencia:
 
--   Preferiblemente entre 2 y 4 frases por párrafo.
--   Evitar párrafos muy largos salvo que sea imprescindible.
+- Preferiblemente entre 2 y 4 frases por párrafo.
+- Evitar párrafos muy largos salvo que sea imprescindible.
 
 ------------------------------------------------------------------------
 
@@ -78,11 +86,11 @@ Solo mejorar la presentación.
 
 Conservar:
 
--   vocabulario;
--   tono;
--   nivel técnico;
--   ejemplos;
--   cifras.
+- vocabulario;
+- tono;
+- nivel técnico;
+- ejemplos;
+- cifras.
 
 No "reescribir" por gusto.
 
@@ -107,11 +115,11 @@ lectura sea homogénea.
 
 Una revisión editorial es correcta si:
 
--   El lector entiende exactamente lo mismo que antes.
--   No se ha perdido información.
--   No se ha añadido información.
--   La lectura resulta claramente más cómoda.
--   Los párrafos descansan la vista y separan ideas.
+- El lector entiende exactamente lo mismo que antes.
+- No se ha perdido información.
+- No se ha añadido información.
+- La lectura resulta claramente más cómoda.
+- Los párrafos descansan la vista y separan ideas.
 
 ------------------------------------------------------------------------
 
@@ -119,12 +127,12 @@ Una revisión editorial es correcta si:
 
 Cuando se solicite aplicar esta guía:
 
-1.  Revisa únicamente la ficha indicada.
-2.  Aplica exclusivamente estas normas editoriales.
-3.  No modifiques el contenido.
-4.  Si un texto ya cumple la guía, déjalo intacto.
-5.  Devuelve únicamente el texto revisado.
-6.  No justifiques cambios salvo que se solicite expresamente.
+1. Revisa únicamente la ficha indicada.
+2. Aplica exclusivamente estas normas editoriales.
+3. No modifiques el contenido.
+4. Si un texto ya cumple la guía, déjalo intacto.
+5. Devuelve únicamente el texto revisado.
+6. No justifiques cambios salvo que se solicite expresamente.
 
 ------------------------------------------------------------------------
 

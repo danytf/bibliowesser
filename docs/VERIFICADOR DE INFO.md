@@ -1,3 +1,13 @@
+# Estado del documento
+
+**Documento:** VERIFICADOR DE INFO.md  
+**Versión:** 1.0  
+**Última actualización:** 03/07/2026  
+**Proyecto:** Biblioteca ONG  
+**Estado:** Activo
+
+---
+
 # Verificación de datos — Biblioteca ONG · Wesser
 
 Registro de verificación de cada cifra/afirmación de la app contra sus fuentes oficiales.
@@ -10,15 +20,15 @@ Registro de verificación de cada cifra/afirmación de la app contra sus fuentes
 
 ## Progreso general
 
-| ONG | Estado |
-|---|---|
-| AECC | ✅ Cerrado |
+| ONG               | Estado    |
+| ----------------- | --------- |
+| AECC              | ✅ Cerrado |
 | Aldeas Infantiles | ✅ Cerrado |
-| Cruz Roja | ✅ Cerrado |
-| FEC | ✅ Cerrado |
-| FJC | ✅ Cerrado |
-| FPM | ✅ Cerrado |
-| WWF | ✅ Cerrado |
+| Cruz Roja         | ✅ Cerrado |
+| FEC               | ✅ Cerrado |
+| FJC               | ✅ Cerrado |
+| FPM               | ✅ Cerrado |
+| WWF               | ✅ Cerrado |
 
 ---
 
@@ -26,11 +36,9 @@ Registro de verificación de cada cifra/afirmación de la app contra sus fuentes
 
 **Fuentes oficiales**: Memoria Anual AECC 2025 · Informe Anual Fundación Científica AECC 2025 · SEOM (Las Cifras del Cáncer en España 2025) · Informe de Auditoría y Cuentas Anuales AECC 2025 · Memoria AECC 2024 · REDECAN (Supervivencia de cáncer en población adulta en España, 2003-2017, dic. 2025) · AECC + Fundación "la Caixa" (Comprometidos con la Investigación en Cáncer).
 
-Todas las cifras de la ficha están verificadas contra estas fuentes: atención a personas (177.577, desglose por necesidad —incluidas 58.720 personas por necesidades psicoemocionales—, +1.800 puntos), investigación (792 ayudas, 157M€, 160 instituciones, 38 provincias, becas y su desglose por categoría), estructura y finanzas (764.745 socios, 1.355 profesionales, 37.014 voluntarios, 44 pisos y residencias, ingresos y gastos, 90% de ingresos privados), supervivencia por tipo de cáncer (85% mama, 7-10% páncreas), cooperación internacional, centros acreditados, Ciencia para Todos y Patient Advocacy. También se verificó de forma independiente (cuenta oficial de AECC, Wikipedia y prensa) el relato fundacional: José Biosca funda la AECC en 1953.
+Todas las cifras de la ficha están verificadas contra estas fuentes: atención a personas (177.577, desglose por necesidad —incluidas 58.720 personas por necesidades psicoemocionales—, +1.800 puntos), investigación (792 ayudas, 157M€, 160 instituciones, 38 provincias, becas y su desglose por categoría), estructura y finanzas (764.745 socios, 1.355 profesionales, 37.014 voluntarios, 44 pisos y residencias, ingresos y gastos, 90% de ingresos privados), supervivencia por tipo de cáncer (85% mama, 7-10% páncreas), cooperación internacional, centros acreditados, Ciencia para Todos y Patient Advocacy. También se verificó de forma independiente (cuenta oficial de AECC, Wikipedia y prensa) el relato fundacional: José Biosca funda la AECC en 1953. Además: "1 de cada 2 hombres y 1 de cada 3 mujeres" desarrollará cáncer a lo largo de su vida en España (SEOM 2017, recogido textualmente en la Memoria AECC 2024); supervivencia neta a 5 años del conjunto de tumores en España = 60,9% (ambos sexos, diagnosticados 2013-2017, +1,9 puntos vs. 2008-2012 — REDECAN, informe dic. 2025, p.17); la inversión filantrópica en investigación del cáncer en España se triplicó en 2015-2020 hasta 140M€, igualando a la Agencia Estatal de Investigación (informe "Comprometidos con la Investigación en Cáncer", AECC + Fundación "la Caixa").
 
-**Añadido en auditoría de captación (2026-07-03)**, tras `AUDITORIA_CAPTACION_ONG.md`: "1 de cada 2 hombres y 1 de cada 3 mujeres" desarrollará cáncer a lo largo de su vida en España (SEOM 2017, recogido textualmente en la Memoria AECC 2024); supervivencia neta a 5 años del conjunto de tumores en España = 60,9% (ambos sexos, diagnosticados 2013-2017, +1,9 puntos vs. 2008-2012 — REDECAN, informe dic. 2025, p.17); la inversión filantrópica en investigación del cáncer en España se triplicó en 2015-2020 hasta 140M€, igualando a la Agencia Estatal de Investigación (informe "Comprometidos con la Investigación en Cáncer", AECC + Fundación "la Caixa"). Se investigó también un caso concreto y nombrado de avance médico nacido de una beca/spin-off de la Fundación Científica AECC (equivalente al caso OneChain de FJC): no se encontró ninguno trazable en fuentes públicas — queda sin incorporar, documentado como carencia abierta en `AUDITORIA_CAPTACION_ONG.md`, no como dato pendiente de verificar.
-
-Sin puntos abiertos (salvo el caso de éxito investigador nombrado, que se deja fuera por falta de fuente, no por falta de verificación).
+Sin puntos abiertos. (Se buscó un caso concreto y nombrado de avance médico nacido de una beca/spin-off de la Fundación Científica AECC, equivalente al caso OneChain de FJC; no se encontró ninguno trazable en fuentes públicas, así que no se incorpora a la ficha — no es un dato pendiente de verificar, es información inexistente en fuentes abiertas.)
 
 ## Aldeas Infantiles SOS España
 
@@ -76,7 +84,7 @@ Sin puntos abiertos.
 
 ## Cruz Roja Española
 
-**Fuentes oficiales**: Memoria 2024 · Presupuesto Ordinario 2024 (ambos documentos propios de Cruz Roja, con URL).
+**Fuentes oficiales**: Memoria 2024 · Presupuesto Ordinario 2024 (ambos documentos propios de Cruz Roja, con URL) · IFRC (ifrc.org, para la escala del movimiento internacional).
 
 Verificado contra la Memoria 2024: base social (1.285.834 socios/empresas, 231.236 voluntarios), personas atendidas (11.687.497 = 2.786.628 nacional + 7.295.659 internacional + 1.605.210 sensibilización, suma exacta), DANA (323.063 asistencias, 6.019 movilizados, 112M€, 213 equipos con su desglose completo, albergues, kits, vehículos), cooperación internacional (41 países, 301 proyectos, 122,2M€, desglose por región), teleasistencia y mayores (225.010 y su desglose), inclusión social (933.514 y desglose), salud (1.177.803 y desglose), empleo (274.978 y desglose), infancia (152.564 y las 13 cifras de desglose), migración (48.496 solicitantes de asilo, 231.245 otros programas, 10.000 plazas), violencia de género (26.697 ATENPRO, 55.505 total y desglose), Cruz Roja Juventud (16.520 voluntarios, 489.000 horas, 285.257 actividades), medio ambiente (24.496 personas), fundación en 1864 y 160 aniversario en 2024.
 
@@ -85,5 +93,7 @@ Verificado contra el Presupuesto Ordinario 2024: **979 M€** de presupuesto de 
 Cooperación internacional por región (Memoria 2024, p.55): África = 15 países/125 proyectos/39,85M€/4.638.244 beneficiarios; América = 14 países/88 proyectos/43,77M€/1.682.792 beneficiarios; Oriente Medio = 4 países/38 proyectos/9,2M€/325.287 beneficiarios; Europa = 6 países/18 proyectos/16,72M€/105.591 beneficiarios; Asia-Pacífico = 1 país/8 proyectos/5,18M€/32.217 beneficiarios.
 
 Teleasistencia y mayores (Memoria 2024, p.65): 225.010 personas atendidas — 125.712 domiciliaria, 7.274 móvil (más de 132.000 personas con un dispositivo 24h/365), 532 en centros de día para mayores (168 especializados), 20.942 en procesos de intervención directa, 3.106 en programas de buen trato y protección frente al maltrato.
+
+Desglose de ingresos 2024 (Memoria 2024): 976M€ de ingresos totales, de los que 502M€ (51%) son subvenciones públicas y el resto (49%) proviene de fuentes privadas — servicios facturados (222,75M€), lotería/rifas (221,52M€), ventas (20,36M€) e ingresos accesorios (4,1M€). Pertenencia al movimiento internacional: 191 Sociedades Nacionales de Cruz Roja y Media Luna Roja en el mundo (IFRC), de las que Cruz Roja Española apoya a 31 en cooperación internacional.
 
 Sin puntos abiertos.

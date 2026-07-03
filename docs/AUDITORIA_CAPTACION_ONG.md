@@ -1,3 +1,13 @@
+## Estado del documento
+
+**Documento:** AUDITORIA_CAPTACION.md  
+**Versión:** 1.0  
+**Última actualización:** 03/07/2026  
+**Proyecto:** Biblioteca ONG  
+**Estado:** Activo  
+
+---
+
 # AUDITORIA_CAPTACION_ONG
 
 ## Objetivo
@@ -15,10 +25,10 @@ organización, responder objeciones y transmitir confianza.
 Solo debe recomendarse añadir información que aumente la capacidad del
 captador para:
 
--   explicar mejor la ONG;
--   comprender su propósito;
--   responder preguntas u objeciones;
--   entender el valor de sus programas.
+- explicar mejor la ONG;
+- comprender su propósito;
+- responder preguntas u objeciones;
+- entender el valor de sus programas.
 
 Si un dato no mejora una conversación real de captación, no debe
 incorporarse.
@@ -64,9 +74,7 @@ Requiere mejoras
 
 ## Estado general
 
-**Veredicto:** ✅ Excelente / ⬜ Muy completa / ⬜ Completa / ⬜ Requiere mejoras
-
-*(Actualizado 2026-07-03: veredicto inicial fue "Muy completa"; tras incorporar las carencias de Alta y Media prioridad — ver punto 8 — se eleva a "Excelente". Las carencias de Baja prioridad quedaron descartadas por decisión del usuario, no pendientes.)*
+**Veredicto:** ✅ Excelente
 
 ### 1. Visión y propósito
 
@@ -81,8 +89,7 @@ detectan carencias en este apartado.
 
 ### 2. Problema que intenta resolver
 
-Completamente cubierto, con un matiz de mejora (ver carencia en
-Datos imprescindibles). El texto conecta bien el problema médico
+Completamente cubierto. El texto conecta bien el problema médico
 (supervivencia desigual por tipo de tumor) con el problema no médico
 (orientación laboral, apoyo psicológico, ayuda económica,
 alojamiento). Es un problema fácil de convertir en discurso porque ya
@@ -101,176 +108,154 @@ exactamente?". No se detectan huecos de programas ausentes.
 
 ### 4. Diferenciadores
 
-Bien cubiertos en `motivosSocio`: línea 24h/365 única en Europa,
-independencia total de la industria farmacéutica, efecto multiplicador
-×7,75 en investigación internacional, red de 44 pisos/residencias, y
-la historia fundacional como prueba de arraigo territorial (52
-provincias). Es un conjunto de 5 argumentos sólidos y variados (no
-redundantes entre sí). Único matiz: el diferenciador "financiación
-privada vs. pública" se sugiere de forma cualitativa pero no se
-cuantifica (ver carencia en Prioridad media).
+Bien cubiertos en `motivosSocio` (5 argumentos, no redundantes entre
+sí): línea 24h/365 única en Europa, independencia total de la
+industria farmacéutica, efecto multiplicador ×7,75 en investigación
+internacional, red de 44 pisos/residencias, y la historia fundacional
+como prueba de arraigo territorial (52 provincias).
 
 ### 5. Datos imprescindibles
 
-Bien cubiertos en general (cifras de personas atendidas, presupuesto,
-desglose de gasto, supervivencia por tipo de tumor), pero faltan dos
-datos que cualquier captador de calle o telemarketing usa de forma
-constante y que no aparecen en ningún punto de la ficha:
+Bien cubiertos: cifras de personas atendidas, presupuesto, desglose de
+gasto, supervivencia por tipo de tumor, riesgo de desarrollar cáncer a
+lo largo de la vida (universaliza la causa: "1 de cada 2 hombres / 1
+de cada 3 mujeres"), supervivencia media agregada en España (60,9%,
+baseline del objetivo 2030) y comparación financiación privada vs.
+pública en investigación oncológica (la inversión filantrópica se
+triplicó 2015-2020 hasta igualar a la Agencia Estatal de
+Investigación).
 
-- El riesgo de desarrollar cáncer a lo largo de la vida (la
-  estadística que "universaliza" la causa y rompe la objeción "a mí
-  esto no me afecta").
-- La desgravación fiscal aplicable a la cuota de socio (IRPF), que
-  reduce el coste real de la aportación y es una de las preguntas más
-  frecuentes al cerrar una alta.
-
-Ver detalle en Carencias detectadas y Acciones recomendadas.
+No incluye la desgravación fiscal de la cuota (IRPF): se considera
+información que el propio captador ya conoce por su formación, no
+necesaria en la ficha.
 
 ### 6. Argumentario implícito
 
 El argumentario de captación (`captacion.argumentario`, que apunta a
 los 3 primeros `motivosSocio`) es sólido: línea de atención única,
-independencia de farmacéuticas, efecto multiplicador. Sin embargo, no
-hay ningún argumento preparado para dos objeciones habituales en una
-conversación real de calle/puerta fría: "¿y si luego no puedo pagar,
-me puedo dar de baja?" y "¿me puedo desgravar esto en la Renta?". Ver
-Carencias detectadas.
+independencia de farmacéuticas, efecto multiplicador.
 
-### 7. Carencias detectadas
+### 7. Carencias
 
-1. ✅ **INCORPORADO (2026-07-03).** Riesgo de cáncer a lo largo de la
-   vida. No aparecía ninguna cifra tipo "1 de cada 2 hombres / 1 de
-   cada 3 mujeres desarrollará cáncer a lo largo de su vida" (dato
-   público habitual de SEOM/AECC). Un captador la usa constantemente
-   para convertir "esto le pasa a otros" en "esto me puede pasar a mí,
-   a mi pareja, a mis hijos". Verificado contra SEOM (2017) y la
-   Memoria AECC 2024, que lo recoge textualmente. Añadido como nueva
-   entrada en `cifras`. **Alta prioridad — cerrada.**
+Sin carencias abiertas. Quedan fuera de la ficha, por decisión
+explícita:
 
-2. ❌ **DESCARTADO por decisión explícita del usuario (2026-07-03).**
-   Desgravación fiscal de la cuota (IRPF). El usuario considera que
-   esta información ya la conoce el captador por su propia formación
-   y no necesita estar en la ficha. No se incorpora.
-
-3. ✅ **INCORPORADO (2026-07-03).** Supervivencia media actual en
-   España (baseline del objetivo 2030). El `claim` fijaba la meta
-   "superar el 70% de supervivencia en 2030" sin decir desde qué punto
-   se parte hoy. Verificado: supervivencia neta a 5 años del conjunto
-   de tumores en España = 60,9% (ambos sexos, diagnosticados
-   2013-2017, +1,9 puntos vs. 2008-2012 — REDECAN, informe dic. 2025,
-   p.17). Añadido en `claim`. **Prioridad media — cerrada.**
-
-4. ✅ **INCORPORADO (2026-07-03).** Comparación financiación privada
-   AECC vs. financiación pública en investigación oncológica.
-   Verificado: la inversión filantrópica en investigación del cáncer
-   en España se triplicó en 2015-2020 hasta 140M€, igualando a la
-   Agencia Estatal de Investigación (informe "Comprometidos con la
-   Investigación en Cáncer", AECC + Fundación "la Caixa"). No existe
-   un porcentaje único oficial "% del total es financiación privada",
-   pero esta comparación de montos es igual de contundente. Añadido
-   como nuevo `motivosSocio`. **Prioridad media — cerrada.**
-
-5. 🔍 **INVESTIGADO SIN RESULTADO (2026-07-03).** Historia de éxito
-   concreta nacida de investigación financiada por la AECC. Se buscó
-   específicamente un caso nombrado y trazable equivalente a
-   OneChain/Leukos (FJC) en el Informe Anual 2025 de la Fundación
-   Científica AECC, su web y notas de prensa oficiales. No se
-   encontró ningún caso individual con fuente pública clara que
-   documente el vínculo causal beca→resultado clínico. Se descarta
-   incorporarlo para no inventar una historia sin respaldo. Si en el
-   futuro la propia AECC publica un caso así, reabrir este punto.
-   **Prioridad media — cerrada sin incorporación (falta de fuente, no
-   de verificación).**
-
-6. **Política de baja/cancelación de la cuota.** Descartado por
-   decisión explícita del usuario — no le interesan las carencias de
-   baja prioridad. **Baja prioridad — descartado.**
-
-7. **Legados y herencias solidarias.** Descartado por decisión
-   explícita del usuario — no le interesan las carencias de baja
-   prioridad. **Baja prioridad — descartado.**
-
-### 8. Acciones recomendadas
-
-Todas las acciones de Alta y Media prioridad se resolvieron el
-2026-07-03 (ver detalle en Carencias detectadas). Las de Baja
-prioridad se descartaron por decisión explícita del usuario.
-
-#### Alta prioridad
-
-- ✅ Cifra de riesgo de cáncer a lo largo de la vida — incorporada en
-  `cifras`.
-- ❌ Desgravación fiscal — descartada, el usuario considera que ya la
-  conoce el captador.
-
-#### Prioridad media
-
-- ✅ Supervivencia media agregada actual en España — incorporada en
-  `claim`.
-- ✅ Comparación financiación privada vs. pública en investigación
-  oncológica — incorporada en `motivosSocio`.
-- 🔍 Caso concreto y nombrado de avance médico real financiado por la
-  AECC — investigado, sin resultado localizable en fuentes públicas.
-  No incorporado; reabrir si la AECC publica un caso trazable.
-
-#### Baja prioridad
-
-- ❌ Política de baja/cancelación de la cuota — descartada por
-  decisión del usuario.
-- ❌ Legados y herencias solidarias — descartada por decisión del
-  usuario.
+- **Desgravación fiscal (IRPF):** el captador ya la conoce por su
+  formación.
+- **Caso concreto y nombrado de avance médico financiado por la
+  AECC** (equivalente a OneChain/Leukos de FJC): investigado a fondo,
+  sin resultado localizable en fuentes públicas de la AECC. No se
+  inventa un caso sin respaldo; reabrir si la AECC publica uno
+  trazable en el futuro.
+- **Política de baja/cancelación de la cuota** y **legados y
+  herencias solidarias:** no aportan a una conversación de captación
+  de 30 segundos.
 
 ### Resumen ejecutivo
 
-La ficha de la AECC es, en conjunto, una de las más sólidas y
-completas del proyecto: cubre con detalle programas, diferenciadores,
-financiación y objeción de "para qué sirve mi dinero". No se detectaron
-carencias en Visión y propósito, Problema o Programas — esos tres
-apartados estaban listos para formar a un captador sin matices desde
-el primer momento.
+La ficha de la AECC es una de las más sólidas y completas del
+proyecto: cubre con detalle programas, diferenciadores, financiación y
+la objeción de "para qué sirve mi dinero". Un captador nuevo formado
+hoy con esta ficha tiene respuesta lista para las objeciones
+habituales ("¿y a mí por qué me va a tocar?", "¿por qué no lo paga el
+Estado?", "¿de verdad estamos mejorando?").
 
-Se detectaron dos carencias de Alta prioridad y tres de Prioridad
-media. Tras la revisión del usuario: la cifra de riesgo de cáncer a lo
-largo de la vida, la supervivencia media agregada actual y la
-comparación de financiación privada vs. pública se investigaron,
-verificaron contra fuente oficial e incorporaron a la ficha. La
-desgravación fiscal se descartó por decisión del usuario (información
-que ya maneja el captador). El caso concreto de éxito investigador se
-investigó a fondo pero no se encontró fuente pública trazable, así que
-queda fuera para no inventar contenido. Las dos carencias de Baja
-prioridad (baja de cuota, legados) se descartaron sin investigar, por
-decisión del usuario.
-
-**Respuesta a la pregunta de control:** con las incorporaciones ya
-aplicadas, un captador nuevo formado hoy con esta ficha tiene
-respuesta lista para las objeciones y preguntas identificadas como
-relevantes por el usuario ("¿y a mí por qué me va a tocar?", "¿por qué
-no lo paga el Estado?", "¿de verdad estamos mejorando?"). No quedan
-carencias abiertas de Alta o Media prioridad. La ficha de AECC se
-considera **cerrada** para esta auditoría de captación.
-
-**Estilo editorial aplicado (2026-07-03):** siguiendo
-`GUIA_EDITORIAL.md`, se insertaron saltos de párrafo (uno por cambio
-de idea) en `claim`, `problema` y en los 13 `desc` de programas —
-sin tocar una sola palabra, cifra u orden del contenido. Antes cada
-uno era un único bloque de texto corrido; ahora tienen entre 2 y 4
-párrafos según su longitud. Se añadió soporte CSS
-(`white-space:pre-line`) a `.hclaim`, `.utxt` y `.pfull>div` para que
-esos saltos se rendericen visualmente, más `max-width:72ch` para
-limitar el ancho de línea (ya aplicado previamente a `.pfull`/
-`.pshort`, ahora extendido a `.hclaim`/`.utxt`). Verificado
-visualmente con Playwright. La AECC es la primera ficha con este
-tratamiento; queda pendiente extenderlo al resto de ONGs.
-
-**Estado final AECC:** ✅ Datos verificados (2026-06) · ✅ Auditoría de
-captación superada y cerrada · ✅ Estilo editorial aplicado. Ficha
-lista.
+**Estado final AECC:** ✅ Datos verificados · ✅ Auditoría de captación
+cerrada · ✅ Estilo editorial aplicado (`GUIA_EDITORIAL.md`: párrafos en
+`claim`, `problema` y los 13 `desc` de programas). Ficha lista.
 
 ------------------------------------------------------------------------
 
 # Cruz Roja
 
-> Pendiente de auditoría.
+## Estado general
+
+**Veredicto:** ✅ Excelente
+
+### 1. Visión y propósito
+
+Bien cubierto. El `claim` combina origen (1864, herencia de Henri
+Dunant), pertenencia al movimiento internacional (191 Sociedades
+Nacionales de Cruz Roja/Media Luna Roja, de las que España apoya a 31
+en cooperación internacional), escala actual (52 provincias, 9 áreas,
+1.285.834 socios, 231.236 voluntarios, 11.687.497 personas atendidas en
+2024) y un hito reciente y memorable (112M€ recaudados para la DANA, la
+mayor recaudación de su historia). Da al captador una frase de
+apertura sólida, un argumento de escala global y un dato de
+actualidad.
+
+### 2. Problema que intenta resolver
+
+Muy bien resuelto: el `problema` organiza la vulnerabilidad en 4
+formas concretas (grandes emergencias, soledad de mayores, exclusión
+social, crisis internacionales) que mapean 1:1 con las áreas de
+programa, y cada una lleva ya una cifra de peso (200+ fallecidos DANA,
+5 millones de personas solas, 933.514 en exclusión). Es un problema
+fácil de convertir en discurso.
+
+### 3. Programas
+
+La sección más extensa de las auditadas hasta ahora: 13 programas que
+cubren emergencias, salud, inclusión social, empleo, teleasistencia,
+infancia, cooperación internacional, migración/asilo, violencia de
+género, cuidado de cuidadores (SerCuidadorA), juventud, medio ambiente
+y educación. Varios programas incluyen ya testimonios nombrados y
+trazables (Mari Carmen Benavent en la DANA, Juanjo en Housing First,
+Isabel y Melisa con las placas solares), algo que en la auditoría de
+AECC se identificó como carencia y aquí ya está resuelto de forma
+nativa. No se detectan huecos de programas ausentes.
+
+### 4. Diferenciadores
+
+Bien cubiertos en `motivosSocio`: amplitud de la red (ninguna otra
+organización cubre el mismo espectro en un solo día), 160 años de
+historia convertidos en capacidad demostrada en la DANA, principio de
+neutralidad (el "pasaporte" que permite operar en Gaza/Ucrania/Sudán),
+cercanía de la teleasistencia rural, y transparencia con gestión
+provincial. Es un conjunto de 5 argumentos sólidos y no redundantes.
+
+### 5. Datos imprescindibles
+
+Bien cubiertos: cifras de personas atendidas, presupuesto, y el
+desglose de ingresos 2024 (976M€ totales, 51% subvenciones públicas
+condicionadas a convenios, 49% de fuentes privadas —cuotas, lotería,
+donaciones, servicios— que es el dinero flexible que permitió
+movilizar a 6.019 personas en la DANA antes de que ninguna institución
+activara un protocolo). Este dato responde a la objeción más
+específica y probable de Cruz Roja frente a otras ONGs del proyecto:
+la percepción pública de organización "que ya paga el Estado".
+
+### 6. Argumentario implícito
+
+El argumentario (`captacion.argumentario`, que apunta a los 3 primeros
+`motivosSocio`) cubre bien amplitud, capacidad histórica y neutralidad.
+
+### 7. Carencias
+
+Sin carencias abiertas. Quedan fuera de la ficha, por decisión
+explícita:
+
+- **Ejemplo concreto de "a dónde va tu cuota mínima"** (~12€/mes): el
+  discurso completo (`speech`) ya cubre la cuota; no se considera
+  necesario un dato suelto adicional.
+- **Política de baja/cancelación de la cuota** y **legados y
+  herencias solidarias:** no aportan a una conversación de captación
+  de 30 segundos (mismo criterio que en AECC).
+
+### Resumen ejecutivo
+
+La ficha de Cruz Roja es, en volumen y calidad de programas, la más
+completa del proyecto — cubre 13 áreas con testimonios nombrados ya
+integrados. Visión, Problema, Programas y Diferenciadores están listos
+para formar a un captador sin matices, y la ficha ya responde a la
+objeción más específica y probable de Cruz Roja ("¿por qué necesitáis
+mi dinero si ya os paga el Estado?"), reforzada con un argumento de
+escala global (191 Sociedades Nacionales del movimiento internacional).
+
+**Estado final Cruz Roja:** ✅ Datos verificados · ✅ Auditoría de
+captación cerrada · ✅ Estilo editorial aplicado (`GUIA_EDITORIAL.md`:
+párrafos en `claim`, `problema` y los 13 `desc` de programas). Ficha
+lista.
 
 ------------------------------------------------------------------------
 
