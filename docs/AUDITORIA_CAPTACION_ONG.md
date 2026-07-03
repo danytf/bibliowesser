@@ -480,3 +480,7 @@ se investigaron a fondo pero no existe fuente pública que los
 respalde — se documenta la limitación en vez de inventar una cifra;
 si la FEC publica en el futuro una memoria económica, es el
 disparador para reabrir este punto.
+
+**Estado final FEC:** ✅ Datos verificados · ✅ Auditoría de captación
+cerrada · ✅ Estilo editorial aplicado (`GUIA_EDITORIAL.md`: párrafos en
+`claim`, `problema` y los 13 `desc` de programas). Ficha lista.
