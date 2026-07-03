@@ -249,6 +249,23 @@ no lo paga el Estado?", "¿de verdad estamos mejorando?"). No quedan
 carencias abiertas de Alta o Media prioridad. La ficha de AECC se
 considera **cerrada** para esta auditoría de captación.
 
+**Estilo editorial aplicado (2026-07-03):** siguiendo
+`GUIA_EDITORIAL.md`, se insertaron saltos de párrafo (uno por cambio
+de idea) en `claim`, `problema` y en los 13 `desc` de programas —
+sin tocar una sola palabra, cifra u orden del contenido. Antes cada
+uno era un único bloque de texto corrido; ahora tienen entre 2 y 4
+párrafos según su longitud. Se añadió soporte CSS
+(`white-space:pre-line`) a `.hclaim`, `.utxt` y `.pfull>div` para que
+esos saltos se rendericen visualmente, más `max-width:72ch` para
+limitar el ancho de línea (ya aplicado previamente a `.pfull`/
+`.pshort`, ahora extendido a `.hclaim`/`.utxt`). Verificado
+visualmente con Playwright. La AECC es la primera ficha con este
+tratamiento; queda pendiente extenderlo al resto de ONGs.
+
+**Estado final AECC:** ✅ Datos verificados (2026-06) · ✅ Auditoría de
+captación superada y cerrada · ✅ Estilo editorial aplicado. Ficha
+lista.
+
 ------------------------------------------------------------------------
 
 # Cruz Roja
