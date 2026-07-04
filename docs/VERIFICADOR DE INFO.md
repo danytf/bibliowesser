@@ -40,6 +40,14 @@ Todas las cifras de la ficha están verificadas contra estas fuentes: atención 
 
 Sin puntos abiertos. (Se buscó un caso concreto y nombrado de avance médico nacido de una beca/spin-off de la Fundación Científica AECC, equivalente al caso OneChain de FJC; no se encontró ninguno trazable en fuentes públicas, así que no se incorpora a la ficha — no es un dato pendiente de verificar, es información inexistente en fuentes abiertas.)
 
+**Actualización 04/07/2026 (agente cazador)**: se lanzó un agente explorador sobre contraelcancer.es en busca de contenido nuevo. De sus candidatos se verificaron de forma independiente y se incorporaron: (1) convenio con SELAE/Loterías 2026-2029 (13,3M€, 10.144 personas atendidas en 2025) — añadido a "Trabajo social"; (2) alianza con el INSST (dic. 2025, 4 años, Red Española de Empresas Saludables) que formaliza el Protocolo de Actuación ya citado en la ficha — se corrigió también el número de empresas del piloto (era "20", la fuente real dice 29); (3) alianza con la Fundación Ramón Areces (abril 2025, 4 proyectos de investigación nombrados) — añadido a "Investigación oncológica"; (4) reconocimiento de la OMS a España en el Día Mundial Sin Tabaco 2026, informe preliminar IARC sobre cribado de colon (marzo 2026) y campaña "Rosalía, déjalo" — añadidos a "Prevención y detección precoz"; (5) alianzas mediáticas con Atresmedia y con Cristina Pedroche (12 años de Campanadas) — añadidas a "Observatorio, incidencia social".
+
+Se corrigió además una discrepancia real detectada por el agente: la ficha decía "48 pacientes evaluadores" en el programa Patient Advocacy, pero múltiples fuentes de prensa independientes sobre el mismo evento (Salamanca, sept. 2025) coinciden en "más de 30 pacientes y familiares" — corregido a "+30" en la ficha.
+
+Sin puntos abiertos.
+
+**Pasada editorial completa (04/07/2026)**: aplicada GUIA_EDITORIAL.md a toda la ficha AECC — dividida toda frase de más de ~40 palabras que no fuera una enumeración de servicios, becas o modalidades. Quedan excepciones intencionadas donde dividir habría roto una lista. JSON validado tras la pasada.
+
 ## Aldeas Infantiles SOS España
 
 **Fuentes oficiales**: Memoria Aldeas 2025 (PDF oficial); web y área de prensa institucional de Aldeas Infantiles SOS; guía "Enredados con las pantallas" (Aldeas Infantiles SOS, febrero 2026); Fundación Princesa de Asturias para el premio de 2016; UNICEF/EAPN/Plataforma de Infancia para el dato de pobreza infantil en España.
