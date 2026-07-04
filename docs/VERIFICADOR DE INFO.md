@@ -2,7 +2,7 @@
 
 **Documento:** VERIFICADOR DE INFO.md  
 **Versión:** 1.0  
-**Última actualización:** 04/07/2026  
+**Última actualización:** 04/07/2026 (jornada 2)  
 **Proyecto:** Biblioteca ONG  
 **Estado:** Activo
 
@@ -71,6 +71,14 @@ Sin puntos abiertos.
 Verificado contra estas fuentes: fundación 2008 por iniciativa de Pasqual Maragall (Barcelona 1941, alcalde de Barcelona 1982-1997, presidente de la Generalitat 2003-2006, presidente del Comité Organizador de los JJOO de Barcelona'92, diagnóstico de Alzheimer hecho público el 20 de octubre de 2007), Cristina Maragall presidenta, Dr. Arcadi Navarro director general de la Fundación y del BBRC, 112.842 socios, 93M€ invertidos en investigación 2013-2025 a través de programas propios (FPM-ALZ AD/ADRD Fellows Program, Pasqual Maragall Researchers Programme), 2.743 participantes del Estudio Alfa, 80 publicaciones 2025; posicionamiento de la Fundación como financiadora casi en exclusiva de investigación sobre Alzheimer, con la única excepción de la atrofia multisistémica a través del Premio Carles Colomer (hasta 600.000€/proyecto, primera convocatoria); 900.000 afectados en España (1/10 >65 años, 1/3 >85 años); p-tau217 >90% de precisión (Nature Medicine), SCAP-AD, SpeechDx; Estudio Alfa (23.947 muestras, 965 RM, 3.563 sesiones en 2025); ALFA10 (cohorte histórica de +2.000 personas recontactada, visitas presenciales desde 2026, conectado a AD-RIDDLE — 31M€, 2024-2028, 6 países europeos + EE.UU.); los 4 ensayos clínicos activos (AHEAD, LAKI —España y Reino Unido, únicos 2 países europeos—, ReTain, AACO) y el historial de fármacos aprobados; Minicerebros (Dra. Laura García González, campaña con objetivo de 250.000€); ALFASleep y PENSA (×4,5 cognición, -25% riesgo demencia); 8 grupos de investigación y 6 consorcios internacionales, incluidos el grupo de IA y Datos de Salud del Dr. Joaquín Dopazo (2026) y el grupo de Epidemiología Molecular y Ciencia de Datos de la Dra. Natàlia Vilor-Tejedor (2026), con su hallazgo sobre número de partos y fases preclínicas del Alzheimer en mujeres; Grupos Terapéuticos y programa "Aprende a Cuidar y a Cuidarte" (1.723 personas en 184 grupos) y Estudio Cuidar Mejor con IMSERSO (1.090 personas cuidadoras en 120 grupos); Plenamente Activas y Estudio PLENA; AreaAlzheimer (1.867 usuarios, incluye CuiDem, Co-Care y Test de Zarit); divulgación 2025 (76 charlas, Brain Film Fest, impactos en medios, seguidores); Parlamento de Cataluña (encuentro con el presidente Josep Rull); 4ª edición de los Premios Diana Garrigosa (8º Encuentro Anual, "100.000 razones para continuar hacia un futuro sin Alzheimer", +1.500 asistentes, premiados Josep Carreras y Matilde Fernández); actividad económica completa (30.735.836€ de presupuesto, desglose de ingresos y gastos, 290 trabajadores: 176 Fundación + 114 BBRC, 66-68% mujeres). Testimonios reales de Julián y Celia (voluntarios del Estudio Alfa) y Gladys Hernández (cuidadora, Grupos Terapéuticos) verificados directamente contra el blog oficial de la Fundación.
 
 Sin puntos abiertos.
+
+**Actualización 04/07/2026**: se procesaron dos recursos nuevos (Informe de Impacto FPM-BBRC 2024 y Formación WES Equipos, jul. 2025) siguiendo PROCESAR_RECURSO.md. Casi todo el contenido del Informe 2024 estaba ya superado por el Informe 2025 (base actual de la ficha). Único dato nuevo verificado e incorporado: el **HUB Alzheimer Barcelona** (iniciativa con el Ayuntamiento de Barcelona + hospitales Sant Pau, Clínic, Mar y Vall d'Hebron + BBRC + Ace Alzheimer Center Barcelona; 1ª convocatoria de becas predoctorales, feb. 2025), confirmado como activo por ambas fuentes de forma independiente. Añadido al programa "Acción institucional".
+
+También se incorporaron dos datos adicionales de la Formación WES Equipos: el Programa de Socios y Socias Embajadores (2025: Ana, Antonio, Esther), añadido al programa "Actividad económica"; y hallazgos del Observatorio del Alzheimer no recogidos antes (9 de cada 10 encuestados se haría una prueba de detección precoz, demanda de financiación pública de fármacos, desconocimiento sobre factores de riesgo modificables), añadidos al programa "Acción institucional".
+
+Pendiente, fuera de alcance de este proyecto (se abordará en un proyecto dedicado a rebatidas/objeciones): el bloque de FAQs/gestión de objeciones de la Formación WES Equipos (hereditariedad, "la inversión debería venir del gobierno", qué significa/no significa ser socio, etc.). No se incorpora aquí porque no encaja en ningún campo existente del esquema de datos.
+
+Sin puntos abiertos adicionales.
 
 ## WWF España
 
