@@ -436,7 +436,7 @@ function webVerif(ong){
 ================================================== */
 function renderTabs(){
   var h='';
-  for(let i=0;i<ONGS.length;i++){var o=ONGS[i],sel=o.id===state.currentOng;h+=`<button type="button" class="otab${sel?' active':''}" id="tab-${o.id}" data-id="${o.id}" role="tab" aria-selected="${sel?'true':'false'}" aria-controls="fichaView" tabindex="${sel?'0':'-1'}" aria-label="${esc(o.full)}${sel&&state.captacionMode?' (vista rápida)':''}" title="${esc(o.full)}" style="--tab-color:${o.color}"><span class="otab-main">${o.emoji} ${esc(o.nombre)}${sel&&state.captacionMode?'<span class="cap-badge" aria-hidden="true">30s</span>':''}</span><span class="otab-full" aria-hidden="true">${esc(o.full)}</span></button>`;}
+  for(let i=0;i<ONGS.length;i++){var o=ONGS[i],sel=o.id===state.currentOng;h+=`<button type="button" class="otab${sel?' active':''}" id="tab-${o.id}" data-id="${o.id}" role="tab" aria-selected="${sel?'true':'false'}" aria-controls="fichaView" tabindex="${sel?'0':'-1'}" aria-label="${esc(o.full)}${sel&&state.captacionMode?' (vista rápida)':''}" title="${esc(o.full)}" style="--tab-color:${esc(o.color)}"><span class="otab-main">${o.emoji} ${esc(o.nombre)}${sel&&state.captacionMode?'<span class="cap-badge" aria-hidden="true">30s</span>':''}</span><span class="otab-full" aria-hidden="true">${esc(o.full)}</span></button>`;}
   dom.tabs.innerHTML=h;
   requestAnimationFrame(updateNavBadge);
 }
@@ -471,7 +471,7 @@ function updateNavBadge(){
    RENDER · vista captación ("en 30 segundos")
 ================================================== */
 function renderCaptacion(view,ong){
-  var c=ong.captacion,r=c.resumen30,h=`<div class="cwrap" style="--ong-c:${ong.color}">`;
+  var c=ong.captacion,r=c.resumen30,h=`<div class="cwrap" style="--ong-c:${esc(ong.color)}">`;
   h+=`<button type="button" class="cappill cappill-back">← Volver a la ficha completa</button>`;
   h+=`<div class="chero"><div class="cemoji" aria-hidden="true">${ong.emoji}</div><div class="ctitle">${esc(ong.full)} EN 30 SEGUNDOS</div></div>`;
   h+=`<div class="cstats">`;
@@ -509,7 +509,7 @@ function renderFicha(){
   var view=dom.ficha,ong=getOng();
   if(!ong){view.innerHTML='';return;}
   if(state.captacionMode&&ong.captacion){renderCaptacion(view,ong);return;}
-  var h=`<div class="fwrap" style="--ong-c:${ong.color}">`;
+  var h=`<div class="fwrap" style="--ong-c:${esc(ong.color)}">`;
   h+=`<div class="fhero"><div class="hband"><div class="hemoji" aria-hidden="true">${ong.emoji}</div><h1 class="hband-name">${esc(ong.nombre)}</h1></div><div class="hbody">`;
   h+=`<div class="hfull">${esc(ong.full)}</div>`;
   h+=`<div class="hclaim">${esc(ong.claim)}</div>`;
