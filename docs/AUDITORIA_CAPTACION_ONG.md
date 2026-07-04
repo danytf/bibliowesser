@@ -231,14 +231,14 @@ la percepción pública de organización "que ya paga el Estado".
 El argumentario (`captacion.argumentario`, que apunta a los 3 primeros
 `motivosSocio`) cubre bien amplitud, capacidad histórica y neutralidad.
 
-Los programas de Inclusión social, Teleasistencia y Violencia de género
-ya cuentan con cifras nacionales que dan escala a fenómenos antes solo
-narrados: soledad no deseada (26% de las personas atendidas vive en
-situación de soledad), brecha digital (63,8% de los hogares atendidos
-sin internet), y un testimonio nombrado (Neus Ribas) en violencia de
-género, programa que antes no tenía ninguno. El programa de Socorros
-suma además la capacidad de respuesta en eventos de gran afluencia
-(cadena asistencial en menos de 1 minuto, desfibrilador en menos de 4).
+Los programas de Inclusión social, Teleasistencia y Violencia de
+género dan escala nacional a los fenómenos que narran: soledad no
+deseada (26% de las personas atendidas vive en situación de soledad),
+brecha digital (63,8% de los hogares atendidos sin internet), y un
+testimonio nombrado (Neus Ribas) en violencia de género. El programa
+de Socorros suma la capacidad de respuesta en eventos de gran
+afluencia (cadena asistencial en menos de 1 minuto, desfibrilador en
+menos de 4).
 
 ### 7. Carencias
 
@@ -458,14 +458,13 @@ financiación estatal sin contrapartida— ya está resuelta con un dato
 real y verificado (BOE-A-2023-1948): incluso en las colaboraciones
 oficiales, la Fundación pone la mitad del dinero.
 
-El "Problema" incluye ahora cifras de incidencia y supervivencia
-(6.400 casos de leucemia, 11.500 de linfomas y 3.000 de mieloma
-múltiple al año en España; supervivencia del 50% en adultos), que dan
-escala al reto de encontrar donante ya narrado. El REDMO añade una
-cifra que humaniza el registro en tiempo real (1.083 pacientes
-activos buscando donante en mayo de 2026), el Instituto suma un hito
-concreto de transferencia científica (2 tratamientos propios en
-ensayos clínicos) y los Pisos de Acogida están actualizados a 2025
+El "Problema" da escala al reto de encontrar donante con cifras de
+incidencia y supervivencia (6.400 casos de leucemia, 11.500 de
+linfomas y 3.000 de mieloma múltiple al año en España; supervivencia
+del 50% en adultos). El REDMO humaniza el registro con una cifra en
+tiempo real (1.083 pacientes activos buscando donante), el Instituto
+aporta un hito de transferencia científica (2 tratamientos propios en
+ensayos clínicos) y los Pisos de Acogida reflejan la red actual
 (9 pisos, 766 pacientes únicos acogidos desde 1994).
 
 **Estado final FJC:** ✅ Datos verificados · ✅ Auditoría de captación
@@ -649,36 +648,13 @@ La ficha de Aldeas Infantiles SOS es sólida y está lista para formar a
 un captador sin carencias: Problema, Programas, Diferenciadores y
 Datos imprescindibles cubren de forma completa, incluyendo un dato de
 financiación que en otras ONGs del proyecto hubo que investigar e
-incorporar. Los dos matices detectados (origen fundacional fuera del
-`claim`, ausencia de un testimonio nombrado real) se resolvieron en la
-misma sesión.
-
-**Recurso adicional procesado (2026-07-03):** Memoria Aldeas 2025 (PDF
-oficial, vía `docs/PROCESAR_RECURSO.md`). Incorporado: escala global de
-la federación (7,9M personas en 139 países, en `claim`), cifra exacta
-de base social (307.991 socios, sustituye el redondeo "+300.000"),
-nueva entrada en `cifras` (40,9% de quienes salen del sistema de
-protección en riesgo de pobreza/exclusión vs. 24,5% de la población
-general — cuantifica el argumento central de la ficha), actualización
-de "Diputados por un Día" a su 4ª edición (2025) y la intervención de
-Mariam en el Foro de Derechos de la Infancia de la UE en
-`motivosSocio`, y tres testimonios reales adicionales con cita textual:
-Yaritsa (Programa de Jóvenes de Las Palmas — el ángulo diferencial de
-acompañamiento tras los 18), Stephana (madre biológica, Acogimiento en
-Familia Ajena de Tenerife) y familia G.O. (Centro de Día de Madrid,
-Prevención). Todos verificados línea a línea contra el PDF, no solo
-contra el resumen de un agente.
-
-**Recurso adicional procesado (2026-07-04):** guía "Enredados con las
-pantallas" (Aldeas Infantiles SOS, febrero 2026). Incorporado al
-programa de Incidencia política: la contribución de Aldeas al
-Proyecto de Ley Orgánica para la protección de las personas menores de
-edad en los entornos digitales (aportaciones concretas sobre loot
-boxes, verificación de edad y presupuesto estable), y la publicación
-de la propia guía. Se descartó el resto del documento (estadísticas
-generales de sociedad, no propias de Aldeas) y un segundo recurso
-("Captacion.pdf") por estar desactualizado — dossier con cifras
-anteriores a la Memoria 2025 ya incorporada.
+incorporar. El origen fundacional (Austria, 1949) está en el `claim`
+junto a la escala global de la federación (7,9M personas en 139
+países) y la base social exacta (307.991 socios). Los programas de
+Prevención e Incidencia política ya incluyen testimonios reales
+nombrados (Alexandra, Yaritsa, Stephana, familia G.O.) y la
+contribución de Aldeas al Proyecto de Ley Orgánica de protección de
+menores en entornos digitales, respectivamente.
 
 **Estado final Aldeas Infantiles SOS:** ✅ Datos verificados · ✅
 Auditoría de captación cerrada · ✅ Estilo editorial aplicado
