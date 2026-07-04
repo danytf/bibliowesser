@@ -267,12 +267,18 @@ lista.
 
 ### 1. Visión y propósito
 
-Bien cubierto: el `claim` da el origen personal (Pasqual Maragall,
-diagnosticado de Alzheimer, cita textual), el liderazgo actual
-(Cristina Maragall, Dr. Arcadi Navarro), la escala de la base social
-(112.842 socios) y el hallazgo científico más reciente (Nature
+Bien cubierto: el `claim` da el origen personal con biografía concreta
+de Pasqual Maragall (Barcelona 1941, alcalde de Barcelona 1982-1997,
+presidente de la Generalitat 2003-2006, presidente del Comité
+Organizador de los JJOO de Barcelona'92, diagnóstico de Alzheimer
+hecho público el 20 de octubre de 2007, cita textual), el liderazgo
+actual (Cristina Maragall, Dr. Arcadi Navarro), la escala de la base
+social (112.842 socios) y el hallazgo científico más reciente (Nature
 Medicine, análisis de sangre >90% de precisión) como gancho de
-actualidad.
+actualidad. También matiza con precisión el posicionamiento: la
+Fundación financia investigación casi en exclusiva sobre Alzheimer,
+con la única excepción de la atrofia multisistémica a través del
+Premio Carles Colomer (hasta 600.000€/proyecto).
 
 ### 2. Problema que intenta resolver
 
@@ -289,10 +295,15 @@ redactado casi como argumentario.
 12 programas que cubren con detalle todo el ciclo: diagnóstico
 (análisis de sangre), investigación de cohorte (Estudio Alfa, ALFA10),
 ensayos clínicos, innovación sin animales (minicerebros), prevención
-por hábitos (ALFASleep, PENSA), grupos de investigación y consorcios,
-acompañamiento a cuidadores, acompañamiento a diagnosticados
-(Plenamente Activas), divulgación, incidencia institucional y
-actividad económica. El Estudio Alfa y el programa de acompañamiento a
+por hábitos (ALFASleep, PENSA), 8 grupos de investigación y consorcios
+(incluyendo el grupo de la Dra. Vilor-Tejedor en epidemiología
+molecular, con su hallazgo sobre historia reproductiva y fases
+preclínicas del Alzheimer), acompañamiento a cuidadores, acompañamiento
+a diagnosticados (Plenamente Activas), divulgación, incidencia
+institucional (con el detalle de la 4ª edición de los Premios Diana
+Garrigosa) y actividad económica (con los programas de beca nombrados:
+FPM-ALZ AD/ADRD Fellows Program y Pasqual Maragall Researchers
+Programme). El Estudio Alfa y el programa de acompañamiento a
 cuidadores ya incluyen testimonios reales y nombrados: Julián,
 voluntario del Estudio Alfa ("Aportar algo, por muy poco que sea,
 siempre es conveniente"), y Gladys Hernández, cuidadora que pasó por
