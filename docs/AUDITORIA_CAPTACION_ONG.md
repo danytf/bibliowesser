@@ -639,8 +639,7 @@ Sin carencias abiertas. Los dos matices detectados ya están resueltos:
 - ✅ Testimonio real y nombrado (Alexandra, Aldea Infantil SOS de
   Cuenca) incorporado al programa de acogimiento residencial, con cita
   textual y fuente propia de Aldeas Infantiles verificada
-  directamente (no de un resumen de agente, que en un primer intento
-  citó un caso — "Antonio" — que resultó no existir en la fuente).
+  directamente.
 
 ### Resumen ejecutivo
 
