@@ -56,6 +56,12 @@ Todas las cifras de la ficha están verificadas: origen fundacional (Austria, 19
 
 Sin puntos abiertos.
 
+**Actualización 04/07/2026 (agente cazador)**: se lanzó un agente explorador sobre aldeasinfantiles.es. De sus candidatos se verificaron de forma independiente y se incorporaron: (1) dato de contexto sectorial — 55.010 niños en el sistema de protección en España (+5,85%), acogimiento residencial (55%) superando por primera vez al familiar (45%) — añadido al "problema"; (2) emergencia Venezuela (terremotos jun-jul 2026, 47 años de presencia en el país) y el bombardeo de Kiev (jul. 2026) que dañó instalaciones de Aldeas en Ucrania (+630.000 apoyados desde 2022) — añadidos a "Cooperación internacional"; (3) actualización de la exposición itinerante "Juntos porque somos hermanos", que la ficha daba por cerrada en 5 ciudades y en realidad sigue de gira en su tercer año con 11+ ciudades — corregido en "Acogimiento Familiar"; (4) Observatorio de la Adolescencia (informes 2025 y 2026) y confirmación de la VIII Jornada Nacional de Jóvenes como evento anual — añadidos a "Educación en Valores"; (5) Guía y Código Deontológico sobre infancia en medios de comunicación + X Informe (2025) — añadido a "Incidencia política"; (6) Reto Solidario Interempresas 2026 y alianzas corporativas nombradas (QTS, Mazda, MediaMarkt, Scania) — añadidos a "Voluntariado". Se resolvió también una discrepancia de cifras en Educación en Valores: la ficha usaba datos de 2024 (231.600 alumnos/2.316 centros); se actualizó a los del curso 2025-2026 (230.000/2.300 centros, con las ediciones 28ª y 22ª de los programas), la cifra oficial más reciente pese a ser ligeramente menor.
+
+Sin puntos abiertos.
+
+**Pasada editorial completa (04/07/2026)**: aplicada GUIA_EDITORIAL.md a toda la ficha de Aldeas Infantiles — dividida toda frase de más de ~40 palabras que no fuera una cita textual (Alexandra, Stephana, familia G.O., Pedro Puig) o una enumeración densa de programas/certificaciones. JSON validado tras la pasada.
+
 ## Fundación Española del Corazón (FEC)
 
 **Fuentes oficiales**: Memoria Anual FEC 2025 · Informe de Actividad SEC-FEC 2025 (ambas de la propia entidad/su promotora, con URL, comprobadas accesibles) · Revista FEC nº160 (Verano 2026).
