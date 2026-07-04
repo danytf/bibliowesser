@@ -458,6 +458,16 @@ financiación estatal sin contrapartida— ya está resuelta con un dato
 real y verificado (BOE-A-2023-1948): incluso en las colaboraciones
 oficiales, la Fundación pone la mitad del dinero.
 
+El "Problema" incluye ahora cifras de incidencia y supervivencia
+(6.400 casos de leucemia, 11.500 de linfomas y 3.000 de mieloma
+múltiple al año en España; supervivencia del 50% en adultos), que dan
+escala al reto de encontrar donante ya narrado. El REDMO añade una
+cifra que humaniza el registro en tiempo real (1.083 pacientes
+activos buscando donante en mayo de 2026), el Instituto suma un hito
+concreto de transferencia científica (2 tratamientos propios en
+ensayos clínicos) y los Pisos de Acogida están actualizados a 2025
+(9 pisos, 766 pacientes únicos acogidos desde 1994).
+
 **Estado final FJC:** ✅ Datos verificados · ✅ Auditoría de captación
 cerrada · ✅ Estilo editorial aplicado (`GUIA_EDITORIAL.md`: párrafos en
 `claim`, `problema` y los 10 `desc` de programas). Ficha lista.
