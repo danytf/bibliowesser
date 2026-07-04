@@ -120,6 +120,10 @@ Verificado contra estas fuentes: fundación en España el 30 de julio de 1968 (c
 
 Sin puntos abiertos.
 
+**Actualización 05/07/2026 (agente cazador)**: se lanzó un agente explorador sobre wwf.es (bloquea WebFetch con 403; se trabajó con WebSearch). De sus candidatos se verificaron de forma independiente y se incorporaron 4: (1) primeros cachorros de lobo nacidos en Cataluña en un siglo (nov. 2025, l'Alta Garrotxa/l'Alt Empordà) — añadido a "Lobo y grandes carnívoros"; (2) escalada del caso Doñana: recurso de reposición pidiendo la nulidad del deslinde + cartas de alerta a UNESCO, Ramsar y la Comisión Europea (nov. 2025) — añadido a "Departamento Legal"; (3) Hora del Planeta 2026, 20º aniversario con cifras concretas en España (+400 ayuntamientos, +100 empresas, +100 organizaciones) — añadido a "Participación y Voluntariado"; (4) corrección de cifra: la superficie marina protegida no es 22,5% sino 25,7% (anuncio oficial del Gobierno en 2025, confirmado en la propia web de WWF) — corregida en cifras clave, en el programa "Pesca sostenible" y en las menciones del argumentario/discurso. Se descartó por confianza media/baja: el programa de herencias y legados (cifras de prensa, no verificadas directamente en wwf.es, y fuera del alcance acordado), el informe de incendios 2026 (posible temporada distinta a la de 2025 ya citada, sin confirmar), la campaña local de Baños del Carmen (Málaga) y el reconocimiento de GREFA (fuente de agencia, prestigio menor).
+
+**Pasada editorial completa (05/07/2026)**: aplicada GUIA_EDITORIAL.md a toda la ficha WWF, la última de las siete — se dividieron las frases de más de ~40 palabras que no fueran enumeraciones densas de datos entre paréntesis. JSON validado tras la pasada.
+
 ## Cruz Roja Española
 
 **Fuentes oficiales**: Memoria 2024 · Presupuesto Ordinario 2024 (ambos documentos propios de Cruz Roja, con URL) · IFRC (ifrc.org, para la escala del movimiento internacional) · fichas internas de proyecto y territoriales de Cruz Roja España.
