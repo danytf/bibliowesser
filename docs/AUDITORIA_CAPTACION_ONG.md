@@ -658,6 +658,17 @@ Familia Ajena de Tenerife) y familia G.O. (Centro de Día de Madrid,
 Prevención). Todos verificados línea a línea contra el PDF, no solo
 contra el resumen de un agente.
 
+**Recurso adicional procesado (2026-07-04):** guía "Enredados con las
+pantallas" (Aldeas Infantiles SOS, febrero 2026). Incorporado al
+programa de Incidencia política: la contribución de Aldeas al
+Proyecto de Ley Orgánica para la protección de las personas menores de
+edad en los entornos digitales (aportaciones concretas sobre loot
+boxes, verificación de edad y presupuesto estable), y la publicación
+de la propia guía. Se descartó el resto del documento (estadísticas
+generales de sociedad, no propias de Aldeas) y un segundo recurso
+("Captacion.pdf") por estar desactualizado — dossier con cifras
+anteriores a la Memoria 2025 ya incorporada.
+
 **Estado final Aldeas Infantiles SOS:** ✅ Datos verificados · ✅
 Auditoría de captación cerrada · ✅ Estilo editorial aplicado
 (`GUIA_EDITORIAL.md`: párrafos en `claim`, `problema` y los 12 `desc`
