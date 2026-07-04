@@ -564,7 +564,7 @@ function renderFicha(){
   }
 
   if(ong.dato){
-    b=`<div class="datobox"><div class="datobadge" aria-hidden="true">📌 Fuente</div><div class="datotext">${esc(ong.dato)}</div><div class="datosrc">Fuente: <a href="${safeUrl(ong.dato_url)}" target="_blank" rel="noopener">${ong.dato_fuente?esc(ong.dato_fuente):esc(ong.dato_url)}</a></div></div>`;
+    b=`<div class="datobox"><div class="datobadge" aria-hidden="true">📌 Fuente</div><div class="datotext">${esc(ong.dato)}</div><div class="datosrc">Fuente: <a href="${safeUrl(ong.dato_url)}" target="_blank" rel="noopener">${ong.dato_fuente?esc(ong.dato_fuente):(ong.dato_url?esc(ong.dato_url):'')}</a></div></div>`;
     h+=fsec(ong.id,10,'📅','Dato del año',b);
   }
 
