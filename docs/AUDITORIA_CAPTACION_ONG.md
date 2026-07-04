@@ -537,10 +537,11 @@ ese papel narrativo).
 Los programas de Grandes carnívoros, Agua, Pesca sostenible y
 Alimentos ya cuentan con proyectos de campo nombrados y con cifras
 concretas: el visón europeo (142 ejemplares, el mamífero más
-amenazado de España), el proyecto RestaurAlcudia (Baleares, 300 t de
-escombros retirados), el Comité de cogestión del sonso (Cataluña, caso
-de éxito premiado) y el proyecto Zitrus (Cataluña, -50% agua y -67%
-pesticidas en 27 fincas de cítricos).
+amenazado de España) y la campaña "Cierre de las granjas de visón
+¡YA!" (cerca de 70.000 apoyos), el proyecto RestaurAlcudia (Baleares,
+300 t de escombros retirados), el Comité de cogestión del sonso
+(Cataluña, caso de éxito premiado) y el proyecto Zitrus (Cataluña,
+-50% agua y -67% pesticidas en 27 fincas de cítricos).
 
 ### Resumen ejecutivo
 
