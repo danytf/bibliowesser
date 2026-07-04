@@ -198,11 +198,12 @@ fácil de convertir en discurso.
 La sección más extensa de las auditadas hasta ahora: 13 programas que
 cubren emergencias, salud, inclusión social, empleo, teleasistencia,
 infancia, cooperación internacional, migración/asilo, violencia de
-género, cuidado de cuidadores (SerCuidadorA), juventud, medio ambiente
-y educación. Varios programas incluyen ya testimonios nombrados y
-trazables (Mari Carmen Benavent en la DANA, Juanjo en Housing First,
-Isabel y Melisa con las placas solares), algo que en la auditoría de
-AECC se identificó como carencia y aquí ya está resuelto de forma
+género, cuidado de cuidadores (SerCuidadorA), juventud, medio ambiente,
+educación y socorros (vigilancia y salvamento en playas, ERU). Varios
+programas incluyen ya testimonios nombrados y trazables (Mari Carmen
+Benavent en la DANA, Juanjo en Housing First, Isabel y Melisa con las
+placas solares, Pilar Lou en teleasistencia), algo que en la auditoría
+de AECC se identificó como carencia y aquí ya está resuelto de forma
 nativa. No se detectan huecos de programas ausentes.
 
 ### 4. Diferenciadores
@@ -245,7 +246,7 @@ explícita:
 ### Resumen ejecutivo
 
 La ficha de Cruz Roja es, en volumen y calidad de programas, la más
-completa del proyecto — cubre 13 áreas con testimonios nombrados ya
+completa del proyecto — cubre 14 áreas con testimonios nombrados ya
 integrados. Visión, Problema, Programas y Diferenciadores están listos
 para formar a un captador sin matices, y la ficha ya responde a la
 objeción más específica y probable de Cruz Roja ("¿por qué necesitáis
