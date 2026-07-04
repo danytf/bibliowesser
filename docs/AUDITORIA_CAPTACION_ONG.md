@@ -231,6 +231,15 @@ la percepción pública de organización "que ya paga el Estado".
 El argumentario (`captacion.argumentario`, que apunta a los 3 primeros
 `motivosSocio`) cubre bien amplitud, capacidad histórica y neutralidad.
 
+Los programas de Inclusión social, Teleasistencia y Violencia de género
+ya cuentan con cifras nacionales que dan escala a fenómenos antes solo
+narrados: soledad no deseada (26% de las personas atendidas vive en
+situación de soledad), brecha digital (63,8% de los hogares atendidos
+sin internet), y un testimonio nombrado (Neus Ribas) en violencia de
+género, programa que antes no tenía ninguno. El programa de Socorros
+suma además la capacidad de respuesta en eventos de gran afluencia
+(cadena asistencial en menos de 1 minuto, desfibrilador en menos de 4).
+
 ### 7. Carencias
 
 Sin carencias abiertas. Quedan fuera de la ficha, por decisión
