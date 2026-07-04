@@ -524,6 +524,14 @@ de testimonios de beneficiarios (no aplica al tipo de organización —
 los casos de éxito de especies, ya nombrados y verificados, cumplen
 ese papel narrativo).
 
+Los programas de Grandes carnívoros, Agua, Pesca sostenible y
+Alimentos ya cuentan con proyectos de campo nombrados y con cifras
+concretas: el visón europeo (142 ejemplares, el mamífero más
+amenazado de España), el proyecto RestaurAlcudia (Baleares, 300 t de
+escombros retirados), el Comité de cogestión del sonso (Cataluña, caso
+de éxito premiado) y el proyecto Zitrus (Cataluña, -50% agua y -67%
+pesticidas en 27 fincas de cítricos).
+
 ### Resumen ejecutivo
 
 La ficha de WWF es sólida en las 8 dimensiones evaluadas: Visión,
