@@ -84,6 +84,12 @@ Verificado contra estas fuentes: fundación 1988/REDMO 1991, incidencia anual de
 
 Sin puntos abiertos.
 
+**Actualización 05/07/2026 (agente cazador)**: se lanzó un agente explorador sobre fcarreras.org (WebFetch falla en ese dominio con "header overflow"; se trabajó con WebSearch, y un primer intento se cortó por un límite de sesión de la API — se relanzó una segunda pasada indicándole no repetir lo ya encontrado). De los candidatos combinados de ambas pasadas se verificaron de forma independiente y se incorporaron 6: (1) alianza con el Instituto de Investigación Sant Joan de Déu (+10M€, 6º campus del Instituto —antes 5 sedes—, posible gracias al legado de Carles Parrera Casanovas) — añadida a "Instituto Josep Carreras"; (2) Beca Josep Carreras 2026 (300.000€ con GETH-TC) y (3) nuevo secuenciador MiSeq i100 financiado por los socios — añadidos a "Avances científicos"; (4) convenios autonómicos que financian el acceso de las CCAA al REDMO (Castilla y León 5,69M€, Galicia 885.000€, Baleares 3,7M€) y (5) renovación del convenio nacional Sanidad-ONT-FJC (enero 2026, +30 años) — añadidos a "REDMO"; (6) programa de herencias y legados solidarios (gestora dedicada, tres modalidades) — añadido a "Comunidad Imparable", enlazado con el legado que hizo posible la alianza con Sant Joan de Déu. Se descartó por baja confianza el hallazgo de un supuesto programa de "voluntariado" en fundacioncarreras.org — no se pudo confirmar si es la misma entidad que fcarreras.org o una fundación homónima distinta.
+
+Sin puntos abiertos.
+
+**Pasada editorial completa (05/07/2026)**: aplicada GUIA_EDITORIAL.md a toda la ficha FJC — dividida toda frase de más de ~40 palabras que no fuera una enumeración densa de datos entre paréntesis. JSON validado tras la pasada.
+
 ## Fundación Pasqual Maragall (FPM)
 
 **Fuentes oficiales**: Informe de Impacto 2025 de la FPM · barcelonabeta.org (BBRC) · prensa científica especializada (Vademecum, Geriatricarea, IM Médico, biotech-spain.com) · Estudio sobre la percepción social del Alzheimer en España 2025 (Observatorio del Alzheimer y las Demencias, FPM + Novo Nordisk) · nota oficial IHI/AD-RIDDLE · blog.fpmaragall.org (testimonios de Julián/Celia y Gladys Hernández) · fpmaragall.org/pasqual-maragall (biografía) · fpmaragall.org/actualidad (hechos recientes de 2026).
