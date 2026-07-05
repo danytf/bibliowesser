@@ -93,16 +93,16 @@ body.light::after{opacity:.04}
 /* ==================================================
    NAVEGACIÓN DE ONGs (tabs)
 ================================================== */
-.onav{position:relative;background:var(--bg-nav);border-bottom:1px solid var(--border);overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.onav{position:relative;background:var(--bg-nav);border-bottom:1px solid var(--border);overflow-x:auto;scrollbar-width:none}
 .onav::-webkit-scrollbar{display:none}
 /* indicador de scroll horizontal: degradado que insinúa que hay más pestañas, sin badge — el usuario desliza */
 .onav.has-overflow::after{content:'';position:absolute;right:0;top:0;bottom:0;width:48px;background:linear-gradient(to right,transparent,var(--bg-nav) 65%);pointer-events:none;z-index:1}
-.otabs{display:flex;padding:.4rem .75rem;gap:.3rem;min-width:max-content;transform:translateZ(0);-webkit-transform:translateZ(0);backface-visibility:hidden;-webkit-backface-visibility:hidden}
+.otabs{display:flex;padding:.4rem .75rem;gap:.3rem;min-width:max-content}
 .otab{flex-shrink:0;padding:.6rem .85rem;border-radius:var(--r-pill);border:1.5px solid var(--border-2);background:var(--bg2);color:var(--dim);font-size:var(--t-xs);font-weight:700;cursor:pointer;font-family:inherit;white-space:nowrap;min-height:44px;display:inline-flex;align-items:center;transition:var(--tr-pop)}
 .otab-full{display:none}
 .otab:hover{border-color:var(--dim);color:var(--muted);transform:translateY(-1px)}
 .otab:active{transform:translateY(0) scale(.96)}
-.otab.active{font-weight:700;color:var(--tab-color,var(--brand));background:color-mix(in srgb,var(--tab-color,var(--brand)) 18%,transparent);border-color:var(--tab-color,var(--brand-line));transform:none}
+.otab.active{font-weight:700;color:var(--tab-color,var(--brand));background:var(--tab-bg-a,transparent);border-color:var(--tab-color,var(--brand-line));transform:none}
 .cap-badge{display:inline-block;background:var(--brand);color:#fff;font-size:.55rem;font-weight:800;border-radius:var(--r-pill);padding:.1rem .35rem;margin-left:.35rem;vertical-align:middle;letter-spacing:.03em;line-height:1.4}
 
 /* ==================================================
@@ -290,7 +290,7 @@ body.light .ibtn{border-color:var(--border-2);color:var(--muted);background:var(
 body.light .ibtn:hover{border-color:var(--brand);color:var(--brand);background:var(--brand-soft);transform:translateY(-1px)}
 body.light .otab{color:var(--dim);background:var(--bg2)}
 body.light .otab:hover{background:var(--bg3);color:var(--text)}
-body.light .otab.active{color:var(--tab-color,var(--brand));background:color-mix(in srgb,var(--tab-color,var(--brand)) 14%,transparent);border-color:var(--tab-color,var(--brand))}
+body.light .otab.active{color:var(--tab-color,var(--brand));background:var(--tab-bg-a-light,transparent);border-color:var(--tab-color,var(--brand))}
 body.light .cappill:hover{box-shadow:0 6px 20px rgba(229,26,26,.3)}
 
 /* ==================================================
@@ -315,14 +315,12 @@ body.light .cappill:hover{box-shadow:0 6px 20px rgba(229,26,26,.3)}
   .otab:hover{background:var(--bg3);color:var(--text);transform:none}
   .otab:active{transform:scale(.98)}
   /* activa: bloque de marca con luz cenital y barra de acento, no un rectángulo plano */
-  .otab.active{background:linear-gradient(160deg,color-mix(in srgb,var(--tab-color,var(--brand)) 90%,#fff) 0%,color-mix(in srgb,var(--tab-color,var(--brand)) 78%,#0a1322) 100%);color:#fff;font-weight:700;box-shadow:0 4px 14px -4px color-mix(in srgb,var(--tab-color,var(--brand)) 55%,transparent),inset 0 1px 0 rgba(255,255,255,.18)}
-  .otab.active:hover{background:linear-gradient(160deg,color-mix(in srgb,var(--tab-color,var(--brand)) 90%,#fff) 0%,color-mix(in srgb,var(--tab-color,var(--brand)) 78%,#0a1322) 100%)}
+  .otab.active{background:linear-gradient(160deg,var(--tab-grad-a,var(--brand)) 0%,var(--tab-grad-b,var(--brand)) 100%);color:#fff;font-weight:700;box-shadow:0 4px 14px -4px var(--tab-shadow,transparent),inset 0 1px 0 rgba(255,255,255,.18)}
   .otab-full{display:block;font-size:.68rem;font-weight:600;color:var(--dim);margin-top:.15rem;line-height:1.3}
   .otab.active .otab-full{color:rgba(255,255,255,.82)}
-  /* modo claro: tinte suave + texto oscurecido de la marca, contraste asegurado */
-  body.light .otab.active{background:color-mix(in srgb,var(--tab-color,var(--brand)) 13%,var(--bg2));color:color-mix(in srgb,var(--tab-color,var(--brand)) 55%,#000);box-shadow:inset 3px 0 0 color-mix(in srgb,var(--tab-color,var(--brand)) 75%,#000),var(--sh-1)}
-  body.light .otab.active:hover{background:color-mix(in srgb,var(--tab-color,var(--brand)) 16%,var(--bg2))}
-  body.light .otab.active .otab-full{color:color-mix(in srgb,var(--tab-color,var(--brand)) 45%,#2a2015)}
+  /* modo claro: tinte suave + texto de la marca, contraste asegurado */
+  body.light .otab.active{background:var(--tab-bg-a-light,var(--bg2));color:var(--tab-color,var(--brand));box-shadow:inset 3px 0 0 var(--tab-color,var(--brand)),var(--sh-1)}
+  body.light .otab.active .otab-full{color:var(--dim)}
   /* scrollbar fino y del tema en el sidebar */
   .onav{scrollbar-width:thin;scrollbar-color:var(--border-2) transparent}
   #fichaView{flex:1;min-width:0}
@@ -431,12 +429,38 @@ function webVerif(ong){
 
 /* ==================================================
    RENDER · tabs
+   Los tonos derivados del color de marca (fondo activo, degradado
+   del sidebar, sombra) se calculan aquí una sola vez por ONG y se
+   pasan como variables CSS ya resueltas (rgb/rgba planos). Así el
+   navegador nunca evalúa color-mix() en tiempo real — una función
+   relativamente nueva y con implementaciones inconsistentes entre
+   motores, sospechosa de un glitch de pintado visto en móvil.
 ================================================== */
+function hexToRgb(hex){
+  var m=/^#?([0-9a-f]{6})$/i.exec(hex)||[];
+  var n=parseInt(m[1]||'888888',16);
+  return {r:(n>>16)&255,g:(n>>8)&255,b:n&255};
+}
+function mixRgb(a,b,pctA){
+  var p=pctA/100;
+  return {r:Math.round(a.r*p+b.r*(1-p)),g:Math.round(a.g*p+b.g*(1-p)),b:Math.round(a.b*p+b.b*(1-p))};
+}
+function tabColorVars(hex){
+  var c=hexToRgb(hex);
+  var white={r:255,g:255,b:255},navy={r:10,g:19,b:34};
+  var gradA=mixRgb(c,white,90),gradB=mixRgb(c,navy,78);
+  return `--tab-color:${hex};`
+    +`--tab-bg-a:rgba(${c.r},${c.g},${c.b},.18);`
+    +`--tab-bg-a-light:rgba(${c.r},${c.g},${c.b},.14);`
+    +`--tab-grad-a:rgb(${gradA.r},${gradA.g},${gradA.b});`
+    +`--tab-grad-b:rgb(${gradB.r},${gradB.g},${gradB.b});`
+    +`--tab-shadow:rgba(${c.r},${c.g},${c.b},.55)`;
+}
 function renderTabs(){
   var h='';
-  for(let i=0;i<ONGS.length;i++){var o=ONGS[i],sel=o.id===state.currentOng;h+=`<button type="button" class="otab${sel?' active':''}" id="tab-${o.id}" data-id="${o.id}" role="tab" aria-selected="${sel?'true':'false'}" aria-controls="fichaView" tabindex="${sel?'0':'-1'}" aria-label="${esc(o.full)}${sel&&state.captacionMode?' (vista rápida)':''}" title="${esc(o.full)}" style="--tab-color:${esc(o.color)}"><span class="otab-main">${o.emoji} ${esc(o.nombre)}${sel&&state.captacionMode?'<span class="cap-badge" aria-hidden="true">30s</span>':''}</span><span class="otab-full" aria-hidden="true">${esc(o.full)}</span></button>`;}
+  for(let i=0;i<ONGS.length;i++){var o=ONGS[i],sel=o.id===state.currentOng;h+=`<button type="button" class="otab${sel?' active':''}" id="tab-${o.id}" data-id="${o.id}" role="tab" aria-selected="${sel?'true':'false'}" aria-controls="fichaView" tabindex="${sel?'0':'-1'}" aria-label="${esc(o.full)}${sel&&state.captacionMode?' (vista rápida)':''}" title="${esc(o.full)}" style="${tabColorVars(o.color)}"><span class="otab-main">${o.emoji} ${esc(o.nombre)}${sel&&state.captacionMode?'<span class="cap-badge" aria-hidden="true">30s</span>':''}</span><span class="otab-full" aria-hidden="true">${esc(o.full)}</span></button>`;}
   dom.tabs.innerHTML=h;
-  requestAnimationFrame(updateNavBadge);
+  requestAnimationFrame(updateNavOverflow);
 }
 /* Actualiza selección y badge "30s" sin reconstruir la lista de tabs */
 function updateTabs(){
@@ -458,9 +482,10 @@ function updateTabs(){
       badge.parentNode.removeChild(badge);
     }
   });
-  requestAnimationFrame(updateNavBadge);
+  requestAnimationFrame(updateNavOverflow);
 }
-function updateNavBadge(){
+/* Muestra el degradado de scroll cuando quedan pestañas fuera de la vista */
+function updateNavOverflow(){
   var nav=dom.tabs.parentElement;var ts=Array.from(dom.tabs.querySelectorAll('.otab'));var nr=nav.getBoundingClientRect().right;var hasHidden=ts.some(function(t){return t.getBoundingClientRect().left>=nr-4;});
   nav.classList.toggle('has-overflow',hasHidden);
 }
@@ -656,7 +681,7 @@ window.addEventListener('DOMContentLoaded',function(){
   dom.ficha.addEventListener('click',fichaClick);
   setHdrH();
   window.addEventListener('resize',setHdrH);
-  window.addEventListener('resize',function(){requestAnimationFrame(updateNavBadge);});
+  window.addEventListener('resize',function(){requestAnimationFrame(updateNavOverflow);});
   requestAnimationFrame(function(){dom.body.classList.add('ready');});
 });
 </script>
