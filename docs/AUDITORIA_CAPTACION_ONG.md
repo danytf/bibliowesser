@@ -98,16 +98,24 @@ está redactado casi como argumentario.
 ### 3. Programas
 
 Sección excelente, la más completa de las auditadas hasta ahora: 13
-programas que cubren investigación básica y clínica, becas y talento,
-colaboración internacional, innovación/spin-offs, acompañamiento
-social, psicooncología, prevención, ejercicio físico oncológico,
-cuidados paliativos, acreditación de centros, ciencia ciudadana/
-Patient Advocacy, incidencia política/Observatorio y comunidad de
-pacientes. Un captador puede responder con datos concretos a
-prácticamente cualquier pregunta sobre "¿en qué se usa mi dinero
-exactamente?". Incluye además 3 casos de investigación nombrados con
-investigador y resultado concreto (melanoma, cáncer colorrectal,
-leucemia). No se detectan huecos de programas ausentes.
+programas organizados en 5 categorías visuales en el acordeón —
+Investigación y ciencia (Investigación oncológica, Colaboración
+internacional, Talento investigador, AECC INNOVA, Ciencia para Todos y
+Patient Advocacy), Apoyo al paciente (Trabajo social/orientación/
+alojamiento, Psicooncología, Cuidados paliativos, Ejercicio físico
+oncológico), Prevención, Comunidad y voluntariado (Voluntariado,
+Observatorio/incidencia social/Comunidad de pacientes) y Calidad
+institucional (Acreditación de Centros). Un captador puede responder
+con datos concretos a prácticamente cualquier pregunta sobre "¿en qué
+se usa mi dinero exactamente?". Incluye además 3 casos de investigación
+nombrados con investigador y resultado concreto (melanoma, cáncer
+colorrectal, leucemia). Investigación oncológica desarrolla también la
+independencia frente a la industria farmacéutica (90% de ingresos
+privados, comités científicos independientes), y Trabajo social/
+orientación/alojamiento desarrolla la línea única 900 100 036 (24h/365,
+244.103 llamadas en 2025), reforzando dentro de cada programa los
+argumentos de `motivosSocio` que representan. No se detectan huecos de
+programas ausentes.
 
 ### 4. Diferenciadores
 
@@ -136,7 +144,11 @@ necesaria en la ficha.
 
 El argumentario de captación (`captacion.argumentario`, que apunta a
 los 3 primeros `motivosSocio`) es sólido: línea de atención única,
-independencia de farmacéuticas, efecto multiplicador.
+independencia de farmacéuticas, efecto multiplicador. `captacion.
+proyectosClave` apunta a los 3 programas que desarrollan exactamente
+esos argumentos: Trabajo social/orientación/alojamiento (línea de
+atención), Investigación oncológica (independencia) y Colaboración
+internacional (multiplicador ×7,75).
 
 ### 7. Carencias
 
@@ -159,7 +171,10 @@ Estado?", "¿de verdad estamos mejorando?").
 
 **Estado final AECC:** ✅ Datos verificados · ✅ Auditoría de captación
 cerrada · ✅ Estilo editorial aplicado (`GUIA_EDITORIAL.md`: párrafos en
-`claim`, `problema` y los 13 `desc` de programas). Ficha lista.
+`claim`, `problema` y los 13 `desc` de programas) · ✅ Coherencia
+narrativa entre claim, cifras, problema, motivosSocio, programas y 30
+segundos · ✅ Categorización visual de programas (5 categorías). Ficha
+lista.
 
 ------------------------------------------------------------------------
 
