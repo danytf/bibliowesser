@@ -93,11 +93,10 @@ body.light::after{opacity:.04}
 /* ==================================================
    NAVEGACIÓN DE ONGs (tabs)
 ================================================== */
-.onav{position:relative;background:var(--bg-nav);border-bottom:1px solid var(--border);overflow-x:auto;scrollbar-width:none}
-.onav::-webkit-scrollbar{display:none}
-/* indicador de scroll horizontal: degradado que insinúa que hay más pestañas, sin badge — el usuario desliza */
-.onav.has-overflow::after{content:'';position:absolute;right:0;top:0;bottom:0;width:48px;background:linear-gradient(to right,transparent,var(--bg-nav) 65%);pointer-events:none;z-index:1}
-.otabs{display:flex;padding:.4rem .75rem;gap:.3rem;min-width:max-content}
+/* Sin scroll horizontal: las pestañas se envuelven en varias líneas y se ven todas a la vez,
+   sin contenido fuera de pantalla que un navegador/móvil pueda pintar mal la primera vez. */
+.onav{position:relative;background:var(--bg-nav);border-bottom:1px solid var(--border)}
+.otabs{display:flex;flex-wrap:wrap;justify-content:center;padding:.5rem .75rem;gap:.3rem}
 .otab{flex-shrink:0;padding:.6rem .85rem;border-radius:var(--r-pill);border:1.5px solid var(--border-2);background:var(--bg2);color:var(--dim);font-size:var(--t-xs);font-weight:700;cursor:pointer;font-family:inherit;white-space:nowrap;min-height:44px;display:inline-flex;align-items:center;transition:var(--tr-pop)}
 .otab-full{display:none}
 .otab:hover{border-color:var(--dim);color:var(--muted);transform:translateY(-1px)}
@@ -297,9 +296,6 @@ body.light .cappill:hover{box-shadow:0 6px 20px rgba(229,26,26,.3)}
    RESPONSIVE
 ================================================== */
 @media(min-width:640px){
-  .onav{overflow-x:visible}
-  .onav.has-overflow::after{display:none}
-  .otabs{flex-wrap:wrap;min-width:0;justify-content:center;padding:.5rem .75rem}
   .otab{font-size:.78rem;padding:.32rem .75rem}
   .fwrap,.cwrap{max-width:580px;margin-left:auto;margin-right:auto}
   .cgrid{grid-template-columns:repeat(3,1fr)}
@@ -460,7 +456,6 @@ function renderTabs(){
   var h='';
   for(let i=0;i<ONGS.length;i++){var o=ONGS[i],sel=o.id===state.currentOng;h+=`<button type="button" class="otab${sel?' active':''}" id="tab-${o.id}" data-id="${o.id}" role="tab" aria-selected="${sel?'true':'false'}" aria-controls="fichaView" tabindex="${sel?'0':'-1'}" aria-label="${esc(o.full)}${sel&&state.captacionMode?' (vista rápida)':''}" title="${esc(o.full)}" style="${tabColorVars(o.color)}"><span class="otab-main">${o.emoji} ${esc(o.nombre)}${sel&&state.captacionMode?'<span class="cap-badge" aria-hidden="true">30s</span>':''}</span><span class="otab-full" aria-hidden="true">${esc(o.full)}</span></button>`;}
   dom.tabs.innerHTML=h;
-  requestAnimationFrame(updateNavOverflow);
 }
 /* Actualiza selección y badge "30s" sin reconstruir la lista de tabs */
 function updateTabs(){
@@ -482,12 +477,6 @@ function updateTabs(){
       badge.parentNode.removeChild(badge);
     }
   });
-  requestAnimationFrame(updateNavOverflow);
-}
-/* Muestra el degradado de scroll cuando quedan pestañas fuera de la vista */
-function updateNavOverflow(){
-  var nav=dom.tabs.parentElement;var ts=Array.from(dom.tabs.querySelectorAll('.otab'));var nr=nav.getBoundingClientRect().right;var hasHidden=ts.some(function(t){return t.getBoundingClientRect().left>=nr-4;});
-  nav.classList.toggle('has-overflow',hasHidden);
 }
 
 /* ==================================================
@@ -681,7 +670,6 @@ window.addEventListener('DOMContentLoaded',function(){
   dom.ficha.addEventListener('click',fichaClick);
   setHdrH();
   window.addEventListener('resize',setHdrH);
-  window.addEventListener('resize',function(){requestAnimationFrame(updateNavOverflow);});
   requestAnimationFrame(function(){dom.body.classList.add('ready');});
 });
 </script>
