@@ -97,14 +97,17 @@ está redactado casi como argumentario.
 
 ### 3. Programas
 
-Sección excelente, la más completa de las auditadas hasta ahora: 12
+Sección excelente, la más completa de las auditadas hasta ahora: 13
 programas que cubren investigación básica y clínica, becas y talento,
-innovación/spin-offs, acompañamiento social, psicooncología,
-prevención, ejercicio físico oncológico, cuidados paliativos,
-acreditación de centros, ciencia ciudadana/Patient Advocacy e
-incidencia política. Un captador puede responder con datos concretos
-a prácticamente cualquier pregunta sobre "¿en qué se usa mi dinero
-exactamente?". No se detectan huecos de programas ausentes.
+colaboración internacional, innovación/spin-offs, acompañamiento
+social, psicooncología, prevención, ejercicio físico oncológico,
+cuidados paliativos, acreditación de centros, ciencia ciudadana/
+Patient Advocacy, incidencia política/Observatorio y comunidad de
+pacientes. Un captador puede responder con datos concretos a
+prácticamente cualquier pregunta sobre "¿en qué se usa mi dinero
+exactamente?". Incluye además 3 casos de investigación nombrados con
+investigador y resultado concreto (melanoma, cáncer colorrectal,
+leucemia). No se detectan huecos de programas ausentes.
 
 ### 4. Diferenciadores
 
@@ -142,14 +145,8 @@ explícita:
 
 - **Desgravación fiscal (IRPF):** el captador ya la conoce por su
   formación.
-- **Caso concreto y nombrado de avance médico financiado por la
-  AECC** (equivalente a OneChain/Leukos de FJC): investigado a fondo,
-  sin resultado localizable en fuentes públicas de la AECC. No se
-  inventa un caso sin respaldo; reabrir si la AECC publica uno
-  trazable en el futuro.
-- **Política de baja/cancelación de la cuota** y **legados y
-  herencias solidarias:** no aportan a una conversación de captación
-  de 30 segundos.
+- **Política de baja/cancelación de la cuota:** no aporta a una
+  conversación de captación de 30 segundos.
 
 ### Resumen ejecutivo
 
