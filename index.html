@@ -97,8 +97,7 @@ body.light::after{opacity:.04}
 .onav::-webkit-scrollbar{display:none}
 /* indicador de scroll horizontal: degradado que insinúa que hay más pestañas, sin badge — el usuario desliza */
 .onav.has-overflow::after{content:'';position:absolute;right:0;top:0;bottom:0;width:48px;background:linear-gradient(to right,transparent,var(--bg-nav) 65%);pointer-events:none;z-index:1}
-.otabs{display:flex;padding:.4rem .75rem;gap:.3rem;min-width:max-content}
-.otab{will-change:transform}
+.otabs{display:flex;padding:.4rem .75rem;gap:.3rem;min-width:max-content;transform:translateZ(0);-webkit-transform:translateZ(0);backface-visibility:hidden;-webkit-backface-visibility:hidden}
 .otab{flex-shrink:0;padding:.6rem .85rem;border-radius:var(--r-pill);border:1.5px solid var(--border-2);background:var(--bg2);color:var(--dim);font-size:var(--t-xs);font-weight:700;cursor:pointer;font-family:inherit;white-space:nowrap;min-height:44px;display:inline-flex;align-items:center;transition:var(--tr-pop)}
 .otab-full{display:none}
 .otab:hover{border-color:var(--dim);color:var(--muted);transform:translateY(-1px)}
