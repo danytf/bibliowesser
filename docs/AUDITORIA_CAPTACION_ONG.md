@@ -673,9 +673,7 @@ España al servicio de la prevención cardiovascular"), sigue con el
 origen (1967 como Fundación Hispana de Cardiología, renombrada en
 1995), las cifras de escala (14.306 socios, 53 asociaciones, 29.164
 DEAs) y cierra con la presidencia actual (Dr. Andrés Íñiguez Romo, con
-cita textual) — orden revisado para que el argumento diferencial abra
-el claim y la cita humana lo cierre, en vez de terminar en una lista
-de cifras.
+cita textual).
 
 ### 2. Problema que intenta resolver
 
@@ -686,75 +684,62 @@ con 2+ factores, el más común es dormir mal); la brecha de inversión
 en investigación (España, puesto 22/34 OCDE); y la brecha de
 supervivencia ante parada cardíaca (10,8% en España frente a >30% en
 países nórdicos). El cierre ("prevención, investigación y
-supervivencia") recoge las tres brechas explícitamente, en vez de
-reducir el trabajo de la FEC a un solo programa.
+supervivencia") recoge las tres brechas.
 
 ### 3. Programas
 
-14 programas (se sumó "Mujer y Corazón" a los 13 anteriores),
-organizados ahora en 7 categorías visuales en el acordeón: Prevención y
-divulgación pública (Mujer y Corazón, campaña de hipertensión,
-Cardioescuelas), Emergencias y respuesta vital (PACS/Ariadna),
-Investigación y ciencia (Investigación e I+D, Formación y divulgación
-científica), Empresas y alimentación (PASFEC, PECS), Apoyo al paciente
-(Escuela de Paciente Experto, Organización de Asociaciones de
-Pacientes), Incidencia y alianzas institucionales (Comprometidos por el
-corazón, Internacional, Alianzas estratégicas) y Comunidad (Carrera
-Popular del Corazón). La campaña de hipertensión incluye el testimonio
-real de Joaquín Henrich. El caso "Javier" del `speech.discurso` sigue
-siendo explícitamente ficticio, y ya no enumera programas sueltos tras
-el rescate: fluye por su diagnóstico, su hija (Cardioescuelas) y su
-mujer (introduce la brecha de género de forma orgánica).
+14 programas organizados en 7 categorías visuales en el acordeón:
+Prevención y divulgación pública (Mujer y Corazón, campaña de
+hipertensión, Cardioescuelas), Emergencias y respuesta vital
+(PACS/Ariadna), Investigación y ciencia (Investigación e I+D, Formación
+y divulgación científica), Empresas y alimentación (PASFEC, PECS),
+Apoyo al paciente (Escuela de Paciente Experto, Organización de
+Asociaciones de Pacientes), Incidencia y alianzas institucionales
+(Comprometidos por el corazón, Internacional, Alianzas estratégicas) y
+Comunidad (Carrera Popular del Corazón). La campaña de hipertensión
+incluye el testimonio real de Joaquín Henrich. El caso "Javier" del
+`speech.discurso` es explícitamente ficticio y recorre su diagnóstico,
+su hija (Cardioescuelas) y su mujer (brecha de género).
 
 ### 4. Diferenciadores
 
-`motivosSocio` tiene 5 argumentos, reordenados y con un cambio de
-composición: se sustituyó "Escuela de Paciente Experto" (motivo más
-estrecho, solo relevante para quien ya tiene diagnóstico) por "Mujer y
-Corazón" (brecha de género, alcance universal). Orden actual: el
-infarto no es "cosa de hombres" (Mujer y Corazón, gancho de apertura),
-la tecnología que cierra la brecha de supervivencia (Ariadna), el
-conocimiento médico de la SEC traducido a la calle, incidencia política
-con resultado medible, y la Carrera Popular como cierre participativo
-("en qué se usa mi cuota, y puedes venir a vivirlo").
+`motivosSocio` tiene 5 argumentos no redundantes: el infarto no es
+"cosa de hombres" (Mujer y Corazón, gancho de apertura), la tecnología
+que cierra la brecha de supervivencia (Ariadna), el conocimiento médico
+de la SEC traducido a la calle, incidencia política con resultado
+medible, y la Carrera Popular como cierre participativo ("en qué se usa
+mi cuota, y puedes venir a vivirlo").
 
 ### 5. Datos imprescindibles
 
-El desglose de `fondos` (uso del presupuesto), que tenía 4 categorías
-marcadas "(estimado)" sin fuente real desde el primer commit del
-proyecto, se sustituyó por una nota transparente (`fondosNota`, con
-`fondos:[]`) que documenta la ausencia de un desglose económico oficial
-en vez de mostrar porcentajes sin respaldo — mismo criterio ya aplicado
-antes con la FJC. Se investigó de nuevo con un agente dedicado
-(Fundación Lealtad, Registro de Fundaciones, secardiologia.es, BOE) y
-se confirma que no existe ninguna fuente pública accesible.
+No existe un desglose económico oficial de la FEC (gasto por área ni
+financiación privada vs. pública): la sección "Cuentas Anuales" de
+fundaciondelcorazon.com está vacía, las memorias publicadas son solo de
+actividad, y ni Fundación Lealtad ni el Registro de Fundaciones ofrecen
+ese dato en abierto. La ficha documenta esta limitación (`fondosNota`)
+en vez de mostrar un reparto sin respaldo — mismo criterio que la FJC.
 
 ### 6. Argumentario implícito
 
-El argumentario (`captacion.argumentario`, que apunta a los 3 primeros
-`motivosSocio`) se realineó tras el cambio de composición: ahora es
-Mujer y Corazón, Ariadna, SEC — coherente con los "3 proyectos clave"
-de la vista de 30 segundos (Mujer y Corazón, PACS/Ariadna, Investigación
-e I+D), que antes no coincidían con el argumentario. "3 proyectos
-clave" tenía además un problema de redacción (el campo `dato`
-reutilizado, una lista de cifras sin conectores, sonaba telegráfico
-sin la prosa de `desc` alrededor) — se añadió un campo `resumenClave`
-con 3 frases en prosa para esos 3 programas.
+El argumentario (`captacion.argumentario`, los 3 primeros
+`motivosSocio`) es Mujer y Corazón, Ariadna, SEC — coherente con los
+"3 proyectos clave" de la vista de 30 segundos (Mujer y Corazón,
+PACS/Ariadna, Investigación e I+D), con redacción en prosa propia
+(`resumenClave`) para esos 3 programas en vez de una lista de cifras.
 
 ### 7. Carencias
 
 Sin carencias abiertas. El desglose de gasto y de financiación privada
-vs. pública, investigados en profundidad (ver punto 5), no tienen
-fuente pública — documentado como limitación real en vez de estimarse.
+vs. pública no tiene fuente pública — documentado como limitación real
+en vez de estimarse.
 
 ### Resumen ejecutivo
 
 La ficha de FEC tiene Visión, Problema, Programas, Diferenciadores y
-las vistas de captación (30 segundos, storytelling) revisados no solo
-por corrección de datos sino por coherencia narrativa entre secciones:
-los mismos 3 pilares (Mujer y Corazón, Ariadna, Investigación) se
+las vistas de captación (30 segundos, storytelling) coherentes entre
+sí: los mismos 3 pilares (Mujer y Corazón, Ariadna, Investigación) se
 priorizan de forma consistente en `claim`, `cifras`, `motivosSocio`,
-`programas` y "30 segundos". El desglose económico que faltaba se
+`programas` y "30 segundos". El desglose económico que falta se
 documenta como limitación honesta en vez de inventarse. Si la FEC
 publica en el futuro una memoria económica, es el disparador para
 reabrir ese punto.
@@ -762,6 +747,6 @@ reabrir ese punto.
 **Estado final FEC:** ✅ Datos verificados y actualizados (julio 2026)
 · ✅ Auditoría de captación cerrada · ✅ Estilo editorial aplicado
 (`GUIA_EDITORIAL.md`: párrafos en `claim`, `problema` y los 14 `desc`
-de programas) · ✅ Coherencia narrativa revisada entre las 8 secciones
-de la ficha · ✅ Categorización visual de programas (7 categorías).
-Ficha lista.
+de programas) · ✅ Coherencia narrativa entre las 8 secciones de la
+ficha · ✅ Categorización visual de programas (7 categorías). Ficha
+lista.
