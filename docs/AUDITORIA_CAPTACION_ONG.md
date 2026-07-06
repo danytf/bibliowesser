@@ -277,10 +277,9 @@ Visión, Problema, Programas y Diferenciadores están listos para formar
 a un captador sin matices, y la ficha ya responde a la objeción más
 específica y probable de Cruz Roja ("¿por qué necesitáis mi dinero si
 ya os paga el Estado?"), reforzada con un argumento de escala global
-(191 Sociedades Nacionales del movimiento internacional). El rastreo
-de la web oficial sumó datos 2025 más recientes en Socorros (playas) y
-Medio ambiente (programa con bp), y un reconocimiento externo en
-Empleo (premio CIO 100 Awards 2025).
+(191 Sociedades Nacionales del movimiento internacional), con datos de
+2025 en Socorros (playas) y Medio ambiente (programa con bp), y un
+reconocimiento externo en Empleo (premio CIO 100 Awards 2025).
 
 **Estado final Cruz Roja:** ✅ Datos verificados · ✅ Auditoría de
 captación cerrada · ✅ Estilo editorial aplicado (`GUIA_EDITORIAL.md`:
