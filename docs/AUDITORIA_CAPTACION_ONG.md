@@ -285,21 +285,33 @@ reconocimiento externo en Empleo (premio CIO 100 Awards 2025).
 cerrada · ✅ Estilo editorial aplicado (`GUIA_EDITORIAL.md`: párrafos en
 `claim`, `problema` y los 13 `desc` de programas) · ✅ Pulido
 estructural (categorización de programas, `resumenClave` en los 3
-proyectos clave, vídeos reordenados por utilidad) · 🔲 Procesamiento de
-recursos aportados por el usuario y pulido final en curso — no dar la
-ficha por cerrada todavía.
+proyectos clave, vídeos reordenados por utilidad) · ✅ Pulido narrativo
+completo (`claim`, cifras clave, `problema`, los 14 `programas`, uso
+de fondos, `motivosSocio`, `speech`, `videos`, `fuentesCompletas` y
+`resumen30`, cada uno revisado en varias pasadas críticas). Ficha
+lista.
 
-El desglose de `fondos` quedó por fin confirmado con fuente exacta: el
-Presupuesto 2026 (932 M€ en total), aportado directamente por el
-usuario desde su página 5. Reemplaza al desglose anterior de 8
-categorías sin fuente (que había resistido 3 intentos de verificación
-contra el Presupuesto Ordinario 2024, la Memoria 2024 Reducida y el
-Informe de Auditoría 2024). El nuevo desglose son 10 categorías con
-importe exacto en M€: Inclusión Social 64,4% (599,8 M€), Centros
-Sociosanitarios 12,5% (116,9 M€), Empleo 5,6% (52,1 M€), Socorros y
-emergencias 5,4% (50,6 M€), Cooperación Internacional 3% (27,8 M€),
-Salud 2,6% (24,1 M€), Formación 2,6% (24,1 M€), Juventud 1,8% (16,6
-M€), Desarrollo local 1,5% (14 M€) y Medio ambiente 0,6% (6 M€).
+El desglose de `fondos` quedó confirmado con fuente exacta: el
+Presupuesto 2026 (1.087,1 M€ de gasto previsto, 1.096,6 M€
+consolidado), aportado directamente por el usuario desde su página 5.
+Reemplaza al desglose anterior de 8 categorías sin fuente (que había
+resistido 3 intentos de verificación contra el Presupuesto Ordinario
+2024, la Memoria 2024 Reducida y el Informe de Auditoría 2024). El
+nuevo desglose son 10 categorías con importe exacto en M€ y porcentaje
+calculado contra el gasto real total (no contra la suma de las 10,
+que solo cubre el 86%): Inclusión Social 55,2% (599,8 M€), Centros
+Sociosanitarios 10,8% (116,9 M€), Empleo 4,8% (52,1 M€), Socorros y
+emergencias 4,7% (50,6 M€), Cooperación Internacional 2,6% (27,8 M€),
+Salud 2,2% (24,1 M€), Formación 2,2% (24,1 M€), Juventud 1,5% (16,6
+M€), Desarrollo local 1,3% (14 M€) y Medio ambiente 0,6% (6 M€).
+
+`motivosSocio` y el `argumentario` de `resumen30` sustituyen el
+argumento de transparencia/ISO-EFQM y el de neutralidad,
+respectivamente, por el dato del 69% (la cuota de socios es la mayor
+fuente de financiación privada, más que lotería+rifas+Gran Premio del
+Oro) — un argumento más universal para cualquier conversación de
+captación, verificado en el Informe de Auditoría de Cuentas Anuales
+2024 (EY).
 
 ------------------------------------------------------------------------
 
