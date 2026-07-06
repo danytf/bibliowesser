@@ -292,13 +292,17 @@ ficha por cerrada todavía.
 El desglose de `fondos` (8 categorías: Inclusión social 52%, Centros
 sociosanitarios 13%, Promoción de fondos 8%, Empleo 6%, Socorros y
 emergencias 5%, Internacional 4%, Servicios tecnológicos digitales 3%,
-resto 9%) sigue sin `fondosNota` con fuente exacta — se revisó tanto el
-Presupuesto Ordinario 2024 como la Memoria 2024 Reducida completa (esta
-última extraída con `pdftotext`, texto íntegro) sin encontrar este
-desglose por área de intervención en ninguno de los dos documentos. Si
-se retoma esta búsqueda en el futuro, probar con el informe
-económico/Cuentas Anuales oficial (distinto de la Memoria Reducida),
-no repetir sobre los mismos dos documentos.
+resto 9%) sigue sin `fondosNota` con fuente exacta tras revisar 3
+documentos oficiales distintos: el Presupuesto Ordinario 2024, la
+Memoria 2024 Reducida completa y el Informe de Auditoría de Cuentas
+Anuales 2024 (EY, procesado renderizando el PDF escaneado a imagen, ya
+que no tenía capa de texto). Ninguno trae el gasto desglosado por área
+de intervención — el Informe de Auditoría sí trajo, en cambio, el
+desglose de ingresos por captación de recursos (cuota de socios 69% de
+lo captado de fuentes privadas), ya incorporado en `cifras`. Esta
+búsqueda del desglose de `fondos` se da por cerrada salvo que aparezca
+en el futuro un documento de naturaleza distinta (memoria de
+actividades con desglose interno de gasto por programa).
 
 ------------------------------------------------------------------------
 
