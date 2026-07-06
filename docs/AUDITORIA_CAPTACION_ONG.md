@@ -289,6 +289,17 @@ proyectos clave, vídeos reordenados por utilidad) · 🔲 Procesamiento de
 recursos aportados por el usuario y pulido final en curso — no dar la
 ficha por cerrada todavía.
 
+El desglose de `fondos` (8 categorías: Inclusión social 52%, Centros
+sociosanitarios 13%, Promoción de fondos 8%, Empleo 6%, Socorros y
+emergencias 5%, Internacional 4%, Servicios tecnológicos digitales 3%,
+resto 9%) sigue sin `fondosNota` con fuente exacta — se revisó tanto el
+Presupuesto Ordinario 2024 como la Memoria 2024 Reducida completa (esta
+última extraída con `pdftotext`, texto íntegro) sin encontrar este
+desglose por área de intervención en ninguno de los dos documentos. Si
+se retoma esta búsqueda en el futuro, probar con el informe
+económico/Cuentas Anuales oficial (distinto de la Memoria Reducida),
+no repetir sobre los mismos dos documentos.
+
 ------------------------------------------------------------------------
 
 # Fundación Pasqual Maragall
