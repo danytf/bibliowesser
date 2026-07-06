@@ -270,16 +270,23 @@ explícita:
 
 La ficha de Cruz Roja es, en volumen y calidad de programas, la más
 completa del proyecto — cubre 14 áreas con testimonios nombrados ya
-integrados. Visión, Problema, Programas y Diferenciadores están listos
-para formar a un captador sin matices, y la ficha ya responde a la
-objeción más específica y probable de Cruz Roja ("¿por qué necesitáis
-mi dinero si ya os paga el Estado?"), reforzada con un argumento de
-escala global (191 Sociedades Nacionales del movimiento internacional).
+integrados, agrupadas en 7 categorías temáticas (Emergencias y
+respuesta, Salud y cuidados, Inclusión social, Empleo y autonomía,
+Infancia y juventud, Acción internacional, Medio ambiente y comunidad).
+Visión, Problema, Programas y Diferenciadores están listos para formar
+a un captador sin matices, y la ficha ya responde a la objeción más
+específica y probable de Cruz Roja ("¿por qué necesitáis mi dinero si
+ya os paga el Estado?"), reforzada con un argumento de escala global
+(191 Sociedades Nacionales del movimiento internacional). El rastreo
+de la web oficial sumó datos 2025 más recientes en Socorros (playas) y
+Medio ambiente (programa con bp), y un reconocimiento externo en
+Empleo (premio CIO 100 Awards 2025).
 
 **Estado final Cruz Roja:** ✅ Datos verificados · ✅ Auditoría de
 captación cerrada · ✅ Estilo editorial aplicado (`GUIA_EDITORIAL.md`:
-párrafos en `claim`, `problema` y los 13 `desc` de programas). Ficha
-lista.
+párrafos en `claim`, `problema` y los 13 `desc` de programas) · ✅
+Pulido estructural (categorización de programas, `resumenClave` en los
+3 proyectos clave, vídeos reordenados por utilidad). Ficha lista.
 
 ------------------------------------------------------------------------
 
