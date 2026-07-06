@@ -281,11 +281,13 @@ ya os paga el Estado?"), reforzada con un argumento de escala global
 2025 en Socorros (playas) y Medio ambiente (programa con bp), y un
 reconocimiento externo en Empleo (premio CIO 100 Awards 2025).
 
-**Estado final Cruz Roja:** ✅ Datos verificados · ✅ Auditoría de
-captación cerrada · ✅ Estilo editorial aplicado (`GUIA_EDITORIAL.md`:
-párrafos en `claim`, `problema` y los 13 `desc` de programas) · ✅
-Pulido estructural (categorización de programas, `resumenClave` en los
-3 proyectos clave, vídeos reordenados por utilidad). Ficha lista.
+**Estado Cruz Roja:** ✅ Datos verificados · ✅ Auditoría de captación
+cerrada · ✅ Estilo editorial aplicado (`GUIA_EDITORIAL.md`: párrafos en
+`claim`, `problema` y los 13 `desc` de programas) · ✅ Pulido
+estructural (categorización de programas, `resumenClave` en los 3
+proyectos clave, vídeos reordenados por utilidad) · 🔲 Procesamiento de
+recursos aportados por el usuario y pulido final en curso — no dar la
+ficha por cerrada todavía.
 
 ------------------------------------------------------------------------
 
