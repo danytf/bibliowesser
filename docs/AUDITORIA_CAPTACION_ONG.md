@@ -226,8 +226,10 @@ Bien cubiertos en `motivosSocio`: amplitud de la red (ninguna otra
 organización cubre el mismo espectro en un solo día), 160 años de
 historia convertidos en capacidad demostrada en la DANA, principio de
 neutralidad (el "pasaporte" que permite operar en Gaza/Ucrania/Sudán),
-cercanía de la teleasistencia rural, y transparencia con gestión
-provincial. Es un conjunto de 5 argumentos sólidos y no redundantes.
+cercanía de la teleasistencia rural, y el peso real de la cuota de
+socio (69% de la financiación privada, más que lotería, rifas y Gran
+Premio del Oro juntos). Es un conjunto de 5 argumentos sólidos y no
+redundantes.
 
 ### 5. Datos imprescindibles
 
@@ -242,8 +244,11 @@ la percepción pública de organización "que ya paga el Estado".
 
 ### 6. Argumentario implícito
 
-El argumentario (`captacion.argumentario`, que apunta a los 3 primeros
-`motivosSocio`) cubre bien amplitud, capacidad histórica y neutralidad.
+El argumentario (`captacion.argumentario`) cubre amplitud de la red,
+capacidad histórica y el peso de la cuota de socio (69% de la
+financiación privada) — los tres argumentos más universales para
+cualquier conversación de captación, independientemente de si entra
+o no en terreno internacional.
 
 Los programas de Inclusión social, Teleasistencia y Violencia de
 género dan escala nacional a los fenómenos que narran: soledad no
@@ -291,27 +296,16 @@ de fondos, `motivosSocio`, `speech`, `videos`, `fuentesCompletas` y
 `resumen30`, cada uno revisado en varias pasadas críticas). Ficha
 lista.
 
-El desglose de `fondos` quedó confirmado con fuente exacta: el
-Presupuesto 2026 (1.087,1 M€ de gasto previsto, 1.096,6 M€
-consolidado), aportado directamente por el usuario desde su página 5.
-Reemplaza al desglose anterior de 8 categorías sin fuente (que había
-resistido 3 intentos de verificación contra el Presupuesto Ordinario
-2024, la Memoria 2024 Reducida y el Informe de Auditoría 2024). El
-nuevo desglose son 10 categorías con importe exacto en M€ y porcentaje
-calculado contra el gasto real total (no contra la suma de las 10,
-que solo cubre el 86%): Inclusión Social 55,2% (599,8 M€), Centros
-Sociosanitarios 10,8% (116,9 M€), Empleo 4,8% (52,1 M€), Socorros y
-emergencias 4,7% (50,6 M€), Cooperación Internacional 2,6% (27,8 M€),
-Salud 2,2% (24,1 M€), Formación 2,2% (24,1 M€), Juventud 1,5% (16,6
-M€), Desarrollo local 1,3% (14 M€) y Medio ambiente 0,6% (6 M€).
-
-`motivosSocio` y el `argumentario` de `resumen30` sustituyen el
-argumento de transparencia/ISO-EFQM y el de neutralidad,
-respectivamente, por el dato del 69% (la cuota de socios es la mayor
-fuente de financiación privada, más que lotería+rifas+Gran Premio del
-Oro) — un argumento más universal para cualquier conversación de
-captación, verificado en el Informe de Auditoría de Cuentas Anuales
-2024 (EY).
+El desglose de `fondos` (fuente: Presupuesto 2026, 1.087,1 M€ de gasto
+previsto / 1.096,6 M€ consolidado) tiene 10 categorías con importe
+exacto en M€ y porcentaje calculado contra el gasto real total (las 10
+suman el 86% del gasto; el resto se destina a transformación,
+tecnología, soporte, financiación y gobernanza): Inclusión Social
+55,2% (599,8 M€), Centros Sociosanitarios 10,8% (116,9 M€), Empleo
+4,8% (52,1 M€), Socorros y emergencias 4,7% (50,6 M€), Cooperación
+Internacional 2,6% (27,8 M€), Salud 2,2% (24,1 M€), Formación 2,2%
+(24,1 M€), Juventud 1,5% (16,6 M€), Desarrollo local 1,3% (14 M€) y
+Medio ambiente 0,6% (6 M€).
 
 ------------------------------------------------------------------------
 
