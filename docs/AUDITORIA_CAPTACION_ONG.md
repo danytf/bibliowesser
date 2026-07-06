@@ -289,20 +289,17 @@ proyectos clave, vídeos reordenados por utilidad) · 🔲 Procesamiento de
 recursos aportados por el usuario y pulido final en curso — no dar la
 ficha por cerrada todavía.
 
-El desglose de `fondos` (8 categorías: Inclusión social 52%, Centros
-sociosanitarios 13%, Promoción de fondos 8%, Empleo 6%, Socorros y
-emergencias 5%, Internacional 4%, Servicios tecnológicos digitales 3%,
-resto 9%) sigue sin `fondosNota` con fuente exacta tras revisar 3
-documentos oficiales distintos: el Presupuesto Ordinario 2024, la
-Memoria 2024 Reducida completa y el Informe de Auditoría de Cuentas
-Anuales 2024 (EY, procesado renderizando el PDF escaneado a imagen, ya
-que no tenía capa de texto). Ninguno trae el gasto desglosado por área
-de intervención — el Informe de Auditoría sí trajo, en cambio, el
-desglose de ingresos por captación de recursos (cuota de socios 69% de
-lo captado de fuentes privadas), ya incorporado en `cifras`. Esta
-búsqueda del desglose de `fondos` se da por cerrada salvo que aparezca
-en el futuro un documento de naturaleza distinta (memoria de
-actividades con desglose interno de gasto por programa).
+El desglose de `fondos` quedó por fin confirmado con fuente exacta: el
+Presupuesto 2026 (932 M€ en total), aportado directamente por el
+usuario desde su página 5. Reemplaza al desglose anterior de 8
+categorías sin fuente (que había resistido 3 intentos de verificación
+contra el Presupuesto Ordinario 2024, la Memoria 2024 Reducida y el
+Informe de Auditoría 2024). El nuevo desglose son 10 categorías con
+importe exacto en M€: Inclusión Social 64,4% (599,8 M€), Centros
+Sociosanitarios 12,5% (116,9 M€), Empleo 5,6% (52,1 M€), Socorros y
+emergencias 5,4% (50,6 M€), Cooperación Internacional 3% (27,8 M€),
+Salud 2,6% (24,1 M€), Formación 2,6% (24,1 M€), Juventud 1,8% (16,6
+M€), Desarrollo local 1,5% (14 M€) y Medio ambiente 0,6% (6 M€).
 
 ------------------------------------------------------------------------
 
