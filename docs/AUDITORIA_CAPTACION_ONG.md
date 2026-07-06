@@ -173,8 +173,10 @@ Estado?", "¿de verdad estamos mejorando?").
 cerrada · ✅ Estilo editorial aplicado (`GUIA_EDITORIAL.md`: párrafos en
 `claim`, `problema` y los 13 `desc` de programas) · ✅ Coherencia
 narrativa entre claim, cifras, problema, motivosSocio, programas y 30
-segundos · ✅ Categorización visual de programas (5 categorías). Ficha
-lista.
+segundos · ✅ Categorización visual de programas (5 categorías) · ✅
+Fuentes reducidas a las imprescindibles (15, todas verificadas
+accesibles) · ✅ Vídeos ordenados de más a menos útiles para
+captación en vivo. Ficha lista.
 
 ------------------------------------------------------------------------
 
