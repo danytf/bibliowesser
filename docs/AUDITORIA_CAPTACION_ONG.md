@@ -768,10 +768,11 @@ en vez de mostrar un reparto sin respaldo — mismo criterio que la FJC.
 ### 6. Argumentario implícito
 
 El argumentario (`captacion.argumentario`, los 3 primeros
-`motivosSocio`) es Mujer y Corazón, Ariadna, SEC — coherente con los
-"3 proyectos clave" de la vista de 30 segundos (Mujer y Corazón,
-PACS/Ariadna, Investigación e I+D), con redacción en prosa propia
-(`resumenClave`) para esos 3 programas en vez de una lista de cifras.
+`motivosSocio`) es Mujer y Corazón, Ariadna, SEC (ciencia traducida a
+la calle: PASFEC/Cardioescuelas/PECS) — coherente con los "3 proyectos
+clave" de la vista de 30 segundos (Mujer y Corazón, PACS/Ariadna,
+Cardioescuelas), con redacción en prosa propia (`resumenClave`) para
+esos 3 programas en vez de una lista de cifras.
 
 ### 7. Carencias
 
