@@ -98,14 +98,14 @@ está redactado casi como argumentario.
 ### 3. Programas
 
 Sección excelente, la más completa de las auditadas hasta ahora: 13
-programas organizados en 5 categorías visuales en el acordeón —
+programas organizados en 4 categorías visuales en el acordeón —
 Investigación y ciencia (Investigación oncológica, Colaboración
 internacional, Talento investigador, AECC INNOVA, Ciencia para Todos y
-Patient Advocacy), Apoyo al paciente (Trabajo social/orientación/
-alojamiento, Psicooncología, Cuidados paliativos, Ejercicio físico
-oncológico), Prevención, Comunidad y voluntariado (Voluntariado,
-Observatorio/incidencia social/Comunidad de pacientes) y Calidad
-institucional (Acreditación de Centros). Un captador puede responder
+Patient Advocacy, Acreditación de Centros), Apoyo al paciente (Trabajo
+social/orientación/alojamiento, Psicooncología, Cuidados paliativos,
+Ejercicio físico oncológico), Prevención y Comunidad y voluntariado
+(Voluntariado, Observatorio/incidencia social/Comunidad de pacientes).
+Un captador puede responder
 con datos concretos a prácticamente cualquier pregunta sobre "¿en qué
 se usa mi dinero exactamente?". Incluye además 3 casos de investigación
 nombrados con investigador y resultado concreto (melanoma, cáncer
@@ -173,10 +173,11 @@ Estado?", "¿de verdad estamos mejorando?").
 cerrada · ✅ Estilo editorial aplicado (`GUIA_EDITORIAL.md`: párrafos en
 `claim`, `problema` y los 13 `desc` de programas) · ✅ Coherencia
 narrativa entre claim, cifras, problema, motivosSocio, programas y 30
-segundos · ✅ Categorización visual de programas (5 categorías) · ✅
-Fuentes reducidas a las imprescindibles (15, todas verificadas
-accesibles) · ✅ Vídeos ordenados de más a menos útiles para
-captación en vivo. Ficha lista.
+segundos · ✅ Categorización visual de programas (4 categorías,
+Acreditación de Centros integrada en Investigación y ciencia por ser
+el mismo tema) · ✅ Fuentes reducidas a las imprescindibles (15, todas
+verificadas accesibles) · ✅ Vídeos ordenados de más a menos útiles
+para captación en vivo. Ficha lista.
 
 ------------------------------------------------------------------------
 
