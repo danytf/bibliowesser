@@ -210,7 +210,7 @@ fácil de convertir en discurso.
 
 ### 3. Programas
 
-La sección más extensa de las auditadas hasta ahora: 13 programas que
+La sección más extensa de las auditadas hasta ahora: 14 programas que
 cubren emergencias, salud, inclusión social, empleo, teleasistencia,
 infancia, cooperación internacional, migración/asilo, violencia de
 género, cuidado de cuidadores (SerCuidadorA), juventud, medio ambiente,
@@ -276,9 +276,11 @@ explícita:
 
 La ficha de Cruz Roja es, en volumen y calidad de programas, la más
 completa del proyecto — cubre 14 áreas con testimonios nombrados ya
-integrados, agrupadas en 7 categorías temáticas (Emergencias y
-respuesta, Salud y cuidados, Inclusión social, Empleo y autonomía,
-Infancia y juventud, Acción internacional, Medio ambiente y comunidad).
+integrados, agrupadas en 7 categorías temáticas, ordenadas siguiendo un
+arco de ciclo de vida y jerarquía de necesidades (Emergencias y
+respuesta, Infancia y juventud, Inclusión social, Empleo y autonomía,
+Salud y cuidados, Acción internacional, Comunidad, formación y medio
+ambiente).
 Visión, Problema, Programas y Diferenciadores están listos para formar
 a un captador sin matices, y la ficha ya responde a la objeción más
 específica y probable de Cruz Roja ("¿por qué necesitáis mi dinero si
@@ -289,16 +291,16 @@ reconocimiento externo en Empleo (premio CIO 100 Awards 2025).
 
 **Estado Cruz Roja:** ✅ Datos verificados · ✅ Auditoría de captación
 cerrada · ✅ Estilo editorial aplicado (`GUIA_EDITORIAL.md`: párrafos en
-`claim`, `problema` y los 13 `desc` de programas) · ✅ Pulido
-estructural (categorización de programas, `resumenClave` en los 3
-proyectos clave, vídeos reordenados por utilidad) · ✅ Pulido narrativo
+`claim`, `problema` y los 14 `desc` de programas) · ✅ Pulido
+estructural (categorización y orden de categorías, `resumenClave` en
+los 3 proyectos clave, vídeos reordenados por utilidad) · ✅ Pulido narrativo
 completo (`claim`, cifras clave, `problema`, los 14 `programas`, uso
 de fondos, `motivosSocio`, `speech`, `videos`, `fuentesCompletas` y
 `resumen30`, cada uno revisado en varias pasadas críticas). Ficha
 lista.
 
 El desglose de `fondos` (fuente: Presupuesto 2026, 1.087,1 M€ de gasto
-previsto / 1.096,6 M€ consolidado) tiene 10 categorías con importe
+previsto, distinto de los 1.096,6 M€ de presupuesto consolidado) tiene 10 categorías con importe
 exacto en M€ y porcentaje calculado contra el gasto real total (las 10
 suman el 86% del gasto; el resto se destina a transformación,
 tecnología, soporte, financiación y gobernanza): Inclusión Social
