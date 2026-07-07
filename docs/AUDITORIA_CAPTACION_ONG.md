@@ -437,13 +437,13 @@ de Europa).
 Muy bien resuelto: arranca con la estadística que humaniza el
 problema (3 de cada 4 pacientes sin familiar compatible, probabilidad
 de 1 entre 3.500 con un desconocido), y ya incluye un caso real y
-verificable (Hugo, donante que salvó una vida en 2020) en vez de
+verificable (Amanda, donante que salvó una vida en 2020) en vez de
 quedarse solo en lo abstracto.
 
 ### 3. Programas
 
 10 programas con datos muy precisos y actualizados a 2025: REDMO
-(con los testimonios reales de Hugo y Pastora), proceso de donación,
+(con los testimonios reales de Amanda y Pastora), proceso de donación,
 Instituto de Investigación, avances científicos 2025-2026, Pisos de
 Acogida, spin-offs (OneChain, Leukos), red WMDA/cordón umbilical,
 Comunidad Imparable (socios y campañas), Programa de Experiencia del
@@ -494,7 +494,7 @@ una colaboración oficial, que ya está incorporado en `motivosSocio #1`.
 
 La ficha de FJC es sólida en Visión, Problema, Programas y
 Diferenciadores, con testimonios reales ya integrados de forma nativa
-(Hugo, Pastora, el vídeo de Carmen) — algo que en otras ONGs del
+(Amanda, Pastora, el vídeo de Carmen) — algo que en otras ONGs del
 proyecto fue una carencia y aquí no lo es. La única carencia detectada
 —el mandato oficial del Ministerio de Sanidad podía sugerir
 financiación estatal sin contrapartida— ya está resuelta con un dato
