@@ -458,14 +458,16 @@ function tabColorVars(hex){
 }
 function renderTabs(){
   var h='';
-  for(let i=0;i<ONGS.length;i++){var o=ONGS[i],sel=o.id===state.currentOng;h+=`<button type="button" class="otab${sel?' active':''}" id="tab-${o.id}" data-id="${o.id}" role="tab" aria-selected="${sel?'true':'false'}" aria-controls="fichaView" tabindex="${sel?'0':'-1'}" aria-label="${esc(o.full)}${sel&&state.captacionMode?' (vista rápida)':''}" title="${esc(o.full)}" style="${tabColorVars(o.color)}"><span class="otab-main">${o.emoji} ${esc(o.nombre)}${sel&&state.captacionMode?'<span class="cap-badge" aria-hidden="true">30s</span>':''}</span><span class="otab-full" aria-hidden="true">${esc(o.full)}</span></button>`;}
+  for(let i=0;i<ONGS.length;i++){var o=ONGS[i],sel=o.id===state.currentOng,showBadge=sel&&state.captacionMode&&!!o.captacion;h+=`<button type="button" class="otab${sel?' active':''}" id="tab-${o.id}" data-id="${o.id}" role="tab" aria-selected="${sel?'true':'false'}" aria-controls="fichaView" tabindex="${sel?'0':'-1'}" aria-label="${esc(o.full)}${showBadge?' (vista rápida)':''}" title="${esc(o.full)}" style="${tabColorVars(o.color)}"><span class="otab-main">${o.emoji} ${esc(o.nombre)}${showBadge?'<span class="cap-badge" aria-hidden="true">30s</span>':''}</span><span class="otab-full" aria-hidden="true">${esc(o.full)}</span></button>`;}
   dom.tabs.innerHTML=h;
 }
 /* Actualiza selección y badge "30s" sin reconstruir la lista de tabs */
 function updateTabs(){
   dom.tabs.querySelectorAll('.otab').forEach(function(b){
-    var sel=b.getAttribute('data-id')===state.currentOng;
-    var showBadge=sel&&state.captacionMode;
+    var dataId=b.getAttribute('data-id');
+    var sel=dataId===state.currentOng;
+    var ong=ONG_BY_ID[dataId];
+    var showBadge=sel&&state.captacionMode&&!!(ong&&ong.captacion);
     b.classList.toggle('active',sel);
     b.setAttribute('aria-selected',sel?'true':'false');
     b.setAttribute('tabindex',sel?'0':'-1');
@@ -648,6 +650,7 @@ function fichaClick(e){
 }
 function tabKeydown(e){
   var tabs=Array.from(dom.tabs.querySelectorAll('.otab'));
+  if(!tabs.length)return;
   var idx=tabs.findIndex(function(t){return t.getAttribute('data-id')===state.currentOng;});
   var next=-1;
   if(e.key==='ArrowRight'||e.key==='ArrowDown') next=(idx+1)%tabs.length;
@@ -669,6 +672,11 @@ window.addEventListener('DOMContentLoaded',function(){
   if(dom.body.classList.contains('light')){dom.themeBtn.textContent='☀️';dom.themeBtn.setAttribute('aria-pressed','true');}
   dom.themeBtn.addEventListener('click',toggleTheme);
   renderTabs();renderFicha();
+  /* el HTML estático trae aria-labelledby="tab-aecc" a modo de valor por defecto;
+     se corrige aquí para que siempre apunte a la ONG realmente activa (relevante
+     si algún bloque JSON falla al parsear y ONGS[0] deja de ser AECC) */
+  if(state.currentOng)dom.ficha.setAttribute('aria-labelledby','tab-'+state.currentOng);
+  else dom.ficha.removeAttribute('aria-labelledby');
   dom.tabs.addEventListener('click',tabsClick);
   dom.tabs.addEventListener('keydown',tabKeydown);
   dom.ficha.addEventListener('click',fichaClick);
