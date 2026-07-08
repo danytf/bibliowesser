@@ -45,7 +45,10 @@ body.light{
 }
 /* Derivados del color de la ONG activa (--ong-c la fija el render en .fwrap/.cwrap);
    los consume el modo claro para oscurecer acentos y mantener contraste */
-.fwrap,.cwrap{--ong-dk:color-mix(in srgb,var(--ong-c,var(--brand)) 62%,#000);--ong-md:color-mix(in srgb,var(--ong-c,var(--brand)) 75%,#000)}
+.fwrap,.cwrap{--ong-dk:color-mix(in srgb,var(--ong-c,var(--brand)) 62%,#000);--ong-md:color-mix(in srgb,var(--ong-c,var(--brand)) 75%,#000);
+  /* stops compartidos por .hband/.chero: mismo color, solo cambia el ángulo/forma por componente */
+  --brand-grad-dark:color-mix(in srgb,var(--ong-c,var(--brand)) 60%,#000) 0%,color-mix(in srgb,var(--ong-c,var(--brand)) 58%,#0a1322) 100%;
+  --brand-grad-light:color-mix(in srgb,var(--ong-c,var(--brand)) 60%,#000) 0%,color-mix(in srgb,var(--ong-c,var(--brand)) 62%,#241a10) 100%}
 
 /* ==================================================
    BASE
@@ -115,7 +118,7 @@ body.light::after{opacity:.04}
 .hband{position:relative;height:112px;display:flex;align-items:center;gap:1.05rem;padding:0 var(--s-5);isolation:isolate;background:
   radial-gradient(130% 190% at 88% -30%,rgba(255,255,255,.16) 0%,transparent 52%),
   radial-gradient(150% 220% at -10% 130%,rgba(3,9,20,.5) 0%,transparent 58%),
-  linear-gradient(100deg,color-mix(in srgb,var(--ong-c,var(--brand)) 60%,#000) 0%,color-mix(in srgb,var(--ong-c,var(--brand)) 58%,#0a1322) 100%)}
+  linear-gradient(100deg,var(--brand-grad-dark))}
 /* filo de luz superior, simula una única fuente de luz cenital */
 .hband::before{content:'';position:absolute;inset:0 0 auto 0;height:1px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.35) 30%,rgba(255,255,255,.12) 70%,transparent);z-index:1}
 .hemoji{font-size:3.4rem;flex-shrink:0;filter:drop-shadow(0 3px 10px rgba(3,9,20,.45));line-height:1}
@@ -227,7 +230,7 @@ body:not(.light) .csrc{color:#85a0c0}
 /* ==================================================
    CAPTACIÓN · vista "en 30 segundos"
 ================================================== */
-.cappill{display:flex;align-items:center;justify-content:center;gap:.35rem;width:100%;background:linear-gradient(175deg,#f03030 0%,var(--brand) 45%,#c01212 100%);color:#fff;border:none;border-radius:var(--r-lg);padding:.9rem .8rem;font-size:var(--t-base);font-weight:700;cursor:pointer;font-family:inherit;transition:transform .18s var(--ease-out),box-shadow .18s;box-shadow:0 2px 12px rgba(229,26,26,.25),inset 0 1px 0 rgba(255,255,255,.2);min-height:44px}
+.cappill{display:flex;align-items:center;justify-content:center;gap:.35rem;width:100%;background:linear-gradient(175deg,color-mix(in srgb,var(--brand) 90%,#fff) 0%,var(--brand) 45%,color-mix(in srgb,var(--brand) 85%,#000) 100%);color:#fff;border:none;border-radius:var(--r-lg);padding:.9rem .8rem;font-size:var(--t-base);font-weight:700;cursor:pointer;font-family:inherit;transition:transform .18s var(--ease-out),box-shadow .18s;box-shadow:0 2px 12px rgba(229,26,26,.25),inset 0 1px 0 rgba(255,255,255,.2);min-height:44px}
 .cappill:hover{transform:translateY(-2px);box-shadow:0 8px 24px -4px rgba(229,26,26,.45),inset 0 1px 0 rgba(255,255,255,.2)}
 .cappill:active{transform:scale(.97)}
 .cappill-back{background:var(--bg2);border:1px solid var(--border);color:var(--text);font-weight:600;box-shadow:var(--sh-1)}
@@ -240,7 +243,7 @@ body.light .cappill-sec{background:var(--bg2)}
 .chero{position:relative;border-radius:var(--r-lg);padding:var(--s-5) var(--s-4);min-height:120px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:var(--s-2);text-align:center;color:#fff;box-shadow:var(--sh-2);background:
   radial-gradient(120% 160% at 50% -40%,rgba(255,255,255,.17) 0%,transparent 55%),
   radial-gradient(160% 200% at 50% 150%,rgba(3,9,20,.45) 0%,transparent 60%),
-  linear-gradient(170deg,color-mix(in srgb,var(--ong-c,var(--brand)) 60%,#000) 0%,color-mix(in srgb,var(--ong-c,var(--brand)) 58%,#0a1322) 100%)}
+  linear-gradient(170deg,var(--brand-grad-dark))}
 .chero::before{content:'';position:absolute;inset:0 0 auto 0;height:1px;border-radius:var(--r-lg) var(--r-lg) 0 0;background:linear-gradient(90deg,transparent,rgba(255,255,255,.35),transparent)}
 .cemoji{font-size:3.5rem;line-height:1;filter:drop-shadow(0 3px 10px rgba(3,9,20,.45))}
 .ctitle{font-size:var(--t-xl);font-weight:800;letter-spacing:-.025em;text-shadow:0 1px 4px rgba(0,0,0,.3);line-height:1.2}
@@ -272,7 +275,7 @@ body.light .fsec-h.open .fsec-arr,body.light .prog.open .parr,body.light .phdr:h
 body.light .hband,body.light .chero{background:
   radial-gradient(130% 190% at 88% -30%,rgba(255,255,255,.2) 0%,transparent 52%),
   radial-gradient(150% 220% at -10% 130%,rgba(35,22,8,.4) 0%,transparent 58%),
-  linear-gradient(100deg,color-mix(in srgb,var(--ong-c,var(--brand)) 60%,#000) 0%,color-mix(in srgb,var(--ong-c,var(--brand)) 62%,#241a10) 100%)}
+  linear-gradient(100deg,var(--brand-grad-light))}
 body.light .mchip{background:var(--bg2);border-color:var(--border-2)}
 body.light .wlink{background:var(--bg3);color:var(--text)}
 body.light .speech-part{background:color-mix(in srgb,var(--bg3) 40%,var(--bg2));border-left-color:var(--ong-md)}
