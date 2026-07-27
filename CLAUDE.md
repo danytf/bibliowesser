@@ -6,6 +6,14 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Biblioteca ONG · Wesser — a single-file internal reference app (`index.html`, ~265KB) used by Wesser's commercial/fundraising team to quickly look up facts, figures, and talking points for the 7 NGOs they represent. Not a public-facing site.
 
+There are **two independent HTML deliverables**:
+- **`index.html`** — the intranet version, video links point to YouTube. This is the primary/source file for all content editing.
+- **`index-tablet.html`** — the tablet version, handed out on company tablets without reliable internet. Content-identical to `index.html` except: (1) each NGO's `videos` array is trimmed to a curated 3-video selection, and (2) those video `url`s point to local files (`videos/{ongId}/{slug}.mp4`) instead of YouTube. `safeUrl()` in this file is patched to also allow `videos/*/*.mp4` relative paths (the original only allows `http(s)://`).
+
+**These two files are maintained independently, not auto-synced.** Any content edit that isn't about videos (cifras, textos, programas, captación, etc.) must be applied to both files by hand. `scripts/make-tablet.js` exists only as the one-time generator used to bootstrap `index-tablet.html` from `index.html` — it is not a build step to run routinely; if a large resync is ever needed, it can be re-run and re-adapted (it re-derives the video selection and the `safeUrl` patch from a hardcoded `SELECCION` map, and would need updating for any other diff between the files).
+
+Video files themselves (`.mp4`) are not committed to git (`videos/**/*.mp4` in `.gitignore`, large binaries handled outside version control) — only a `videos/{ongId}/README.md` per NGO listing the exact filenames the tablet HTML expects. Actual `.mp4` files must be placed on the tablet manually with those exact names.
+
 ## Commands
 
 There is no build, bundler, package manager, or test suite. This is a static HTML file with everything inline (CSS in `<style>`, JS in `<script>`, data in embedded `<script type="application/json">` blocks). To "run" it, just open `index.html` in a browser (or use a local static server / the `run` skill for a quick check after edits).
