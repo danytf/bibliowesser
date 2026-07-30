@@ -1,6 +1,11 @@
 // Genera index-tablet.html a partir de index.html: mismo contenido, pero
 // el array `videos` de cada ONG se recorta a una seleccion curada y las
 // URLs de YouTube se sustituyen por rutas locales videos/{ong}/{slug}.mp4
+//
+// Ojo: aparte del array `videos`, cada ONG tiene un video destacado en
+// captacion.resumen30.videoDestacado que alimenta la vista de 30 segundos.
+// Tambien hay que localizarlo, y su titulo debe estar en SELECCION para que
+// el .mp4 exista en la tablet.
 const fs = require('fs');
 const path = require('path');
 
@@ -18,6 +23,7 @@ const SELECCION = {
     '160 Aniversario de Cruz Roja Española',
     'Historia Extraordinaria — José Ignacio, un ejemplo a seguir',
     'Así fue 2025 — Cruz Roja Española',
+    'Historia Extraordinaria — Adiós Soledad: Jerónima y Ramona', // videoDestacado
   ],
   wwf: [
     'WWF Informe Planeta Vivo 2024 — La naturaleza está desapareciendo',
@@ -43,6 +49,7 @@ const SELECCION = {
     '¿Qué hacemos en Aldeas Infantiles SOS?',
     'Dos hermanas, una historia de vida: crecer en Aldeas Infantiles SOS',
     'AcogES+: Tú puedes dar una oportunidad a niños, niñas y adolescentes',
+    'Ponle una sonrisa a la vida', // videoDestacado
   ],
 };
 
@@ -100,7 +107,24 @@ for (const id of Object.keys(SELECCION)) {
 
   const { keyStart, end } = findVideosSpan(line);
   const newArr = '"videos":' + JSON.stringify(filtered);
-  lines[lineIdx] = line.slice(0, keyStart) + newArr + line.slice(end);
+  let newLine = line.slice(0, keyStart) + newArr + line.slice(end);
+
+  // El video destacado de la vista de 30s vive en captacion.resumen30, fuera del
+  // array `videos`. Si no se localiza tambien, en la tablet ese enlace sigue
+  // pidiendo YouTube y no abre nada sin conexion.
+  const vd = data.captacion && data.captacion.resumen30 && data.captacion.resumen30.videoDestacado;
+  if (vd) {
+    if (!wanted.includes(vd.titulo)) {
+      throw new Error(`el videoDestacado de ${id} no esta en SELECCION, su .mp4 no existiria: ${vd.titulo}`);
+    }
+    const hits = newLine.split(vd.url).length - 1;
+    if (hits !== 1) {
+      throw new Error(`la url del videoDestacado de ${id} aparece ${hits} veces, sustitucion ambigua`);
+    }
+    newLine = newLine.replace(vd.url, `videos/${id}/${slug(vd.titulo)}.mp4`);
+  }
+
+  lines[lineIdx] = newLine;
 }
 
 let out = lines.join('\n');
@@ -122,6 +146,12 @@ let m, total = 0;
 while ((m = re.exec(check))) {
   const d = JSON.parse(m[2]);
   console.log(m[1], '-> videos:', d.videos.length, d.videos.map(v => v.url));
+  const vd = d.captacion && d.captacion.resumen30 && d.captacion.resumen30.videoDestacado;
+  if (vd) {
+    if (!/^videos\//.test(vd.url)) throw new Error(`${m[1]}: videoDestacado sigue apuntando fuera -> ${vd.url}`);
+    if (!d.videos.some(v => v.url === vd.url)) throw new Error(`${m[1]}: videoDestacado apunta a un .mp4 que no esta en la seleccion -> ${vd.url}`);
+    console.log(m[1], '-> videoDestacado:', vd.url);
+  }
   total++;
 }
 console.log('bloques verificados:', total);
