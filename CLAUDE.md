@@ -14,7 +14,7 @@ There are **two independent HTML deliverables**:
 
 **These two files are maintained independently, not auto-synced.** Any content edit that isn't about videos (cifras, textos, programas, captación, etc.) must be applied to both files by hand. `scripts/make-tablet.js` exists only as the one-time generator used to bootstrap `index-tablet.html` from `index.html` — it is not a build step to run routinely; if a large resync is ever needed, it can be re-run and re-adapted (it re-derives the video selection and the `safeUrl` patch from a hardcoded `SELECCION` map, and would need updating for any other diff between the files).
 
-The `videos/` directory (a `README.md` per NGO listing expected `.mp4` filenames; `videos/**/*.mp4` is gitignored) is a leftover of the earlier approach where the tablet played local files. Nothing in either HTML references it any more.
+An earlier iteration had the tablet play `.mp4` files shipped on the device, under a `videos/` directory. That is gone: every video now streams from YouTube. The `"visor":true` code path in `vidAttrs()`/`openVideo()` (play a local mp4 in the same fullscreen viewer) and the `videos/*/*.mp4` branch of `safeUrl()` survive from it, unused but working.
 
 ### Fullscreen video viewer (tablet only)
 
