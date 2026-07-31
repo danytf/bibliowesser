@@ -679,50 +679,60 @@ function toggleAllSections(btn){
    Los vídeos con campo "yt" no abren YouTube en otra pestaña: se cargan en un
    iframe dentro del propio app, con la Fullscreen API para que desaparezcan las
    barras del navegador y un escudo que impide tocar nada del reproductor.
-   La IFrame API de YouTube es una mejora opcional (botón de pausa y cierre
-   automático al terminar): si no llega a cargar, el visor funciona igual.
-================================================== */
-var YT_EMBED='https://www.youtube-nocookie.com/embed/',
-    YT_PARAMS='?autoplay=1&playsinline=1&controls=0&disablekb=1&fs=0&rel=0&iv_load_policy=3&modestbranding=1&enablejsapi=1',
-    ytPlayer=null,ytApiPedida=false;
 
-function loadYTApi(){
-  if(ytApiPedida||window.YT)return;
-  ytApiPedida=true;
-  var s=document.createElement('script');
-  s.src='https://www.youtube.com/iframe_api';
-  s.onerror=function(){ytApiPedida=false;};
-  document.head.appendChild(s);
-}
-/* callback global que invoca la propia API de YouTube al terminar de cargarse */
-window.onYouTubeIframeAPIReady=function(){attachYTPlayer();};
+   El reproductor se controla por postMessage contra el propio iframe, NO cargando
+   la IFrame API desde www.youtube.com. Es deliberado: así el allowlist de la tablet
+   se queda en youtube-nocookie.com y *.googlevideo.com, sin necesidad de abrir
+   www.youtube.com (que arrastraría /watch y /results). El embed solo emite eventos
+   si lleva enablejsapi=1 y recibe antes un mensaje "listening".
+================================================== */
+var YT_ORIGIN='https://www.youtube-nocookie.com',
+    YT_EMBED=YT_ORIGIN+'/embed/',
+    YT_PARAMS='?autoplay=1&playsinline=1&controls=0&disablekb=1&fs=0&rel=0&iv_load_policy=3&modestbranding=1&enablejsapi=1',
+    ytEstado=-1,ytPing=null;
 
 function setPlayLabel(playing){dom.vfsPlay.textContent=playing?'⏸ Pausa':'▶ Reanudar';}
 
-function attachYTPlayer(){
+function ytEnviar(msg){
   var f=document.getElementById('vfsFrame');
-  if(!f||ytPlayer||!window.YT||!window.YT.Player)return;
-  ytPlayer=new YT.Player(f,{events:{
-    onReady:function(){dom.vfsPlay.classList.add('on');setPlayLabel(true);},
-    onStateChange:function(e){
-      /* cerrar al acabar evita que llegue a verse la rejilla de vídeos sugeridos */
-      if(e.data===YT.PlayerState.ENDED){closeVideo();return;}
-      if(e.data===YT.PlayerState.PLAYING)setPlayLabel(true);
-      else if(e.data===YT.PlayerState.PAUSED)setPlayLabel(false);
-    }
-  }});
+  if(f&&f.contentWindow)f.contentWindow.postMessage(JSON.stringify(msg),YT_ORIGIN);
+}
+/* El embed no emite nada hasta recibir "listening"; se repite unas cuantas veces
+   porque el primer envío puede llegar antes de que el reproductor esté listo. */
+function ytHandshake(){
+  var n=0;
+  clearInterval(ytPing);
+  ytPing=setInterval(function(){
+    ytEnviar({event:'listening',id:1,channel:'widget'});
+    if(++n>10)clearInterval(ytPing);
+  },300);
+}
+function ytMensaje(e){
+  if(dom.vfs.hidden||e.origin!==YT_ORIGIN)return;
+  var d;try{d=typeof e.data==='string'?JSON.parse(e.data):e.data;}catch(err){return;}
+  if(!d)return;
+  /* el estado llega dentro de infoDelivery.info.playerState y, según el caso,
+     también como onStateChange.info: se aceptan los dos formatos */
+  var st=(d.info&&typeof d.info.playerState==='number')?d.info.playerState
+        :((d.event==='onStateChange'&&typeof d.info==='number')?d.info:null);
+  if(st===null)return;
+  clearInterval(ytPing);
+  ytEstado=st;
+  dom.vfsPlay.classList.add('on');
+  if(st===0){closeVideo();return;}   /* 0 = terminado: cerrar antes de que se vean los sugeridos */
+  if(st===1)setPlayLabel(true);
+  else if(st===2)setPlayLabel(false);
 }
 function togglePlay(){
   var vd=document.getElementById('vfsVideo');
   if(vd){if(vd.paused)vd.play();else vd.pause();return;}
-  if(!ytPlayer||!ytPlayer.getPlayerState)return;
-  if(ytPlayer.getPlayerState()===YT.PlayerState.PLAYING)ytPlayer.pauseVideo();else ytPlayer.playVideo();
+  ytEnviar({event:'command',func:ytEstado===1?'pauseVideo':'playVideo',args:[],id:1,channel:'widget'});
 }
 /* Abre el visor. Dos fuentes posibles:
    - src local .mp4  -> <video> nativo, funciona sin red y sin nada de YouTube
    - id de YouTube   -> iframe embebido; OJO: YouTube rechaza el embed con "Error 153"
      si la página se abre como file://, así que esta rama solo sirve si el HTML se
-     sirve por http(s). Se deja lista por si algún día se publica en un servidor. */
+     sirve por http(s), que es como se despliega en la intranet. */
 function openVideo(src,titulo,esYT){
   if(esYT)
     dom.vfsMount.innerHTML='<iframe id="vfsFrame" src="'+YT_EMBED+src+YT_PARAMS+'" title="'+esc(titulo||'Vídeo')+'" allow="autoplay; encrypted-media" referrerpolicy="strict-origin-when-cross-origin"></iframe>';
@@ -735,7 +745,13 @@ function openVideo(src,titulo,esYT){
   var req=dom.vfs.requestFullscreen||dom.vfs.webkitRequestFullscreen;
   if(req){var p=req.call(dom.vfs);if(p&&p.catch)p.catch(function(){});}
   dom.vfsClose.focus();
-  if(esYT){loadYTApi();attachYTPlayer();return;}
+  if(esYT){
+    ytEstado=-1;
+    var f=document.getElementById('vfsFrame');
+    f.addEventListener('load',ytHandshake);   /* por si el iframe tarda más que los pings iniciales */
+    ytHandshake();
+    return;
+  }
   var vd=document.getElementById('vfsVideo');
   dom.vfsPlay.classList.add('on');setPlayLabel(true);
   vd.addEventListener('ended',closeVideo);
@@ -744,8 +760,8 @@ function openVideo(src,titulo,esYT){
 }
 function closeVideo(){
   if(dom.vfs.hidden)return;
-  if(ytPlayer&&ytPlayer.destroy){try{ytPlayer.destroy();}catch(e){}}
-  ytPlayer=null;
+  clearInterval(ytPing);
+  ytEstado=-1;
   dom.vfsMount.innerHTML='';   /* quitar el iframe corta la reproducción */
   dom.vfsPlay.classList.remove('on');
   dom.vfs.hidden=true;
@@ -815,6 +831,7 @@ window.addEventListener('DOMContentLoaded',function(){
   dom.ficha.addEventListener('click',fichaClick);
   dom.vfsClose.addEventListener('click',closeVideo);
   dom.vfsPlay.addEventListener('click',togglePlay);
+  window.addEventListener('message',ytMensaje);
   document.addEventListener('fullscreenchange',fsChange);
   document.addEventListener('webkitfullscreenchange',fsChange);
   document.addEventListener('keydown',function(e){if(e.key==='Escape')closeVideo();});

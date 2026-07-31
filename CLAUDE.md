@@ -22,10 +22,10 @@ The tablet is restricted to a URL allowlist, but that alone cannot contain YouTu
 
 - `#vfs` overlay + Fullscreen API, so the browser chrome disappears and the user never leaves the page.
 - A transparent `#vfsShield` over the iframe swallows every tap, so the player's title, logo, "Watch on YouTube" and "More videos" are visible but not clickable. The only controls are ours (`#vfsClose`, `#vfsPlay`).
-- The YouTube IFrame API closes the viewer on `ENDED`, so the end-screen suggestion grid never appears. It is an optional enhancement — if the API fails to load, the viewer still works without pause/auto-close.
+- The player is driven by `postMessage` straight at the iframe (`enablejsapi=1` + a `listening` handshake), **deliberately not** by loading the IFrame API from `www.youtube.com`. That is what keeps `www.youtube.com` off the allowlist, and with it `/watch` and `/results`. `ytMensaje()` reads `playerState` and closes the viewer on `0` (ended), so the end-screen suggestion grid never appears.
 - `vidAttrs()` builds the link attributes for both the video list and the featured video: `yt` → embed in the viewer, `visor:true` → local mp4 in the same viewer, neither → plain link opening in a new tab.
 
-Allowlist domains the player needs: `www.youtube-nocookie.com`, `*.googlevideo.com` (wildcard required, the subdomain rotates), `i.ytimg.com`, `yt3.ggpht.com`, `jnn-pa.googleapis.com`, `www.gstatic.com`, `www.google.com`, and `www.youtube.com` restricted to `/iframe_api` and `/s/player/*` so that `/watch` and `/results` stay blocked. Plus `fonts.googleapis.com` / `fonts.gstatic.com` for the page fonts (it degrades to system fonts if blocked).
+Minimum allowlist, verified by blocking everything else and replaying all 23 videos: the page's own URL, `www.youtube-nocookie.com`, and `*.googlevideo.com` (wildcard required — the subdomain rotates per session, `rr1---…`, `rr2---…`). Nothing else is needed: `www.google.com` (one anti-abuse script), `jnn-pa.googleapis.com`, `www.gstatic.com` (the YouTube logo), `i.ytimg.com` / `yt3.ggpht.com` (thumbnails) and `fonts.googleapis.com` / `fonts.gstatic.com` are all optional or cosmetic. Do not add `www.youtube.com` — playback, pause and auto-close all work without it.
 
 ## Commands
 
