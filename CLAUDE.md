@@ -8,11 +8,24 @@ Biblioteca ONG · Wesser — a single-file internal reference app (`index.html`,
 
 There are **two independent HTML deliverables**:
 - **`index.html`** — the intranet version, video links point to YouTube. This is the primary/source file for all content editing.
-- **`index-tablet.html`** — the tablet version, handed out on company tablets without reliable internet. Content-identical to `index.html` except: (1) each NGO's `videos` array is trimmed to a curated 3-video selection, and (2) those video `url`s point to local files (`videos/{ongId}/{slug}.mp4`) instead of YouTube. `safeUrl()` in this file is patched to also allow `videos/*/*.mp4` relative paths (the original only allows `http(s)://`).
+- **`index-tablet.html`** — the tablet version, served from the company intranet and opened on locked-down company tablets. Content-identical to `index.html` except: (1) each NGO's `videos` array is trimmed to a curated 3-4 video selection, and (2) every video (and each `captacion.resumen30.videoDestacado`) carries a `"yt":"<11-char id>"` field, which makes it open in the built-in fullscreen viewer instead of navigating away. `safeUrl()` in this file is also patched to allow `videos/*/*.mp4` relative paths, left over from an earlier local-mp4 approach.
+
+  **The tablet file must be served over http(s), never opened as `file://`** — YouTube rejects embeds with no valid referrer (Error 153). Verified working over plain http on a non-secure origin, so the intranet does not need HTTPS for this.
 
 **These two files are maintained independently, not auto-synced.** Any content edit that isn't about videos (cifras, textos, programas, captación, etc.) must be applied to both files by hand. `scripts/make-tablet.js` exists only as the one-time generator used to bootstrap `index-tablet.html` from `index.html` — it is not a build step to run routinely; if a large resync is ever needed, it can be re-run and re-adapted (it re-derives the video selection and the `safeUrl` patch from a hardcoded `SELECCION` map, and would need updating for any other diff between the files).
 
-Video files themselves (`.mp4`) are not committed to git (`videos/**/*.mp4` in `.gitignore`, large binaries handled outside version control) — only a `videos/{ongId}/README.md` per NGO listing the exact filenames the tablet HTML expects. Actual `.mp4` files must be placed on the tablet manually with those exact names.
+The `videos/` directory (a `README.md` per NGO listing expected `.mp4` filenames; `videos/**/*.mp4` is gitignored) is a leftover of the earlier approach where the tablet played local files. Nothing in either HTML references it any more.
+
+### Fullscreen video viewer (tablet only)
+
+The tablet is restricted to a URL allowlist, but that alone cannot contain YouTube: `youtube.com/watch` is a SPA, so searching or opening another video happens via `pushState` with no page load a URL filter could see. The fix is to never open YouTube's site — only its embed player, inside the app:
+
+- `#vfs` overlay + Fullscreen API, so the browser chrome disappears and the user never leaves the page.
+- A transparent `#vfsShield` over the iframe swallows every tap, so the player's title, logo, "Watch on YouTube" and "More videos" are visible but not clickable. The only controls are ours (`#vfsClose`, `#vfsPlay`).
+- The YouTube IFrame API closes the viewer on `ENDED`, so the end-screen suggestion grid never appears. It is an optional enhancement — if the API fails to load, the viewer still works without pause/auto-close.
+- `vidAttrs()` builds the link attributes for both the video list and the featured video: `yt` → embed in the viewer, `visor:true` → local mp4 in the same viewer, neither → plain link opening in a new tab.
+
+Allowlist domains the player needs: `www.youtube-nocookie.com`, `*.googlevideo.com` (wildcard required, the subdomain rotates), `i.ytimg.com`, `yt3.ggpht.com`, `jnn-pa.googleapis.com`, `www.gstatic.com`, `www.google.com`, and `www.youtube.com` restricted to `/iframe_api` and `/s/player/*` so that `/watch` and `/results` stay blocked. Plus `fonts.googleapis.com` / `fonts.gstatic.com` for the page fonts (it degrades to system fonts if blocked).
 
 ## Commands
 
