@@ -547,7 +547,10 @@ function tabColorVars(hex){
   var c=hexToRgb(hex);
   var white={r:255,g:255,b:255},navy={r:10,g:19,b:34};
   var gradA=mixRgb(c,white,90),gradB=mixRgb(c,navy,78);
-  return `--tab-color:${hex};`
+  /* se reconstruye el hex a partir del rgb ya validado: el valor original nunca
+     se interpola tal cual en el atributo style, aunque venga mal del JSON */
+  var hx='#'+[c.r,c.g,c.b].map(function(n){return ('0'+n.toString(16)).slice(-2);}).join('');
+  return `--tab-color:${hx};`
     +`--tab-bg-a:rgba(${c.r},${c.g},${c.b},.18);`
     +`--tab-bg-a-light:rgba(${c.r},${c.g},${c.b},.14);`
     +`--tab-grad-a:rgb(${gradA.r},${gradA.g},${gradA.b});`
@@ -755,7 +758,8 @@ var YT_ORIGIN='https://www.youtube-nocookie.com',
     ytEstado=-1,ytPing=null,
     ytDur=0,ytPos=0,         /* duración y posición que reporta el reproductor */
     arrastrando=false,       /* el usuario tiene cogida la barra: no la repintamos */
-    ignorarHasta=0;          /* tras un seek, el reproductor aún manda la posición vieja */
+    ignorarHasta=0,          /* tras un seek, el reproductor aún manda la posición vieja */
+    vfsOrigen=null;          /* enlace que abrió el visor, para devolverle el foco al cerrar */
 
 function setPlayLabel(playing){dom.vfsPlay.textContent=playing?'⏸ Pausa':'▶ Reanudar';}
 
@@ -874,10 +878,19 @@ function closeVideo(){
   dom.vfsAviso.hidden=true;
   dom.vfs.hidden=true;
   dom.body.classList.remove('vfs-open');
+  /* El foco vuelve al vídeo desde el que se abrió, en vez de quedarse suelto en
+     el body. Hay que hacerlo DESPUÉS de salir de pantalla completa: ese cambio es
+     asíncrono y devuelve el foco al documento, pisando cualquier focus() anterior. */
+  var origen=vfsOrigen;vfsOrigen=null;
+  var volver=function(){if(origen&&document.contains(origen))origen.focus();};
   if(document.fullscreenElement||document.webkitFullscreenElement){
     var ex=document.exitFullscreen||document.webkitExitFullscreen;
-    if(ex){var p=ex.call(document);if(p&&p.catch)p.catch(function(){});}
+    if(!ex)return volver();
+    var p=ex.call(document);
+    if(p&&p.then)p.then(volver,volver);else setTimeout(volver,0);   /* la variante webkit no devuelve promesa */
+    return;
   }
+  volver();
 }
 /* si se sale de pantalla completa por gesto del sistema o ESC, se cierra también el visor */
 function fsChange(){
@@ -893,10 +906,28 @@ function seekChange(){
   ytSeek(Number(dom.vfsSeek.value));
 }
 /* Atajos de teclado del visor, útiles en la intranet (en la tablet todo va por toque) */
+/* Controles del visor que pueden recibir el foco, en orden de tabulación */
+function vfsFocos(){
+  return [dom.vfsSeek,dom.vfsBack,dom.vfsPlay,dom.vfsFwd,dom.vfsClose].filter(function(el){
+    return el&&!el.disabled&&el.getClientRects().length;
+  });
+}
 function vfsKeydown(e){
   if(dom.vfs.hidden)return;
   if(e.key==='Escape'){closeVideo();return;}
   mostrarCtl();
+  /* El visor declara aria-modal="true", así que el foco no debe salir de él:
+     sin esto se tabula hasta la ficha de detrás, que sigue ahí aunque no se vea.
+     El iframe se queda fuera del ciclo a propósito: nada de YouTube es enfocable. */
+  if(e.key==='Tab'){
+    var f=vfsFocos();
+    if(!f.length)return;
+    e.preventDefault();
+    var i=f.indexOf(document.activeElement);
+    var n=e.shiftKey?(i<=0?f.length-1:i-1):((i<0||i===f.length-1)?0:i+1);
+    f[n].focus();
+    return;
+  }
   var t=e.target;
   if(e.key===' '||e.key==='Spacebar'||e.key==='k'){
     if(t&&t.tagName==='BUTTON')return;   /* el propio botón ya se activa con espacio */
@@ -915,7 +946,7 @@ function tabsClick(e){
 }
 function fichaClick(e){
   var vv=e.target.closest('a[data-yt]');
-  if(vv){e.preventDefault();openVideo(vv.getAttribute('data-yt'),vv.getAttribute('data-titulo'));return;}
+  if(vv){e.preventDefault();vfsOrigen=vv;openVideo(vv.getAttribute('data-yt'),vv.getAttribute('data-titulo'));return;}
   var t=e.target.closest('.cappill-sec,.cappill-back,.sec-toggle-all,.fsec-h,.phdr');
   if(!t)return;
   if(t.classList.contains('cappill-sec')||t.classList.contains('cappill-back')){toggleCaptacion();return;}
