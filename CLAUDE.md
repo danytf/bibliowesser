@@ -4,22 +4,24 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-Biblioteca ONG · Wesser — a single-file internal reference app (`biblioteca_final.html`, ~440KB) used by Wesser's commercial/fundraising team to quickly look up facts, figures, and talking points for the 7 NGOs they represent. Not a public-facing site.
+Biblioteca ONG · Wesser — a single-file internal reference app (`index.html`, ~440KB) used by Wesser's commercial/fundraising team to quickly look up facts, figures, and talking points for the 7 NGOs they represent. Not a public-facing site.
 
-**`biblioteca_final.html` is the current deliverable and the file to edit.** It replaces the old intranet/tablet split: one file serving both, with all 62 videos and the tablet's in-app fullscreen viewer. `index.html` and `index-tablet.html` are kept only until it has been checked on a real tablet and on the intranet; they are frozen, so do not apply content edits to them.
+**`index.html` is the only HTML deliverable and the file to edit.** One file for both audiences — the company intranet and the locked-down company tablets — carrying all 62 videos and an in-app fullscreen video viewer.
 
-`biblioteca_final.html` was generated from `index.html` by adding a `"yt":"<11-char id>"` field to all 62 videos plus the 7 `captacion.resumen30.videoDestacado` entries (derived from each `url`, `/shorts/` URLs included), then porting the viewer from `index-tablet.html`. Its data blocks are byte-identical to `index.html`'s apart from those `yt` fields. Differences from the tablet file: the local-mp4 leftovers are gone (`safeUrl()` is back to https-only, no `visor:true` branch), the viewer gained a seek bar, ±10s buttons and a time readout, and opening the page as `file://` shows a warning instead of silently failing.
+**Watch out for the name when reading history: today's `index.html` is not the old `index.html`.** The repo used to carry two files, and the one called `index.html` was the desktop/intranet build with no viewer. The unified file was committed as `biblioteca_final.html` and renamed over `index.html` immediately after, so `git log index.html` mixes the two lineages. `44a2c55` is the last commit where the old pair is intact: `git show 44a2c55:index.html`, `git show 44a2c55:index-tablet.html`.
+
+It was built from the old `index.html` by adding a `"yt":"<11-char id>"` field to all 62 videos plus the 7 `captacion.resumen30.videoDestacado` entries (the ID derived from each `url`, `/shorts/` URLs included), then porting the viewer from `index-tablet.html`. Its data blocks are byte-identical to the old `index.html`'s apart from those `yt` fields. Differences from the tablet build: the local-mp4 leftovers are gone (`safeUrl()` is https-only, no `visor:true` branch), the viewer gained a seek bar, ±10s buttons and a time readout, and opening the page as `file://` shows a warning instead of silently failing.
 
 **It must be served over http(s), never opened as `file://`** — YouTube rejects embeds with no valid referrer (Error 153). Verified working over plain http on a non-secure origin, so the intranet does not need HTTPS. There is deliberately no fallback to opening YouTube in a new tab: a banner in the header and a notice inside the viewer explain the problem instead, and the control bar stays hidden since it would do nothing.
 
-### The superseded two-file split (frozen, for reference)
+### The superseded two-file split (deleted; here to explain why the current file looks the way it does)
 
-- **`index.html`** — the intranet version, video links point to YouTube. This was the primary/source file for all content editing.
+- **the old `index.html`** — the intranet version, video links point to YouTube. This was the primary/source file for all content editing.
 - **`index-tablet.html`** — the tablet version, served from the company intranet and opened on locked-down company tablets. Content-identical to `index.html` except: (1) each NGO's `videos` array is trimmed to a curated 3-4 video selection, and (2) every video (and each `captacion.resumen30.videoDestacado`) carries a `"yt":"<11-char id>"` field, which makes it open in the built-in fullscreen viewer instead of navigating away. `safeUrl()` in this file is also patched to allow `videos/*/*.mp4` relative paths, left over from an earlier local-mp4 approach.
 
   **The tablet file must be served over http(s), never opened as `file://`** — YouTube rejects embeds with no valid referrer (Error 153). Verified working over plain http on a non-secure origin, so the intranet does not need HTTPS for this.
 
-Those two files were maintained independently, not auto-synced — the reason the unified file exists. While they were both live, any content edit that wasn't about videos (cifras, textos, programas, captación, etc.) had to be applied to both files by hand. `scripts/make-tablet.js` exists only as the one-time generator used to bootstrap `index-tablet.html` from `index.html` — it is not a build step to run routinely; if a large resync is ever needed, it can be re-run and re-adapted (it re-derives the video selection and the `safeUrl` patch from a hardcoded `SELECCION` map, and would need updating for any other diff between the files).
+Those two files were maintained independently, not auto-synced — which is the whole reason the unified file exists. While they were both live, any content edit that wasn't about videos (cifras, textos, programas, captación, etc.) had to be applied to both by hand. `scripts/make-tablet.js` was the one-time generator that bootstrapped `index-tablet.html` from `index.html`; it is dead code now, kept only as a record of how the split worked, and it would produce nothing usable if run against the current file.
 
 An earlier iteration had the tablet play `.mp4` files shipped on the device, under a `videos/` directory. That is gone: every video now streams from YouTube. The `"visor":true` code path in `vidAttrs()`/`openVideo()` (play a local mp4 in the same fullscreen viewer) and the `videos/*/*.mp4` branch of `safeUrl()` survive from it, unused but working.
 
@@ -55,7 +57,7 @@ There is no routing, no persistence beyond the theme toggle, and no network call
 
 ## Working in this codebase
 
-- Edit `biblioteca_final.html`. `index.html` and `index-tablet.html` are frozen predecessors — content edits there go nowhere.
+- There is one HTML file, `index.html`. Nothing needs applying twice any more.
 - To add or edit NGO content, edit the relevant `<script type="application/json" id="data-{id}">` block directly — keep it valid JSON (it's parsed with `JSON.parse`).
 - A new video needs both `url` (the full YouTube URL, used as the link's `href` fallback) and `yt` (just the 11-character ID). Without `yt` the entry still works, but it opens YouTube in a new tab instead of the in-app viewer — which on the locked-down tablets means a dead end.
 - `cifras` entries are objects `{num, label, fuente}`; `num` should be a single clean figure, not prose.
