@@ -383,9 +383,13 @@ body.vfs-open{overflow:hidden}
 /* Barra de controles: aparece al primer mensaje del reproductor, es decir cuando
    ya sabemos que el embed responde. Si el vídeo nunca arranca no se muestra. */
 #vfsCtl{position:absolute;left:0;right:0;bottom:0;z-index:2;display:none;flex-direction:column;gap:.55rem;
+  transition:opacity .3s ease;
   padding:2.6rem max(16px,env(safe-area-inset-right)) max(18px,env(safe-area-inset-bottom)) max(16px,env(safe-area-inset-left));
   background:linear-gradient(to top,rgba(0,0,0,.93),rgba(0,0,0,.62) 55%,rgba(0,0,0,0))}
 #vfsCtl.on{display:flex}
+/* se retira sola mientras se reproduce y vuelve al tocar la pantalla; en pausa se queda */
+#vfsCtl.oculto{opacity:0;pointer-events:none}
+@media(prefers-reduced-motion:reduce){#vfsCtl{transition:none}}
 .vfs-row{display:flex;align-items:center;gap:.75rem}
 .vfs-row-btns{justify-content:center;gap:.6rem}
 #vfsTime{font-family:var(--font-display);font-weight:700;font-size:.85rem;color:#fff;
@@ -744,7 +748,8 @@ function toggleAllSections(btn){
 ================================================== */
 var YT_ORIGIN='https://www.youtube-nocookie.com',
     YT_EMBED=YT_ORIGIN+'/embed/',
-    YT_PARAMS='?autoplay=1&playsinline=1&controls=0&disablekb=1&fs=0&rel=0&iv_load_policy=3&modestbranding=1&enablejsapi=1',
+    YT_PARAMS='?autoplay=1&playsinline=1&controls=0&disablekb=1&fs=0&rel=0&iv_load_policy=3&modestbranding=1&enablejsapi=1&cc_load_policy=0&cc_lang_pref=es',
+    CTL_MS=3000,ctlTimer=null,   /* la barra se retira sola tras 3s reproduciendo */
     ES_FILE=location.protocol==='file:',
     SALTO=10,                /* segundos de los botones de retroceso/avance */
     ytEstado=-1,ytPing=null,
@@ -772,6 +777,23 @@ function ytEnviar(msg){
   if(f&&f.contentWindow)f.contentWindow.postMessage(JSON.stringify(msg),YT_ORIGIN);
 }
 function ytComando(func,args){ytEnviar({event:'command',func:func,args:args||[],id:1,channel:'widget'});}
+/* Quita los subtítulos. cc_load_policy=0 no basta: si la cuenta o el navegador
+   traen los subtítulos activados, el embed los pinta igual, así que se descarga
+   el módulo entero. Hay dos nombres según la versión del reproductor y se mandan
+   los dos; repetirlo en cada cambio de estado es inofensivo y cubre el caso de
+   que el módulo cargue más tarde que nuestro primer envío. */
+function quitarSubtitulos(){
+  ytComando('unloadModule',['captions']);   /* reproductor HTML5 */
+  ytComando('unloadModule',['cc']);         /* nombre antiguo */
+}
+/* Muestra la barra de controles y programa su retirada. En pausa no se retira:
+   es justo cuando el usuario la necesita para reanudar o moverse por el vídeo. */
+function mostrarCtl(){
+  clearTimeout(ctlTimer);
+  if(!dom.vfsCtl.classList.contains('on'))return;
+  dom.vfsCtl.classList.remove('oculto');
+  if(ytEstado===1)ctlTimer=setTimeout(function(){dom.vfsCtl.classList.add('oculto');},CTL_MS);
+}
 /* El embed no emite nada hasta recibir "listening"; se repite unas cuantas veces
    porque el primer envío puede llegar antes de que el reproductor esté listo. */
 function ytHandshake(){
@@ -800,6 +822,7 @@ function ytMensaje(e){
         :((d.event==='onStateChange'&&typeof info==='number')?info:null);
   if(st===null)return;
   clearInterval(ytPing);
+  var cambio=(st!==ytEstado);
   ytEstado=st;
   /* abierto como file:// el embed solo llega a mandar su estado de error: no tiene
      sentido enseñar unos controles que no van a mover nada */
@@ -807,6 +830,9 @@ function ytMensaje(e){
   if(st===0){closeVideo();return;}   /* 0 = terminado: cerrar antes de que se vean los sugeridos */
   if(st===1)setPlayLabel(true);
   else if(st===2)setPlayLabel(false);
+  /* solo al cambiar de estado: infoDelivery llega constantemente y si no,
+     el temporizador se reiniciaría siempre y la barra no se retiraría nunca */
+  if(cambio){quitarSubtitulos();mostrarCtl();}
 }
 function togglePlay(){ytComando(ytEstado===1?'pauseVideo':'playVideo');}
 function ytSeek(seg){
@@ -821,7 +847,8 @@ function saltar(delta){ytSeek((ytPos||0)+delta);}
 /* Abre el visor sobre el ID de YouTube del vídeo. El ID ya viene validado por ytId(). */
 function openVideo(id,titulo){
   ytEstado=-1;ytDur=0;ytPos=0;arrastrando=false;ignorarHasta=0;
-  dom.vfsCtl.classList.remove('on');
+  clearTimeout(ctlTimer);
+  dom.vfsCtl.classList.remove('on','oculto');
   dom.vfsSeek.disabled=true;dom.vfsSeek.value='0';dom.vfsSeek.max='100';
   dom.vfsSeek.style.setProperty('--pct','0%');
   setPlayLabel(true);pintaTiempo();
@@ -840,10 +867,10 @@ function openVideo(id,titulo){
 }
 function closeVideo(){
   if(dom.vfs.hidden)return;
-  clearInterval(ytPing);
+  clearInterval(ytPing);clearTimeout(ctlTimer);
   ytEstado=-1;arrastrando=false;
   dom.vfsMount.innerHTML='';   /* quitar el iframe corta la reproducción */
-  dom.vfsCtl.classList.remove('on');
+  dom.vfsCtl.classList.remove('on','oculto');
   dom.vfsAviso.hidden=true;
   dom.vfs.hidden=true;
   dom.body.classList.remove('vfs-open');
@@ -869,6 +896,7 @@ function seekChange(){
 function vfsKeydown(e){
   if(dom.vfs.hidden)return;
   if(e.key==='Escape'){closeVideo();return;}
+  mostrarCtl();
   var t=e.target;
   if(e.key===' '||e.key==='Spacebar'||e.key==='k'){
     if(t&&t.tagName==='BUTTON')return;   /* el propio botón ya se activa con espacio */
@@ -935,6 +963,10 @@ window.addEventListener('DOMContentLoaded',function(){
   dom.tabs.addEventListener('click',tabsClick);
   dom.tabs.addEventListener('keydown',tabKeydown);
   dom.ficha.addEventListener('click',fichaClick);
+  /* cualquier toque sobre el visor devuelve la barra: es la única forma de
+     recuperarla en la tablet, donde el escudo se traga los toques */
+  dom.vfs.addEventListener('pointerdown',mostrarCtl,true);
+  dom.vfs.addEventListener('mousemove',mostrarCtl);
   dom.vfsClose.addEventListener('click',closeVideo);
   dom.vfsPlay.addEventListener('click',togglePlay);
   dom.vfsBack.addEventListener('click',function(){saltar(-SALTO);});
