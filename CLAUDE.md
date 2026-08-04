@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-Biblioteca ONG · Wesser — a single-file internal reference app (`index.html`, ~440KB) used by Wesser's commercial/fundraising team to quickly look up facts, figures, and talking points for the 7 NGOs they represent. Not a public-facing site.
+Biblioteca ONG · Wesser — a single-file internal reference app (`index.html`, ~433KB) used by Wesser's commercial/fundraising team to quickly look up facts, figures, and talking points for the 7 NGOs they represent. Not a public-facing site.
 
 **`index.html` is the only HTML deliverable and the file to edit.** One file for both audiences — the company intranet and the locked-down company tablets — carrying all 62 videos and an in-app fullscreen video viewer.
 
@@ -42,6 +42,8 @@ Minimum allowlist, verified on the tablet build by blocking everything else and 
 ## Commands
 
 There is no build, bundler, package manager, or test suite. This is a static HTML file with everything inline (CSS in `<style>`, JS in `<script>`, data in embedded `<script type="application/json">` blocks). To "run" it, **serve it over http** — a one-liner static server on any port is enough — and open it there. Do not check it by double-clicking the file: over `file://` the page renders fine but no video plays, and you will only see the warning banner.
+
+The one check that does exist is `python scripts/check_consistency.py`, which flags figures quoted in `speech`/`captacion` that have no match in `cifras[]`/`programas[]`. Run it after editing figures. It exits 1 whenever it finds anything, and it cannot see through rounding ("más de 8.500" backed by 8.593) or rephrasing ("ese 50%" backed by "1 de cada 2"), so **every current finding is a known false positive** — check them against the list before chasing one. Do not install anything into the repo to test: Playwright and the like belong in a scratchpad, since the absence of a package manager here is deliberate.
 
 ## Architecture
 
