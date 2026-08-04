@@ -149,7 +149,11 @@ body.light::after{opacity:.04}
 .ready .fsec-b{transition:grid-template-rows .22s ease,padding .22s ease}
 .fsec-h.open + .fsec-b{grid-template-rows:1fr;padding:var(--s-3h) var(--s-4)}
 .sec-actions{display:flex;justify-content:flex-end;padding:.25rem .75rem 0;margin-bottom:-.3rem}
-.sec-toggle-all{background:none;border:1px solid var(--border);color:var(--muted);font-size:.75rem;font-family:inherit;cursor:pointer;padding:.3rem .6rem;border-radius:var(--r-sm);line-height:1;transition:color .15s,border-color .15s}
+.sec-toggle-all{background:none;border:1px solid var(--border);color:var(--muted);font-size:.75rem;font-family:inherit;cursor:pointer;padding:.3rem .6rem;border-radius:var(--r-sm);line-height:1;transition:color .15s,border-color .15s;position:relative}
+/* El botón mide 24px de alto, el mínimo de WCAG AA. Se deja el aspecto intacto y
+   se extiende solo el área que responde al toque hasta los 44px recomendados,
+   para no fallar el objetivo con el dedo en la tablet. */
+.sec-toggle-all::after{content:"";position:absolute;left:0;right:0;top:50%;transform:translateY(-50%);height:44px}
 .sec-toggle-all:hover{color:var(--text);border-color:var(--border-2)}
 
 /* ==================================================
