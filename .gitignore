@@ -3,3 +3,6 @@ skills-lock.json
 scripts_out/
 *_formativo.pptx
 backup/
+
+# PDFs y extracciones de memorias de las ONG: material de trabajo, nunca al repo
+MEMORIAS POR ACTUALIZAR/
