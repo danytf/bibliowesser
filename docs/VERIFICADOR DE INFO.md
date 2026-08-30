@@ -88,7 +88,7 @@ Cifras rebasadas: donantes 520.850 (+3%), **15.805 vidas transformadas** desde 1
 
 **Consultas del Programa de Experiencia del Paciente, corregidas:** no son "22.000 de cada tipo" sino **más de 48.000 en total** entre las dos áreas desde 2010 (p.44), con 729 de orientación médica y 585 de información u orientación social en 2025.
 
-**Pendiente:** `cifras[1]` ("2 de cada 10 niños con leucemia no superan la enfermedad") **sigue sin fuente**. No aparece en la Memoria 2025 y hay que localizarla antes de dar la ficha por cerrada. En cambio `cifras[0]` ("3 de cada 4") sí queda confirmada, en las p.31 y 32.
+**Resuelto el `cifras[1]` sin fuente, y era un dato ajeno.** La ficha decia que «2 de cada 10 niños con leucemia no superan la enfermedad». Esa cifra **no es de la Fundación Josep Carreras**: corresponde al marco de supervivencia «por encima del 80%» que usa la campaña «La Vuelta al Cole» de la Fundación Unoentrecienmil, otra entidad. Lo que dice FJC en su propia web, literalmente: «Más del 80% no sobrevivía, mientras que ahora, gracias a la investigación, **más del 85% de los niños con LLA se cura**» (https://fcarreras.org/actualidad/losbebestambientienencancer/). La cifra se ha sustituido por la propia de FJC, en `cifras[1]` y en `problema`, conservando el matiz que la misma página añade: siguen existiendo subtipos con muy mal pronóstico, como la leucemia del lactante con reordenamiento MLLAF4. **Las 8 cifras de la ficha tienen ya fuente; antes había dos sin ella.**
 
 Sin puntos abiertos.
 
