@@ -94,6 +94,17 @@ Cifras rebasadas: donantes 520.850 (+3%), **15.805 vidas transformadas** desde 1
 
 **Verificación de cierre de FJC.** Contrastada cada cifra de 2025 introducida contra la etiqueta que le da la memoria en su propia página: las 40 están bien asignadas. Coherencia interna: **0 conceptos citados con dos cifras distintas**. Prosa sin roturas. Las 8 cifras tienen fuente, cuando antes había dos sin ella. El desglose de fondos suma 100%. Render limpio en claro y oscuro por escritorio y móvil, sin errores de JS.
 
+**Barrido del índice completo, sección por sección.** Faltaban tres secciones enteras por leer, y dos traían material relevante:
+
+- **Campañas (p.69-75), que no estaba.** La ficha llevaba todavía la campaña anterior, «El mejor anuncio del mundo» (7,5 millones de personas). La de 2025 es **«Para que la música no pare, que no pare la investigación contra la leucemia»**, protagonizada por Josep Carreras, y alcanzó **cerca de 17 millones de personas en televisión** más 750.000 en Connected TV, con 116 pases en Antena 3 y La Sexta y 89 cuñas en Onda Cero y Europa FM vía Atresmedia, además de cine, metro y diez pantallas en la carretera Barcelona-Madrid. La Semana contra la Leucemia (21-28 de junio) recaudó **más de 40.000 €** en estands e iniciativas de calle.
+- **Un hueco de año en el Día de los Imparables.** La ficha saltaba de 2024 (CaixaForum de Valencia) a 2026 (Bilbao) y **se dejaba fuera el de 2025**, celebrado en el **CaixaForum de Sevilla**. Incorporado.
+- **Comunidad online (p.76), que tampoco estaba**: 268.640 seguidores en Facebook (+1,5%), 267.860 en Instagram (+0,4%), 8.220 en YouTube (+7,17%), 7.745 en LinkedIn (+11%) y 7.277 en TikTok, la red que más crece con un +51%.
+- **Ciencia de 2025 en los programas de avances y spin-offs**, que se habían quedado sin tocar: el ensayo **CAR-T del Dr. Javier Briones** contra un linfoma refractario (diez pacientes, respondieron los diez, remisión completa en la mitad, con más de 2 M€ aportados por la Fundación) y el avance de **OneChain** (primer premio al mejor póster en el ISCT, más de diez congresos internacionales, sello de Pyme Innovadora renovado y la OC-1 camino de su autorización).
+
+Las secciones restantes no aportan a la ficha: transparencia y cumplimiento normativo es un listado de documentos de gobierno, y órganos de gobierno y equipo técnico son nombres y cargos.
+
+**Dato de la ficha que no se puede contrastar contra la memoria:** `meta[3]`, la probabilidad de compatibilidad «1 entre 3.500», no aparece en el documento. Procede de otra fuente y queda señalada como tal.
+
 De los 16 porcentajes introducidos, cinco (43,9%, 34,7%, 8,7%, 7,5% y 5,2%) son cálculos propios sobre el total impreso de 67.927.006,76 €, igual que hacía la ficha con los de 2024, y quedan documentados como tales en el campo `fondosNota`. Se retiró un sexto: la ficha decía «el 63% de la plantilla son mujeres», calculado por mí; ahora cita las cifras impresas, 261,75 mujeres y 154,85 hombres sobre 416,60, que suman el total exacto.
 
 **Enlaces:** solo 6 de 26 responden a `fetch` desde Node, pero es el falso positivo ya fichado — `fcarreras.org` y `carrerasresearch.org` rompen undici. En Chromium responden 23 de 26, y los 3 restantes son PDF, que Playwright da por error porque el navegador los descarga en vez de renderizarlos; comprobados con curl devuelven HTTP 200 y `application/pdf`. **Ninguno está roto.**
