@@ -92,6 +92,12 @@ Cifras rebasadas: donantes 520.850 (+3%), **15.805 vidas transformadas** desde 1
 
 **Las tres comprobaciones aprendidas en Cruz Roja, aplicadas a FJC.** Encontraron cuatro cosas más:
 
+**Verificacion de cierre de FJC.** Contrastada cada cifra de 2025 introducida contra la etiqueta que le da la memoria en su propia pagina: las 40 estan bien asignadas. Coherencia interna: **0 conceptos citados con dos cifras distintas**. Prosa sin roturas. Las 8 cifras tienen fuente (antes habia dos sin ella). El desglose de fondos suma 100%. Render limpio en claro y oscuro por escritorio y movil, sin errores de JS.
+
+De los 16 porcentajes introducidos, cinco (43,9%, 34,7%, 8,7%, 7,5% y 5,2%) son calculos propios sobre el total impreso de 67.927.006,76 EUR, igual que hacia la ficha con los de 2024, y quedan documentados como tales en . Se retiro un sexto: la ficha decia «el 63% de la plantilla son mujeres», calculado por mi; ahora se citan las cifras impresas, 261,75 mujeres y 154,85 hombres sobre 416,60.
+
+**Enlaces:** 6 de 26 responden a  desde Node, pero es el falso positivo ya fichado:  y  rompen undici. En Chromium responden 23 de 26, y los 3 restantes son PDF, que Playwright reporta como error porque el navegador los descarga en vez de renderizarlos; comprobados con curl dan HTTP 200 y . **Ninguno esta roto.**
+
 - **Afirmación de estatus corregida.** La ficha llamaba al Instituto «el centro **más grande** de Europa dedicado en exclusiva a la investigación contra la leucemia», en cuatro sitios (título del programa, `dato`, `resumenClave`, `motivosSocio` y el discurso). Esa expresión **no aparece en la Memoria 2025**, que lo describe (p.18) como «el **primer** centro de investigación europeo focalizado en la leucemia y las hemopatías malignas y uno de los únicos que existen en el mundo». Alineado con la formulación oficial, que además es una afirmación más fuerte y sí está sostenida.
 - **Aportación al Instituto, que había quedado a medias.** El `dato` ya decía +88M€ pero el `desc` seguía con «más de 71 millones; 6,995 millones en 2024». Corregido.
 - **Tienda online superada por la memoria**: la ficha daba 116.101 € y 680 pedidos de 2024; la p.80 da 2025 — 99.938,75 € de facturación, 43.107,87 € de beneficio neto, 575 pedidos y 33.017 artículos, 517 de ellos para bodas y celebraciones. Y el discurso seguía diciendo «Solo en 2024, 105 familias se alojaron así», con el dato de alojamientos sin rebasar.
