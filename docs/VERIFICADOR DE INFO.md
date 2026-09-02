@@ -76,7 +76,7 @@ Sin puntos abiertos.
 
 **Investigación reencuadrada a 2025:** la ficha listaba «cuatro estudios en 2024». La p.51 destaca los dos de 2025 —«Sentirse en familia» y «Condiciones de vida tras salir del sistema de protección», de donde sale el 40,9%— y los cuatro de 2024 se conservan como cartera anterior.
 
-**Comprobado que no hay equivalente de 2025 para el sistema de protección**: las 55.010 personas del  son dato del Ministerio de 2024 y ninguna de las tres memorias lo actualiza. Se queda con su año explícito.
+**Comprobado que no hay equivalente de 2025 para el sistema de protección**: las 55.010 personas del campo `problema` son dato del Ministerio de 2024 y ninguna de las tres memorias lo actualiza. Se queda con su año explícito.
 
 **Medición de satisfacción, también caducada.** La ficha llevaba la de 2024 (4.598 participantes) y la p.55 da la de 2025: **5.104 participantes**, con 2.633 niños, niñas y jóvenes (1.380 niñas y 1.253 niños), 1.705 familias, 385 colegios, 242 de administración y 139 voluntarios. Actualizados también los grados: 4,38 niños y jóvenes, 4,62 familias, 4,63 administración, 4,70 centros educativos y 4,58 voluntarios.
 
