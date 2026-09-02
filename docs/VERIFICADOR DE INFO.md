@@ -217,6 +217,15 @@ Corregidas las cuatro. Las formas que quedan son todas válidas: el nombre propi
 
 **Leccion:** un nombre propio mal escrito no lo detecta ningún chequeo de cifras. Merece la pena listar todas las variantes de los nombres clave de cada ONG y comprobar que coinciden entre sí y con la fuente.
 
+**Dos frases del guión de calle que no tiene con qué sostener nadie.** Las señaló el usuario: circulan entre los captadores, **no están en la ficha ni en la Memoria 2025**, y son verosímiles, que es justo lo que las hace peligrosas.
+
+- «**Un paciente solo tiene dos personas compatibles entre cuarenta millones**». Sin fuente. Lo verificado es la probabilidad de compatibilidad entre personas no emparentadas, **en torno a 1 entre 3.500**, que ya está en la ficha en cuatro sitios.
+- «**Las células no pueden pasar más de tres días desde la extracción hasta el trasplante**». Sin fuente, y además es una **afirmación clínica**, del tipo que no debe decirse sin respaldo. Comprobadas las 91 páginas de la memoria y las páginas de donación de fcarreras.org: no aparece nada parecido.
+
+**Falsa pista que conviene dejar cerrada:** «72 horas» sí aparece en la Memoria 2025, pero es el **plazo de envío de la tienda online** (p.79). No tiene ninguna relación con la conservación de células y no debe usarse para respaldar la frase.
+
+**Qué se ha hecho:** en vez de borrar sin más, el programa de proceso de donación incorpora ahora los datos de plazos que sí están publicados —**12 días de tiempo medio en el envío de muestras**, 3.031 peticiones de viabilidad para 486 donaciones efectivas y 270 donaciones hacia 29 países— y un aviso explícito dirigido al equipo de calle con las dos frases y su sustituto verificado. Así el captador tiene a la vez la advertencia y la respuesta.
+
 **Un plazo presentado como tasa de éxito: el error que más lejos llegó.** El discurso de la ficha decía «A los 26 días encuentran a alguien compatible. **El 84% de los pacientes**, como Marta, tienen esa suerte». El 84% **no es la proporción de pacientes que encuentran donante, es un plazo**: la propia ficha lo dice en `cifras[4]` — «se localizó donante para 1.168 pacientes, el **91,5%** del total: el 55% en menos de 30 días y el 84% antes de 60». La tasa de localización es del 91,5%, y el discurso ahora dice «más de nueve de cada diez pacientes».
 
 Este error se había propagado desde la ficha a la diapositiva 25 del deck y al guion `speech_fjc.md` (donde llegó a decir «más de ocho de cada diez»). **La ficha es el origen del que se copia todo lo demás: mientras un dato esté mal aquí, cualquier material nuevo lo arrastra.** Y jugaba en contra, porque hacía vender por debajo de lo que la Fundación consigue. Comprobado que los demás usos del 84% en la ficha sí son correctos: el tramo de plazo y la distribución de edad de las nuevas altas.
