@@ -66,6 +66,12 @@ Sin puntos abiertos.
 
 **Material nuevo incorporado de la Memoria Institucional**, que la ficha no tenía: el reparto del gasto entre **34.093.138 € a programas en España y 11.976.818 € a proyectos internacionales** (p.69), y los resultados de 2025 por programa — 97% de las familias con asistencia regular y 78% de promoción de curso en prevención; 80% de objetivos académicos alcanzados en protección; 77% de jóvenes en formación, 84% de finalización en los Programas Profesionales y 19% que necesitó apoyo psicológico.
 
+**La cooperación no son 7 países, son 9.** La ficha afirmaba que «en 2024 la cartera incluyó también Senegal, aunque en 2025 la financiación se concentró en los 7 países latinoamericanos». **Falso:** la p.7 de la Memoria de Cooperación dice «Trabajamos en 9 países» y «Programas de Cooperación para el Desarrollo y Respuesta a Emergencias en Latinoamérica, África y Siria». A los siete latinoamericanos se suman **Marruecos** (65.401 €) y **Siria** (242.226 € en respuesta a emergencias en Alepo y Latakia, dentro de un plan de 2.584.110 € de febrero de 2023 a octubre de 2026, con 752 personas atendidas en 2025). Corregido también el título del programa.
+
+Incorporado el desglose completo que la ficha no tenía: por país (Nicaragua 2.323.388 € y 9.576 personas, El Salvador 2.311.186 € y 3.037, Honduras 2.215.847 € y 4.415, Guatemala 1.944.960 € y 2.390, Venezuela 1.022.360 € y 3.944, Bolivia 877.903 € y 1.165, Perú 583.244 € y 1.326), por tipo de programa, y el reparto **74% España / 26% internacional**, que cuadra con los 34.093.138 € y 11.976.818 € de la p.69 de la Institucional.
+
+**Fallo propio detectado al releer:** escribí «**9 países**» con asteriscos de markdown. **Las fichas son texto plano y se escapan con , así que los asteriscos se ven literalmente en pantalla.** Comprobado en navegador y corregido; barridas las siete fichas y no había ningún otro caso. **No usar sintaxis de markdown al escribir contenido de las fichas.**
+
 **Aldeas Inclusiva llevaba entero el ejercicio 2024.** Es el programa que peor estaba, y lo destapó el barrido de menciones a 2024. Cuatro datos rebasados con la Memoria Institucional (p.46 y p.48):
 
 | Dato | Ficha (2024) | Memoria 2025 |
