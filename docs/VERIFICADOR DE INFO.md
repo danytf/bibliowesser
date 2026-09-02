@@ -94,6 +94,15 @@ Cifras rebasadas: donantes 520.850 (+3%), **15.805 vidas transformadas** desde 1
 
 **Verificación de cierre de FJC.** Contrastada cada cifra de 2025 introducida contra la etiqueta que le da la memoria en su propia página: las 40 están bien asignadas. Coherencia interna: **0 conceptos citados con dos cifras distintas**. Prosa sin roturas. Las 8 cifras tienen fuente, cuando antes había dos sin ella. El desglose de fondos suma 100%. Render limpio en claro y oscuro por escritorio y móvil, sin errores de JS.
 
+**Los dos importes de lo que aportan los socios: no es un error, pero había que nombrarlo.** La memoria da dos cifras que un lector toma por la misma:
+
+- **19.761.784,44 €** — línea «Donaciones de socios» del «Origen de los recursos durante el ejercicio de 2025» (p.16), un estado contable de seis líneas que cuadra al céntimo con el gasto y remite a las cuentas anuales.
+- **19.927.494 €** — «recaudados en cuotas y donativos de nuestros colaboradores regulares», en el apartado de socios (p.54).
+
+Se llevan **165.709,56 €**. **La memoria no explica la diferencia**: comprobadas las dos páginas enteras, la p.16 solo lleva un asterisco y es sobre tipos de progenitores hematopoyéticos, y la p.54 no tiene ninguna nota. Las etiquetas sí difieren —una habla de «donaciones de socios» y otra de «cuotas y donativos de colaboradores regulares»—, y la p.16 tiene además una línea aparte de «Donaciones y otros ingresos», pero **eso no basta para afirmar por qué no coinciden**.
+
+Se aplica el mismo criterio que con las playas (188/201) y ATENPRO (28.178/31.000) de Cruz Roja: **se conservan las dos, cada una etiquetada por su sitio en el documento, y se dice expresamente que la fuente no explica la diferencia**. Se descartó llamarlas «imputadas al total de recursos», porque «imputación» es lenguaje contable que la memoria no usa y que daría por explicada una diferencia que no lo está. El 29,1% sí cuadra exacto: 19.761.784,44 sobre 67.927.006,76 da 29,09%.
+
 **Añadido el portal de transparencia a las fuentes** (https://fcarreras.org/transparencia, HTTP 200 verificado). No estaba, y esa omisión tuvo consecuencias: al no figurar en la ficha se dio por no verificable y llegó a retirarse del pie de una diapositiva del deck, para recuperarla después. **Si una fuente buena no está en la ficha, el material derivado la pierde.**
 
 **Los dos documentos que cuelga ese portal y que parecían resolver el perímetro del convenio ONT-FJC: no lo resuelven.** Comprobados descargando los PDF:
