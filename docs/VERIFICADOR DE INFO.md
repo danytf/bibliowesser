@@ -66,6 +66,18 @@ Sin puntos abiertos.
 
 **Material nuevo incorporado de la Memoria Institucional**, que la ficha no tenía: el reparto del gasto entre **34.093.138 € a programas en España y 11.976.818 € a proyectos internacionales** (p.69), y los resultados de 2025 por programa — 97% de las familias con asistencia regular y 78% de promoción de curso en prevención; 80% de objetivos académicos alcanzados en protección; 77% de jóvenes en formación, 84% de finalización en los Programas Profesionales y 19% que necesitó apoyo psicológico.
 
+**Auditoría estructural final: cinco secciones de la memoria no estaban reflejadas.** Comparado el índice completo de la Memoria Institucional contra los 12 programas de la ficha, faltaban:
+
+- **Orientación y Mediación Familiar** y **Aula de Familias** (p.19), dos recursos preventivos: el primero aborda los conflictos desde la capacidad de resolución de la propia familia, el segundo atiende a hogares con hijos de 0 a 3 años para evitar que la situación derive en medida de protección.
+- **Centro Integral de Primera Infancia** (p.38), que en 2025 amplió su proyecto de estimulación sensorial.
+- **Participación infantil y juvenil** (p.21 y p.59) como eje propio, con el caso de **Mariam**, que creció en la Aldea de Madrid e intervino en el Foro de Derechos de la Infancia de la UE. Trae un contraste muy útil para captación: **la edad media de emancipación en España ronda los 30 años y quien sale del sistema de protección debe hacerlo a los 18**, a menudo sin red familiar.
+- **Semana para Convivir con Menos Pantallas** (p.57), dentro de Educación en Valores.
+- **Presencia territorial** (p.15): 11 comunidades autónomas, con las ocho Aldeas en Barcelona, Cuenca, Granada, Las Palmas, Madrid, Pontevedra, Santa Cruz de Tenerife y Zaragoza. La ficha decía «Gran Canaria» donde la memoria dice «Las Palmas».
+
+**Investigación reencuadrada a 2025:** la ficha listaba «cuatro estudios en 2024». La p.51 destaca los dos de 2025 —«Sentirse en familia» y «Condiciones de vida tras salir del sistema de protección», de donde sale el 40,9%— y los cuatro de 2024 se conservan como cartera anterior.
+
+**Comprobado que no hay equivalente de 2025 para el sistema de protección**: las 55.010 personas del  son dato del Ministerio de 2024 y ninguna de las tres memorias lo actualiza. Se queda con su año explícito.
+
 **Medición de satisfacción, también caducada.** La ficha llevaba la de 2024 (4.598 participantes) y la p.55 da la de 2025: **5.104 participantes**, con 2.633 niños, niñas y jóvenes (1.380 niñas y 1.253 niños), 1.705 familias, 385 colegios, 242 de administración y 139 voluntarios. Actualizados también los grados: 4,38 niños y jóvenes, 4,62 familias, 4,63 administración, 4,70 centros educativos y 4,58 voluntarios.
 
 **Verificación de cierre de Aldeas.** Las **37 cifras nuevas introducidas** se contrastaron una a una contra la etiqueta que les da la memoria en su propia página: todas bien asignadas. 7 bloques JSON válidos, **7 de 7 cifras con fuente** (no tenían ninguna al empezar), 12 programas completos, 30 fuentes todas con URL, los fondos suman 100%, cero asteriscos de markdown y cero errores de JS en las cuatro combinaciones de tema y pantalla.
