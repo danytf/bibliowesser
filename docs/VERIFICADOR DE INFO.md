@@ -94,6 +94,12 @@ Cifras rebasadas: donantes 520.850 (+3%), **15.805 vidas transformadas** desde 1
 
 **Verificación de cierre de FJC.** Contrastada cada cifra de 2025 introducida contra la etiqueta que le da la memoria en su propia página: las 40 están bien asignadas. Coherencia interna: **0 conceptos citados con dos cifras distintas**. Prosa sin roturas. Las 8 cifras tienen fuente, cuando antes había dos sin ella. El desglose de fondos suma 100%. Render limpio en claro y oscuro por escritorio y móvil, sin errores de JS.
 
+**Un plazo presentado como tasa de éxito: el error que más lejos llegó.** El discurso de la ficha decía «A los 26 días encuentran a alguien compatible. **El 84% de los pacientes**, como Marta, tienen esa suerte». El 84% **no es la proporción de pacientes que encuentran donante, es un plazo**: la propia ficha lo dice en `cifras[4]` — «se localizó donante para 1.168 pacientes, el **91,5%** del total: el 55% en menos de 30 días y el 84% antes de 60». La tasa de localización es del 91,5%, y el discurso ahora dice «más de nueve de cada diez pacientes».
+
+Este error se había propagado desde la ficha a la diapositiva 25 del deck y al guion `speech_fjc.md` (donde llegó a decir «más de ocho de cada diez»). **La ficha es el origen del que se copia todo lo demás: mientras un dato esté mal aquí, cualquier material nuevo lo arrastra.** Y jugaba en contra, porque hacía vender por debajo de lo que la Fundación consigue. Comprobado que los demás usos del 84% en la ficha sí son correctos: el tramo de plazo y la distribución de edad de las nuevas altas.
+
+**En el mismo párrafo, la búsqueda estaba encogida.** Decía «Buscan en una base de 520.850 donantes en España, conectada con una red mundial de más de 30 países», lo que sugiere que la búsqueda se limita al registro español. La Memoria 2025 (p.18) dice que el REDMO «tiene acceso a los más de 40 millones de donantes disponibles en todo el mundo», y de hecho el autoabastecimiento es solo del 27%: casi tres de cada cuatro trasplantes usan donante extranjero. Reescrito para que se vea el alcance real.
+
 **Modo de fallo dominante al rebasar una ficha: la prosa se queda atrás.** Han aparecido tres casos en FJC, dos señalados por el usuario y uno por un barrido específico. Al actualizar una cifra tiendo a cambiarla en `cifras` y en el campo `dato` y **olvidar el texto corrido del mismo programa**. Los tres:
 
 1. **Cuotas de socios.** La prosa del programa «Comunidad Imparable» conservaba «18,5 millones de euros» cuando `cifras[7]` y el `dato` ya llevaban los 19.927.494 € de la p.54.
