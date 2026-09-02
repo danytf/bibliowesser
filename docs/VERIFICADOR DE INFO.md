@@ -66,6 +66,14 @@ Sin puntos abiertos.
 
 **Material nuevo incorporado de la Memoria Institucional**, que la ficha no tenía: el reparto del gasto entre **34.093.138 € a programas en España y 11.976.818 € a proyectos internacionales** (p.69), y los resultados de 2025 por programa — 97% de las familias con asistencia regular y 78% de promoción de curso en prevención; 80% de objetivos académicos alcanzados en protección; 77% de jóvenes en formación, 84% de finalización en los Programas Profesionales y 19% que necesitó apoyo psicológico.
 
+**Segunda auditoría: el informe de auditoría, las variantes de nombres y los enteros pequeños.** Tres cosas que quedaban sin mirar. Resultado: **ningún error nuevo**, pero una discrepancia que conviene tener explicada.
+
+**Los dos totales de ingresos de 2025, reconciliados.** El informe de auditoría declara «Total ingresos de la actividad **59.390.336,90 €**», mientras la memoria y la ficha dan **59.886 miles**. Se llevan 495.663,10 €. **No es una contradicción entre documentos:** la cifra de 59.886.044,12 € **aparece en el propio informe de auditoría**, en la conciliación fiscal de su página 42. Son dos líneas distintas de las mismas cuentas auditadas y la memoria usa una de ellas. La ficha está bien; queda anotado para que nadie «corrija» una por la otra.
+
+**Variantes de nombres: limpio.** El chequeo que en FJC destapó seis formas de escribir «REDMO», tres de ellas mal, aquí no encuentra nada: «AcogES+» aparece igual en sus ocho usos y «CEEIS» es coherente. La Memoria Institucional escribe «AcollES+» en la sección de Galicia, que es la forma en gallego; la ficha usa la castellana en todo el texto, que es lo correcto para una ficha estatal.
+
+**Enteros pequeños: limpio.** El barrido que en FJC destapó la edad media de 30 años no encuentra aquí ningún conflicto real. Sus 25 avisos son artefactos del método: decimales partidos (4,62 leído como 4 y 62), rangos legítimos («5-6 niños por hogar», «6-10 hogares por Aldea»), el título del corto «1, 2, 3...CASA» y sustantivos compartidos entre conceptos distintos.
+
 **Auditoría estructural final: cinco secciones de la memoria no estaban reflejadas.** Comparado el índice completo de la Memoria Institucional contra los 12 programas de la ficha, faltaban:
 
 - **Orientación y Mediación Familiar** y **Aula de Familias** (p.19), dos recursos preventivos: el primero aborda los conflictos desde la capacidad de resolución de la propia familia, el segundo atiende a hogares con hijos de 0 a 3 años para evitar que la situación derive en medida de protección.
