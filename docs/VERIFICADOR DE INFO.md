@@ -94,6 +94,16 @@ Cifras rebasadas: donantes 520.850 (+3%), **15.805 vidas transformadas** desde 1
 
 **Verificación de cierre de FJC.** Contrastada cada cifra de 2025 introducida contra la etiqueta que le da la memoria en su propia página: las 40 están bien asignadas. Coherencia interna: **0 conceptos citados con dos cifras distintas**. Prosa sin roturas. Las 8 cifras tienen fuente, cuando antes había dos sin ella. El desglose de fondos suma 100%. Render limpio en claro y oscuro por escritorio y móvil, sin errores de JS.
 
+**Las medias de consultas del Programa de Experiencia del Paciente no cuadran con las cuentas de la propia Fundación.** La ficha daba tres cosas incompatibles: 729 y 585 consultas reales en 2025, más de 48.000 acumuladas desde 2010, y unas medias de «1.500 consultas médicas al año» y «16 consultas cada día laborable».
+
+**Origen de las medias, localizado:** están literalmente en fcarreras.org, en la página de servicios sociales para pacientes y familiares. La ficha las transcribió bien; el problema es de la fuente, no de la transcripción. **No aparecen en la Memoria 2025**: ni «1.500 consultas», ni «16 consultas», ni «día laborable» figuran en sus 91 páginas.
+
+**La aritmética señala cuál falla.** El acumulado de más de 48.000 en dieciséis años implica una media de 3.000 al año entre las dos áreas. Si las médicas son 1.500, las informativas tendrían que ser otras 1.500, es decir **unas 6 al día laborable, no 16**. Con las 16 el total sería de 5.500 al año y 88.000 desde 2010, casi el doble de lo que declara la memoria. **El 1.500 cuadra; el «16 al día» rompe la cuenta él solo.**
+
+**Qué se ha hecho:** no se borra ninguna cifra ni se escribe el 6, que sería una inferencia propia. El párrafo pasa a dar primero los datos de 2025 con su fuente y después recoge las medias **atribuidas a la web, advirtiendo de que no llevan año y de que no cuadran con el acumulado de la memoria**. Así nadie las usa como dato de año corriente ni se contradice en pantalla con las cifras de 2025.
+
+**Aguas abajo:** en el deck estaban etiquetadas como «medias históricas del servicio». Esa lectura es defendible para el 1.500 pero no para el 16 diario, que no es compatible con ninguna media histórica que respete el acumulado de la propia Fundación.
+
 **Edad media de los nuevos donantes: eran 27, no 30.** Dos programas se contradecían hablando del mismo año. El de REDMO decía 27 y el de Proceso de donación decía 30. **Cerrado contra fuente: la p.34 dice literalmente «27 años edad media nuevas altas», y «30 años» no aparece como edad en ninguna de las 91 páginas.** Corregido el programa de Proceso de donación, que además gana el dato de que el 84% de las altas tiene entre 18 y 35 años. Las menciones a «más de 30 años» que quedan se refieren a la duración del convenio con Sanidad, no a edades.
 
 **Fallo de método que dejó pasar esto, y que conviene corregir para Aldeas.** Ninguno de mis chequeos lo habría encontrado: el de coherencia interna **solo capturaba cifras con separador de miles o porcentajes**, así que un «27» y un «30» a secas ni siquiera entraban en la comparación; y el de rezagados solo mira objetos donde se introdujo alguna cifra nueva, y ese programa estaba sin tocar. **Un objeto que no se ha tocado puede contener perfectamente un dato que el rebase debía haber actualizado.**
