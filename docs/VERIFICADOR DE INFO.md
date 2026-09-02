@@ -94,6 +94,18 @@ Cifras rebasadas: donantes 520.850 (+3%), **15.805 vidas transformadas** desde 1
 
 **Verificación de cierre de FJC.** Contrastada cada cifra de 2025 introducida contra la etiqueta que le da la memoria en su propia página: las 40 están bien asignadas. Coherencia interna: **0 conceptos citados con dos cifras distintas**. Prosa sin roturas. Las 8 cifras tienen fuente, cuando antes había dos sin ella. El desglose de fondos suma 100%. Render limpio en claro y oscuro por escritorio y móvil, sin errores de JS.
 
+**El nombre del REDMO estaba escrito de seis formas distintas, tres de ellas mal.** No lleva «Español»: las siglas salen de **RE**gistro de **D**onantes de **M**édula **Ó**sea, y así lo escriben tanto fcarreras.org como el índice y la p.18 de la Memoria 2025. Lo que había en la ficha:
+
+| Dónde | Decía | Fallo |
+|---|---|---|
+| speech.discurso | registro **español** de donantes de médula | «español» no va, y faltaba «ósea» |
+| claim y el título del programa | registro oficial de donantes de médula de España | faltaba «ósea» |
+| resumen de 30 segundos | registro oficial de **médula ósea** de España | faltaba «donantes»: así suena a registro de médulas, no de personas |
+
+Corregidas las cuatro. Las formas que quedan son todas válidas: el nombre propio en dos sitios y descripciones correctas en los otros dos. Se conserva «donantes del registro español» en el programa de cordón, que ahí no nombra al REDMO sino que contrapone donantes españoles y extranjeros.
+
+**Leccion:** un nombre propio mal escrito no lo detecta ningún chequeo de cifras. Merece la pena listar todas las variantes de los nombres clave de cada ONG y comprobar que coinciden entre sí y con la fuente.
+
 **Un plazo presentado como tasa de éxito: el error que más lejos llegó.** El discurso de la ficha decía «A los 26 días encuentran a alguien compatible. **El 84% de los pacientes**, como Marta, tienen esa suerte». El 84% **no es la proporción de pacientes que encuentran donante, es un plazo**: la propia ficha lo dice en `cifras[4]` — «se localizó donante para 1.168 pacientes, el **91,5%** del total: el 55% en menos de 30 días y el 84% antes de 60». La tasa de localización es del 91,5%, y el discurso ahora dice «más de nueve de cada diez pacientes».
 
 Este error se había propagado desde la ficha a la diapositiva 25 del deck y al guion `speech_fjc.md` (donde llegó a decir «más de ocho de cada diez»). **La ficha es el origen del que se copia todo lo demás: mientras un dato esté mal aquí, cualquier material nuevo lo arrastra.** Y jugaba en contra, porque hacía vender por debajo de lo que la Fundación consigue. Comprobado que los demás usos del 84% en la ficha sí son correctos: el tramo de plazo y la distribución de edad de las nuevas altas.
