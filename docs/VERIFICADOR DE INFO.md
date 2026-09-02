@@ -94,6 +94,12 @@ Cifras rebasadas: donantes 520.850 (+3%), **15.805 vidas transformadas** desde 1
 
 **Verificación de cierre de FJC.** Contrastada cada cifra de 2025 introducida contra la etiqueta que le da la memoria en su propia página: las 40 están bien asignadas. Coherencia interna: **0 conceptos citados con dos cifras distintas**. Prosa sin roturas. Las 8 cifras tienen fuente, cuando antes había dos sin ella. El desglose de fondos suma 100%. Render limpio en claro y oscuro por escritorio y móvil, sin errores de JS.
 
+**Edad media de los nuevos donantes: eran 27, no 30.** Dos programas se contradecían hablando del mismo año. El de REDMO decía 27 y el de Proceso de donación decía 30. **Cerrado contra fuente: la p.34 dice literalmente «27 años edad media nuevas altas», y «30 años» no aparece como edad en ninguna de las 91 páginas.** Corregido el programa de Proceso de donación, que además gana el dato de que el 84% de las altas tiene entre 18 y 35 años. Las menciones a «más de 30 años» que quedan se refieren a la duración del convenio con Sanidad, no a edades.
+
+**Fallo de método que dejó pasar esto, y que conviene corregir para Aldeas.** Ninguno de mis chequeos lo habría encontrado: el de coherencia interna **solo capturaba cifras con separador de miles o porcentajes**, así que un «27» y un «30» a secas ni siquiera entraban en la comparación; y el de rezagados solo mira objetos donde se introdujo alguna cifra nueva, y ese programa estaba sin tocar. **Un objeto que no se ha tocado puede contener perfectamente un dato que el rebase debía haber actualizado.**
+
+**Colisión de redacción en las empresas colaboradoras, detectada al ampliar el chequeo.** El programa de comunidad tenía dos frases casi idénticas con cifras incompatibles: «Más de 900 empresas y entidades forman parte del plan…» y «26 empresas y entidades forman parte del Plan…». No se contradicen —**la memoria no publica ningún total de empresas, solo el desglose por tipo, y «900» no aparece en ninguna página**— pero leídas seguidas parecían un error. Reescritas para que se distingan: el total procede del balance propio de la Fundación y el desglose de la Memoria 2025.
+
 **Los dos importes de lo que aportan los socios: no es un error, pero había que nombrarlo.** La memoria da dos cifras que un lector toma por la misma:
 
 - **19.761.784,44 €** — línea «Donaciones de socios» del «Origen de los recursos durante el ejercicio de 2025» (p.16), un estado contable de seis líneas que cuadra al céntimo con el gasto y remite a las cuentas anuales.
