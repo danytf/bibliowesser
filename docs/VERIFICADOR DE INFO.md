@@ -70,7 +70,7 @@ Sin puntos abiertos.
 
 Incorporado el desglose completo que la ficha no tenía: por país (Nicaragua 2.323.388 € y 9.576 personas, El Salvador 2.311.186 € y 3.037, Honduras 2.215.847 € y 4.415, Guatemala 1.944.960 € y 2.390, Venezuela 1.022.360 € y 3.944, Bolivia 877.903 € y 1.165, Perú 583.244 € y 1.326), por tipo de programa, y el reparto **74% España / 26% internacional**, que cuadra con los 34.093.138 € y 11.976.818 € de la p.69 de la Institucional.
 
-**Fallo propio detectado al releer:** escribí «**9 países**» con asteriscos de markdown. **Las fichas son texto plano y se escapan con , así que los asteriscos se ven literalmente en pantalla.** Comprobado en navegador y corregido; barridas las siete fichas y no había ningún otro caso. **No usar sintaxis de markdown al escribir contenido de las fichas.**
+**Fallo propio detectado al releer:** escribí «**9 países**» con asteriscos de markdown. **Las fichas son texto plano y se escapan con la función esc(), así que los asteriscos se ven literalmente en pantalla.** Comprobado en navegador y corregido; barridas las siete fichas y no había ningún otro caso. **No usar sintaxis de markdown al escribir contenido de las fichas.**
 
 **Aldeas Inclusiva llevaba entero el ejercicio 2024.** Es el programa que peor estaba, y lo destapó el barrido de menciones a 2024. Cuatro datos rebasados con la Memoria Institucional (p.46 y p.48):
 
