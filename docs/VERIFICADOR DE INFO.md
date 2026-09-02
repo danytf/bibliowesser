@@ -66,6 +66,17 @@ Sin puntos abiertos.
 
 **Material nuevo incorporado de la Memoria Institucional**, que la ficha no tenía: el reparto del gasto entre **34.093.138 € a programas en España y 11.976.818 € a proyectos internacionales** (p.69), y los resultados de 2025 por programa — 97% de las familias con asistencia regular y 78% de promoción de curso en prevención; 80% de objetivos académicos alcanzados en protección; 77% de jóvenes en formación, 84% de finalización en los Programas Profesionales y 19% que necesitó apoyo psicológico.
 
+**Aldeas Inclusiva llevaba entero el ejercicio 2024.** Es el programa que peor estaba, y lo destapó el barrido de menciones a 2024. Cuatro datos rebasados con la Memoria Institucional (p.46 y p.48):
+
+| Dato | Ficha (2024) | Memoria 2025 |
+|---|---|---|
+| Personas con discapacidad en el CEEIS | 69 | **42** |
+| De ellas, derivadas desde Aldeas | 15 | **3** |
+| Alumnos de la línea Educa | 3.489 | **3.401** |
+| Serendipia | 3 emancipaciones | **6 participantes, 1 emancipación** |
+
+La caída de 69 a 42 personas empleadas es fuerte y conviene saberla antes de que la pregunte un donante. Se conserva el dato de 2024 como comparativa explícita. Incorporados además dos elementos nuevos de 2025: el proyecto **Ítaca** de apoyos individualizados y la primera promoción de **Kairós**, con 18 participantes, dos tercios con discapacidad o en situación de vulnerabilidad.
+
 **Falsos positivos de los chequeos en esta ficha, para no reinvestigarlos:** el comparador de coherencia marca 78% frente a 80% como conflicto, y son métricas distintas de programas distintos (promoción de curso en prevención frente a objetivos académicos en protección). El de prosa marca cinco roturas que son la familia **G.O.** anonimizada, un «(...)» dentro de una cita y el título del corto «1, 2, 3...CASA».
 
 **Fuentes oficiales**: Memoria Aldeas 2025 (PDF oficial); web y área de prensa institucional de Aldeas Infantiles SOS; guía "Enredados con las pantallas" (Aldeas Infantiles SOS, febrero 2026); Fundación Princesa de Asturias para el premio de 2016; UNICEF/EAPN/Plataforma de Infancia para el dato de pobreza infantil en España; Oficina Central Palestina de Estadística para las cifras de menores huérfanos en Gaza.
