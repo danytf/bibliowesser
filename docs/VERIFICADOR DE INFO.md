@@ -94,6 +94,15 @@ Cifras rebasadas: donantes 520.850 (+3%), **15.805 vidas transformadas** desde 1
 
 **Verificación de cierre de FJC.** Contrastada cada cifra de 2025 introducida contra la etiqueta que le da la memoria en su propia página: las 40 están bien asignadas. Coherencia interna: **0 conceptos citados con dos cifras distintas**. Prosa sin roturas. Las 8 cifras tienen fuente, cuando antes había dos sin ella. El desglose de fondos suma 100%. Render limpio en claro y oscuro por escritorio y móvil, sin errores de JS.
 
+**Añadido el portal de transparencia a las fuentes** (https://fcarreras.org/transparencia, HTTP 200 verificado). No estaba, y esa omisión tuvo consecuencias: al no figurar en la ficha se dio por no verificable y llegó a retirarse del pie de una diapositiva del deck, para recuperarla después. **Si una fuente buena no está en la ficha, el material derivado la pierde.**
+
+**Los dos documentos que cuelga ese portal y que parecían resolver el perímetro del convenio ONT-FJC: no lo resuelven.** Comprobados descargando los PDF:
+
+- **«Promoción de la Donación»** no es el convenio con la ONT: es una **resolución de la Generalitat de Catalunya** de marzo de 2023 sobre una autorización sanitaria.
+- **«Renovación acuerdo marco»** sí es del BOE, pero es la **adenda de prórroga de 1 de junio de 2021** del convenio Ministerio de Sanidad-ONT-Fundación Internacional Josep Carreras. Es **anterior** al convenio de 2023 (BOE-A-2023-1948) que la ficha ya cita, y **no contiene ningún importe**: cero euros en sus dos páginas.
+
+Conclusión: para la cofinanciación 50/50 de 100.000 € + 100.000 €, **la mejor fuente sigue siendo el BOE-A-2023-1948 que ya está citado**. El portal de transparencia no aporta nada mejor y la cuestión queda como estaba.
+
 **El nombre del REDMO estaba escrito de seis formas distintas, tres de ellas mal.** No lleva «Español»: las siglas salen de **RE**gistro de **D**onantes de **M**édula **Ó**sea, y así lo escriben tanto fcarreras.org como el índice y la p.18 de la Memoria 2025. Lo que había en la ficha:
 
 | Dónde | Decía | Fallo |
