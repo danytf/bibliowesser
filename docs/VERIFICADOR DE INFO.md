@@ -60,7 +60,13 @@ Sin puntos abiertos.
 
 **Las siete cifras de la ficha no tenían ninguna fuente.** Ya la tienen las siete: cinco de la Memoria Institucional con su página, la de pobreza infantil del **XV Informe El Estado de la Pobreza de EAPN** (2,7 millones de niños en AROPE, el 34,6%, datos de 2024) y la de los 75 años de la **historia oficial de SOS Children's Villages International** (fundación en 1949 en Innsbruck).
 
-**Pendiente:** el claim afirma que la red «atiende a 7,9 millones de personas en todo el mundo». **Esa cifra no aparece en ninguna de las cuatro memorias de 2025** y no se ha podido verificar en la web de la federación. Queda señalada.
+**Resuelto el pendiente del claim: el «7,9 millones» está verificado.** La p.7 de la Memoria Institucional lo desglosa: **7.913.900 personas atendidas en todo el mundo** en 2025, repartidas en 70.300 en cuidado alternativo (1.533 Aldeas, residencias y familias de acogida), 2.599.900 en 1.025 programas de fortalecimiento familiar, 1.259.600 en 780 centros educativos, 89.000 en 73 programas de salud, 3.826.800 en 122 programas de respuesta a emergencias y 68.400 en otras actividades. El desglose entero se ha incorporado al programa de cooperación.
+
+**Dato caducado corregido:** la ficha decía «3.229 personas en 74 acciones formativas», que son cifras de 2024. La p.50 da las de 2025: **95 acciones formativas con 4.246 participantes**, valoración media de 4,3 sobre 5, y el 85% de la plantilla hizo al menos una.
+
+**Material nuevo incorporado de la Memoria Institucional**, que la ficha no tenía: el reparto del gasto entre **34.093.138 € a programas en España y 11.976.818 € a proyectos internacionales** (p.69), y los resultados de 2025 por programa — 97% de las familias con asistencia regular y 78% de promoción de curso en prevención; 80% de objetivos académicos alcanzados en protección; 77% de jóvenes en formación, 84% de finalización en los Programas Profesionales y 19% que necesitó apoyo psicológico.
+
+**Falsos positivos de los chequeos en esta ficha, para no reinvestigarlos:** el comparador de coherencia marca 78% frente a 80% como conflicto, y son métricas distintas de programas distintos (promoción de curso en prevención frente a objetivos académicos en protección). El de prosa marca cinco roturas que son la familia **G.O.** anonimizada, un «(...)» dentro de una cita y el título del corto «1, 2, 3...CASA».
 
 **Fuentes oficiales**: Memoria Aldeas 2025 (PDF oficial); web y área de prensa institucional de Aldeas Infantiles SOS; guía "Enredados con las pantallas" (Aldeas Infantiles SOS, febrero 2026); Fundación Princesa de Asturias para el premio de 2016; UNICEF/EAPN/Plataforma de Infancia para el dato de pobreza infantil en España; Oficina Central Palestina de Estadística para las cifras de menores huérfanos en Gaza.
 
