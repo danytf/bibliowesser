@@ -351,6 +351,14 @@ Cuidado con el **orden de los programas**: `renderFicha()` imprime la cabecera d
 
 Sobre el resto de filas de las tablas: la ficha es un resumen, no una copia de la memoria, así que decenas de subprogramas de detalle siguen deliberadamente fuera. Lo verificado es que **no falte ningún colectivo ni ninguna área de conocimiento completa**, y ya no falta ninguno.
 
+**Un acumulado de dos meses que se leía como una instantánea del primer día.** El campo `motivosSocio[1]` decía que, tras la DANA, Cruz Roja «**ya tenía** a 6.019 personas trabajando sobre el terreno mientras las instituciones aún evaluaban los daños». Las 6.019 son el total movilizado **hasta diciembre de 2024**, no la gente desplegada en las primeras horas. El «ya tenía» convertía el acumulado en instantáneo, y así se coló en el guión y en dos láminas.
+
+**Era el único sitio con el problema.** Los otros tres lugares donde vive la cifra ya la etiquetaban bien: `cifras[1]` dice «movilizadas», `programas[0].desc` dice «movilizadas de todas las comunidades autónomas» y su `resumenClave` dice «desplegadas». Corregido a: «Movilizó a 6.019 personas hasta diciembre de 2024, con sus propias sedes y vehículos destruidos por la riada».
+
+**Se retira además el reproche a la administración** («mientras las instituciones aún evaluaban los daños»). El contraste pasa a ser con la propia desgracia de Cruz Roja, que es más fuerte y que nadie discute.
+
+**La idea de rapidez no se pierde y no hace falta inventarla:** los **213 equipos de respuesta**, con su desglose por tipo, ya están en el programa de emergencias, que es donde corresponde. `motivosSocio` no los necesita.
+
 **Verificación de cierre.** Se extrajeron las 299 cifras distintas de la ficha y se contrastaron una a una contra el texto de la memoria: 216 aparecen literalmente en ella y las 83 restantes proceden de otras fuentes ya citadas (balance de la DANA de 2024, notas de prensa de 2026, Venezuela, Ucrania, bp, Voces en Red, balance de la temporada de playas) o son redondeos deliberados del discurso. La prueba destapó dos fallos que las revisiones anteriores no habían visto:
 
 1. **`motivosSocio[3]` conservaba "más de 132.000 personas mayores" en teleasistencia**, cifra de 2024. Se había corregido en el discurso y en el programa de mayores, pero no ahí. Ahora dice más de 130.000, coherente con los 122.584 de domiciliaria y 8.344 de móvil de 2025.
