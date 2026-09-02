@@ -255,7 +255,12 @@ Este error se había propagado desde la ficha a la diapositiva 25 del deck y al 
 
 **Cifra de cuotas de socios: corregido un tercer sitio que se me había escapado.** Al rebasar los 19.927.494 € de la p.54 actualicé la cifra en `cifras[7]` y en el campo `dato` del programa, pero **la prosa del programa «Comunidad Imparable» se quedó con «18,5 millones»**. Lo detectó el usuario revisando la ficha. Ya coinciden los tres sitios.
 
-**Sobre la cuota media de 38,23 €: ojo al leerla.** Ni «38,23» ni «cuota media», «recibo», «periodicidad» o «aportación media» aparecen en ningún punto de la Memoria 2025; la cifra procede de la comunicación oficial de FJC. **No es la aportación anual por socio**: dividiendo los 19.927.494 € entre los 157.383 socios salen 126,6 € al año, unos 3,3 veces el 38,23. La explicación plausible es que el 38,23 sea el importe medio por recibo y no por año, pero **la memoria no lo dice y no se ha escrito así en la ficha**. Si alguien usa las dos cifras en la misma frase, tiene que saber que no son comparables.
+**Cerrada la cuota media de 38,23 €: es por recibo, no por año.** Quedó abierta en una primera pasada y ahora se resuelve. Ni «38,23» ni «cuota media», «recibo» o «periodicidad» aparecen en las 91 páginas de la Memoria 2025: la cifra viene de la comunicación de la Fundación. Lo que sí está verificado es **la página de alta de fcarreras.org**, que ofrece importes de 30 €, 60 €, 150 € u «Otro» y **frecuencia mensual, trimestral, semestral o anual**.
+
+Con periodicidad variable, una «cuota media» tiene que ser por recibo, y es la única lectura bajo la que las dos cifras cuadran: los 19.927.494 € entre 157.383 socios salen a **126,62 € al año**, que dividido entre 38,23 da **3,31 recibos anuales** — exactamente lo esperable en una base que mezcla pagadores mensuales, trimestrales, semestrales y anuales.
+
+El texto pasa a decirlo así y añade el dato anual en la misma frase, de modo que ya no se puedan confundir. **Aviso de trazabilidad: «por recibo» es la lectura coherente, no una cita literal de la Fundación.** La presentación ya lo decía bien y ahora la ficha coincide con ella.
+
 
 **Barrido del índice completo, sección por sección.** Faltaban tres secciones enteras por leer, y dos traían material relevante:
 
