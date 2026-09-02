@@ -96,7 +96,7 @@ Cifras rebasadas: donantes 520.850 (+3%), **15.805 vidas transformadas** desde 1
 
 **El REDMO no puede cumplir 35 años en 2025, y la contradicción es de la memoria.** La ficha decía «Desde 1991… y en 2025 cumplió 35 años», que no sale: 1991 más 35 son 2026. Comprobado el documento, **las dos afirmaciones están en él**: las p.31 y p.32 dicen que «la Fundación Josep Carreras creó en 1991 el REDMO», y las p.5 y p.33 hablan de «35 años conectando vidas» y de «una trayectoria de 35 años» en la memoria de 2025. **La ficha transcribió bien las dos; la incoherencia es de la fuente.**
 
-**No se ha escrito «34 años»**, que sería corregirle la aritmética a la Fundación a partir de un cálculo propio. Se ha eliminado la colisión: 1991 es el dato sólido —aparece dos veces en la memoria y en cuatro campos de la ficha— y el conteo de años se sustituye por «más de tres décadas», que es cierto con cualquiera de las dos lecturas. Igual en el campo , donde «15.805 vidas en 35 años» pasa a «15.805 vidas transformadas desde 1991».
+**No se ha escrito «34 años»**, que sería corregirle la aritmética a la Fundación a partir de un cálculo propio. Se ha eliminado la colisión: 1991 es el dato sólido —aparece dos veces en la memoria y en cuatro campos de la ficha— y el conteo de años se sustituye por «más de tres décadas», que es cierto con cualquiera de las dos lecturas. Igual en el campo `dato`, donde «15.805 vidas en 35 años» pasa a «15.805 vidas transformadas desde 1991».
 
 **Si alguien vuelve a ver «35 años» en la memoria y quiere reponerlo, que lea esto antes:** es la propia memoria la que no cuadra consigo misma, y meter el conteo devuelve la trampa a la ficha.
 
