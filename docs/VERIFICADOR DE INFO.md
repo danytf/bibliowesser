@@ -94,6 +94,16 @@ Cifras rebasadas: donantes 520.850 (+3%), **15.805 vidas transformadas** desde 1
 
 **Verificación de cierre de FJC.** Contrastada cada cifra de 2025 introducida contra la etiqueta que le da la memoria en su propia página: las 40 están bien asignadas. Coherencia interna: **0 conceptos citados con dos cifras distintas**. Prosa sin roturas. Las 8 cifras tienen fuente, cuando antes había dos sin ella. El desglose de fondos suma 100%. Render limpio en claro y oscuro por escritorio y móvil, sin errores de JS.
 
+**El contraste de supervivencia infantil, retirado: el error de fondo era mío.** La ficha decía que «más del 85% de los niños con LLA se cura hoy, cuando **hace poco más de una década** más del 80% no sobrevivía». Abierto el artículo fuente —«Los bebés también tienen cáncer», de fcarreras.org— resulta que:
+
+- **La transcripción de la frase era correcta**: el artículo dice literalmente «Hace más de 10 años la supervivencia de la LLA en niños era muy baja. Más del 80% no sobrevivía, mientras que ahora, gracias a la investigación, más del 85% de los niños con LLA se cura».
+- **Pero el artículo es del 15 de febrero de 2020.** Su «hace más de 10 años» apunta a antes de 2010; al escribirlo como «hace poco más de una década» en una ficha verificada en 2026, el marco temporal se desplazó unos seis años. **Ese desplazamiento sí fue error propio.**
+- **Y el artículo se contradice a sí mismo**: su entradilla dice que «actualmente las tasas de supervivencia están por encima del 80%» y el cuerpo habla de «más del 85% se cura».
+
+Con una fuente de 2020, internamente inconsistente y con una afirmación histórica que no se sostiene —la supervivencia de la LLA pediátrica ya rondaba el 80% hace una década—, **el contraste se retira por completo** en `cifras[1]` y en `problema`.
+
+**A cambio entra un dato mejor, y verificado en ese mismo artículo:** el subtipo de **leucemia del lactante con reordenamiento del gen MLLAF4 tiene supervivencias inferiores al 40%**, y es una de las líneas que investiga el Instituto Josep Carreras, «uno de los pocos grupos del mundo» que estudia su causa. Comercialmente es más fuerte que el contraste histórico: habla de una necesidad presente que la donación financia, no de un logro pasado. La fuente queda además fechada como artículo de 2020, para que nadie la tome por dato de año corriente.
+
 **El REDMO no puede cumplir 35 años en 2025, y la contradicción es de la memoria.** La ficha decía «Desde 1991… y en 2025 cumplió 35 años», que no sale: 1991 más 35 son 2026. Comprobado el documento, **las dos afirmaciones están en él**: las p.31 y p.32 dicen que «la Fundación Josep Carreras creó en 1991 el REDMO», y las p.5 y p.33 hablan de «35 años conectando vidas» y de «una trayectoria de 35 años» en la memoria de 2025. **La ficha transcribió bien las dos; la incoherencia es de la fuente.**
 
 **No se ha escrito «34 años»**, que sería corregirle la aritmética a la Fundación a partir de un cálculo propio. Se ha eliminado la colisión: 1991 es el dato sólido —aparece dos veces en la memoria y en cuatro campos de la ficha— y el conteo de años se sustituye por «más de tres décadas», que es cierto con cualquiera de las dos lecturas. Igual en el campo `dato`, donde «15.805 vidas en 35 años» pasa a «15.805 vidas transformadas desde 1991».
