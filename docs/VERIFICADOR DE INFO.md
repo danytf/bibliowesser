@@ -94,6 +94,12 @@ Cifras rebasadas: donantes 520.850 (+3%), **15.805 vidas transformadas** desde 1
 
 **Verificación de cierre de FJC.** Contrastada cada cifra de 2025 introducida contra la etiqueta que le da la memoria en su propia página: las 40 están bien asignadas. Coherencia interna: **0 conceptos citados con dos cifras distintas**. Prosa sin roturas. Las 8 cifras tienen fuente, cuando antes había dos sin ella. El desglose de fondos suma 100%. Render limpio en claro y oscuro por escritorio y móvil, sin errores de JS.
 
+**El REDMO no puede cumplir 35 años en 2025, y la contradicción es de la memoria.** La ficha decía «Desde 1991… y en 2025 cumplió 35 años», que no sale: 1991 más 35 son 2026. Comprobado el documento, **las dos afirmaciones están en él**: las p.31 y p.32 dicen que «la Fundación Josep Carreras creó en 1991 el REDMO», y las p.5 y p.33 hablan de «35 años conectando vidas» y de «una trayectoria de 35 años» en la memoria de 2025. **La ficha transcribió bien las dos; la incoherencia es de la fuente.**
+
+**No se ha escrito «34 años»**, que sería corregirle la aritmética a la Fundación a partir de un cálculo propio. Se ha eliminado la colisión: 1991 es el dato sólido —aparece dos veces en la memoria y en cuatro campos de la ficha— y el conteo de años se sustituye por «más de tres décadas», que es cierto con cualquiera de las dos lecturas. Igual en el campo , donde «15.805 vidas en 35 años» pasa a «15.805 vidas transformadas desde 1991».
+
+**Si alguien vuelve a ver «35 años» en la memoria y quiere reponerlo, que lea esto antes:** es la propia memoria la que no cuadra consigo misma, y meter el conteo devuelve la trampa a la ficha.
+
 **Las medias de consultas del Programa de Experiencia del Paciente no cuadran con las cuentas de la propia Fundación.** La ficha daba tres cosas incompatibles: 729 y 585 consultas reales en 2025, más de 48.000 acumuladas desde 2010, y unas medias de «1.500 consultas médicas al año» y «16 consultas cada día laborable».
 
 **Origen de las medias, localizado:** están literalmente en fcarreras.org, en la página de servicios sociales para pacientes y familiares. La ficha las transcribió bien; el problema es de la fuente, no de la transcripción. **No aparecen en la Memoria 2025**: ni «1.500 consultas», ni «16 consultas», ni «día laborable» figuran en sus 91 páginas.
