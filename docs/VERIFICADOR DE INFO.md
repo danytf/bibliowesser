@@ -129,6 +129,14 @@ Punto abierto: la ficha afirma en `problema` que el factor de riesgo más preval
 
 ## Fundación Josep Carreras contra la Leucemia (FJC)
 
+**El objetivo de los 40 M€ en investigación ya está cumplido, y la ficha lo presentaba como pendiente.** El `claim` decía que Ramón Reyes «se ha marcado como objetivo elevar la inversión anual en investigación hasta los 40 millones de euros».
+
+**El objetivo es real y está verificado:** al ser reelegido en junio de 2024 presentó un programa de gobierno con **diez compromisos** para el mandato 2024-2028, y uno era literalmente elevar a 40 M€ la financiación anual de la investigación. No fija un año concreto, solo el mandato. Fuente añadida (Infosalus, HTTP 200 verificado).
+
+**Pero los datos de 2025 que la propia ficha ya llevaba lo dan por superado:** el desglose de fondos recoge **41,4 M€ en investigación oncológica**. Presentarlo como meta pendiente hacía parecer que la AECC está por debajo de su propio compromiso cuando está por encima. Reescrito para decir que el objetivo ya se cumple, **con la cautela de que las dos magnitudes no tienen por qué medir exactamente lo mismo**: el compromiso habla de «financiación anual de la investigación» y el desglose de «investigación oncológica», y ninguna fuente aclara si son el mismo perímetro.
+
+**Trampa de coincidencia numérica, para no volver a mezclarlas:** en esta ficha hay **dos cifras de 40 M€ que son cosas distintas**. Una es el objetivo del mandato; la otra son los **40 M€ adjudicados en 282 nuevas ayudas durante 2025**, que aparecen en `cifras[2]`, en `programas[0].desc` y en su `dato`. Esas tres son correctas y no se han tocado. Si alguien ve «40 millones» en la ficha, tiene que mirar cuál de las dos es.
+
 **La supervivencia del cáncer de páncreas: dos cifras ciertas que medían cosas distintas, y la ficha indìía al error.** Este punto ya había provocado dos equivocaciones en materiales derivados, paradas por personas distintas: el 10 de agosto de 2026 y el 2 de septiembre, cuando el guión llegó a editarse a «apenas llega al 10 %», corrigiendo hacia abajo algo que estaba bien.
 
 **La causa era la ficha.** Decía «7-10 %» a secas en `cifras[1]` y en `problema`, así que cualquiera que construyera material desde ella veía el guión («apenas supera el 10 %») como una exageración, cuando es al revés.
