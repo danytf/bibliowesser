@@ -48,6 +48,18 @@ Además: Reto AECC 70% Supervivencia (hasta 10M€/proyecto, 5-7 años, particip
 
 Sin puntos abiertos.
 
+**Auditoría final (04/09/2026), descargado y leído integro el Informe Anual 2025 (72 p.) y el Informe de Auditoría de Cuentas Anuales 2025 (97 p.) desde transparencia.contraelcancer.es**: verificadas cifra a cifra contra el PDF primario las 8 `cifras`, el `claim`, los `meta` y el desglose de atención — 764.745 socios, 37.014 voluntarios, 177.577 personas atendidas (58.720+36.357+14.852+111.379, categorías no excluyentes), 244.103 llamadas, 792 ayudas/157M€/3.000+ investigadores/160 instituciones/38 provincias, 282 nuevas ayudas/40M€, 41.414.473€ en investigación ("41,4M€"), 96.250.453€ en cuotas, 166.512.533€ de ingresos ("166,5M€") — todas exactas.
+
+**Un hallazgo corregido:** `cifras[4]` daba "1.417.541" como total de beneficiarios de prevención (78.110+1.332.704+6.727), con una nota aclarando que 690 voluntarios quedaban "no incluidos en el total". Pero el Informe Anual dice literalmente que "han participado un total de **1.418.231** beneficiarios" — exactamente 1.417.541+690: la AECC sí incluye a esas personas voluntarias en su cifra oficial. Corregido el número y reescrita la nota para que coincida con lo que la fuente realmente dice, en vez de con un total calculado por nosotros excluyendo una categoría.
+
+**Dos añadidos verificados directamente contra el Informe Anual 2025 y ausentes de la ficha:** (1) incidencia política a nivel europeo — reuniones en 2025 con eurodiputados, comisarios y la vicepresidenta Teresa Ribera para pedir la continuidad del Plan Europeo Contra el Cáncer y su financiación en el Marco Financiero Plurianual hasta 2034 —, añadido al programa de Observatorio/incidencia; (2) los programas de cribado poblacional del SNS cubren tres tipos de cáncer (mama, colorrectal y cuello uterino, la ficha solo mencionaba los dos primeros) y "9 de cada 10 personas sobrevivirían al cáncer de colon si se detecta en fase localizada", añadidos al programa de Prevención y detección precoz.
+
+**Una cifra de incidencia actualizada:** el programa de detección precoz citaba "36.000 casos [de cáncer de mama] en 2024" para presentar la campaña "Nos lo tomamos a pecho". El informe SEOM/REDECAN "Las Cifras del Cáncer en España 2026" (ya citado como fuente en otras cifras de esta misma ficha) da una estimación más reciente y más precisa para 2026: **38.318 casos**. Actualizado; el "24% en menores de 50 años" no se tocó por no encontrarse en esa tabla (no es una cifra REDECAN por edad, se mantiene sin cambios).
+
+Verificado también que el resto del Informe Anual 2025 (estrategia, líneas del Plan Estratégico 2025-2028, colaboraciones solidarias, ingresos/gastos por área: 96.538.594€ atención = 58,8% ≈ "59% del gasto" citado en la ficha, exacto) no aporta ningún otro dato en conflicto con lo ya existente. `verificado` y `ultimaActualizacion` sincronizados a septiembre 2026.
+
+Sin puntos abiertos.
+
 ## Aldeas Infantiles SOS España
 
 ### Rebase a las memorias de 2025 (septiembre de 2026)
