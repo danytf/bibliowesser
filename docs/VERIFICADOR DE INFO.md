@@ -306,6 +306,9 @@ Verificado contra estas fuentes: fundación 2008 por iniciativa de Pasqual Marag
 
 Sin puntos abiertos. (El bloque de FAQs/gestión de objeciones de la Formación WES Equipos no se incorpora a la ficha porque no encaja en ningún campo existente del esquema de datos; queda para un proyecto dedicado a rebatidas/objeciones.)
 
+**`verificado` y `ultimaActualizacion` desincronizados: única ficha de las 7 donde no coincidían.** Tenía «Datos verificados junio 2026» pero `ultimaActualizacion`: «julio 2026» — la verificación fechada un mes *antes* de la última actualización, al revés de lo lógico. En las otras seis fichas ambos campos siempre coinciden en el mes. Actualizados ambos a septiembre 2026, coincidiendo con la corrección del Brain Film Fest de esta sesión.
+
+
 **Brain Film Fest: 6.389 espectadores (8ª ed., 2025) no cuadraba con el 20% de crecimiento de la 9ª ed. (2026).** La ficha decía «8ª edición... 6.389 espectadores» y, para la 9ª, «más de 5.000 asistentes, un 20% más que la edición anterior» — pero un 20% más que 6.389 son ~7.667, no 5.000, y 5.000 es de hecho *menos* que 6.389. El 6.389 no aparece en ninguna fuente oficial de la FPM. Verificado con dos notas de prensa oficiales de la propia Fundación: la de cierre de la 8ª edición (2025) da «más de 4.000 espectadores»; la de cierre de la 9ª edición (16/03/2026, PDF oficial) da «una asistencia estimada de 5.500 espectadores a proyecciones y actividades, una cifra que supone un incremento del 20% respecto al año pasado» — cifra que la propia FPM presenta como consistente con el año anterior. Corregidas ambas ediciones a las cifras oficiales (más de 4.000 en 2025; 5.500 estimados en 2026) en `desc` y `dato`, y añadidas las dos notas de prensa a `fuentesCompletas`.
 
 
