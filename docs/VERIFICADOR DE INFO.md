@@ -322,6 +322,8 @@ Verificado contra estas fuentes: fundación en España el 30 de julio de 1968 (c
 
 Sin puntos abiertos.
 
+**Canarias, 29 taxones de cetáceos: «presentes» en `desc` vs «protegidos» en `dato`.** El programa de Especies marinas decía «hasta 29 taxones de cetáceos presentes en sus aguas» en el `desc`, pero «hasta 29 taxones estrictamente protegidos» en el `dato` — ambas afirmaciones pueden ser ciertas a la vez, pero es un cambio de encuadre entre los dos campos. Verificado contra WWF («Ballenas en Canarias»): la fuente enmarca la cifra como «vital para la reproducción, alimentación y paso migratorio de hasta 29 taxones estrictamente protegidos por la legislación europea y nacional» — el encuadre correcto es el que ya tenía el `dato`. Corregido el `desc` para que coincida; añadida la fuente a `fuentesCompletas`.
+
 **«El peor año de incendios en dos siglos, solo superado por 1994»: contradicción lógica repetida en cinco sitios.** Si 1994 (437.000 ha) superó a 2025 (355.000 ha), 2025 no es «el peor en dos siglos», es el segundo peor — la propia ficha reconocía el hecho («solo superado por 1994») mientras lo enmarcaba con una etiqueta que lo negaba. Aparecía así en `cifras[1]`, y en el programa de Incendios (`desc` y `dato`); en `problema` y `speech.discurso` se omitía la coletilla de 1994, pero entonces la afirmación a secas («el peor en dos siglos») tampoco era exacta según el propio dato de 1994 que la ficha maneja en otro sitio. Corregidos los cinco a «el peor año de incendios forestales de este siglo, y el segundo peor en dos siglos, solo superado por 1994» (o su equivalente más corto en `dato`/`problema`/`speech`) — ninguna cifra cambia, solo el marco lógico.
 
 
