@@ -322,6 +322,9 @@ Verificado contra estas fuentes: fundación en España el 30 de julio de 1968 (c
 
 Sin puntos abiertos.
 
+**«El peor año de incendios en dos siglos, solo superado por 1994»: contradicción lógica repetida en cinco sitios.** Si 1994 (437.000 ha) superó a 2025 (355.000 ha), 2025 no es «el peor en dos siglos», es el segundo peor — la propia ficha reconocía el hecho («solo superado por 1994») mientras lo enmarcaba con una etiqueta que lo negaba. Aparecía así en `cifras[1]`, y en el programa de Incendios (`desc` y `dato`); en `problema` y `speech.discurso` se omitía la coletilla de 1994, pero entonces la afirmación a secas («el peor en dos siglos») tampoco era exacta según el propio dato de 1994 que la ficha maneja en otro sitio. Corregidos los cinco a «el peor año de incendios forestales de este siglo, y el segundo peor en dos siglos, solo superado por 1994» (o su equivalente más corto en `dato`/`problema`/`speech`) — ninguna cifra cambia, solo el marco lógico.
+
+
 ## Cruz Roja Española
 
 **Fuentes oficiales**: Memoria 2024 · Presupuesto 2026 · Informe de Auditoría de Cuentas Anuales 2024 (EY) · Portal de Transparencia (todos documentos propios de Cruz Roja, con URL) · IFRC (ifrc.org, para la escala del movimiento internacional) · fichas internas de proyecto y territoriales de Cruz Roja España · cruzroja.es/www2.cruzroja.es (áreas de actuación, historia, notas de prensa institucionales) · bp España (nota de prensa sobre el programa conjunto de pobreza energética 2022-2025).
