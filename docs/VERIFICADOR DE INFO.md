@@ -545,3 +545,13 @@ Sin puntos abiertos.
 
 
 **`fondosNota` se quedó con el 122,2M€ de la Memoria 2024 tras el rebase a la Memoria 2025.** La nota que explica por qué Cooperación Internacional aparece con solo 27,8M€ en el reparto de fondos (presupuesto propio 2026) decía: «la ejecución total de proyectos internacionales (122,2M€, ver cifra de Cooperación Internacional) incluye además financiación externa restringida». Pero la «cifra de Cooperación Internacional» a la que remite ese «ver» es hoy **114,8 M€** (Memoria 2025: 44 países, 321 proyectos, 6.455.756 personas — los tres desgloses de la ficha suman exacto contra ese total), no 122,2M€. El 122,2M€ era correcto **cuando la ficha usaba la Memoria 2024** (41 países, 301 proyectos): al rebasar la ficha a la Memoria 2025 (`e1e9195`) se actualizó la cifra de cooperación pero no esta nota, que se quedó apuntando a un número huérfano que ya no aparece en ningún otro sitio de la ficha. Corregido a 114,8M€ (2025).
+
+**Auditoría final (04/09/2026), descargada y leída íntegra la Memoria 2025 (434 p.) desde la URL oficial ya citada en `fuentesCompletas`**, además de las tres correcciones ya aplicadas hoy mismo (cuotas de socios 157,8→152,8M€, Empleo 280.000→281.105, `fondosNota` 122,2→114,8M€): confirmados 2.548.849 + 6.455.756 + 1.501.650 = 10.506.255 (suma exacta de los tres ámbitos), 1.226.566 socios/222.214 voluntarios/4.647.055 horas, 91.526 altas/150.851 bajas, 15.432 personas en Medio Ambiente, y las cifras de colectivos (231.014 mayores, 787.747 inclusión social, 1.071.572 salud, 700.689 salud mental, 33.193 discapacidad) — todos exactos.
+
+Verificado también el programa de Trata y explotación (1.339 personas, 1º semestre 2026): no aparece en la Memoria 2025 porque procede de una nota de prensa posterior (29 de julio de 2026, Día Mundial contra la Trata), confirmada palabra por palabra contra fuentes de prensa independientes (Servimedia, ORM, Salamanca Hoy) — ya citada correctamente en `fuentesCompletas`.
+
+Revisadas las 31 menciones a 2024 que quedan en la ficha: todas son comparativas explícitas («+X% que en 2024») o llevan la coletilla «último dato publicado, de 2024, la Memoria 2025 no lo actualiza» — comprobado el caso de la brecha digital infantil (1.538/7.389, marcado como dato de 2024): esas cifras no aparecen en ningún punto de la Memoria 2025, confirmando que la coletilla es fiel y no queda ningún dato presentado como actual que en realidad sea de 2024.
+
+Con esto se suman a las tres correcciones de esta sesión (cuotas de socios, Empleo, `fondosNota`) sin ningún hallazgo nuevo en el resto de la ficha: 18 programas, todas las `cifras`, `claim` y `meta` verificados.
+
+`verificado` y `ultimaActualizacion` sincronizados a septiembre 2026.
