@@ -129,6 +129,14 @@ Verificado contra estas fuentes: la destrucción de la Aldea Infantil SOS de Raf
 
 Sin puntos abiertos.
 
+**Auditoría final (04/09/2026), descargadas y leídas las cuatro fuentes primarias ya citadas en `fuentesCompletas`** (Memoria Institucional 2025, Memoria de Cooperación 2025, Informe de auditoría 2025 y Memoria de Socios 2025 — los cuatro PDF verificados byte a byte idénticos a los ya usados en sesiones anteriores): cruzados los 12 programas contra el texto literal — 18.329 niños/3.639 familias en Prevención (97%/78%), 1.430/1.124 en Protección (80% objetivos académicos), 1.141 jóvenes (77%/84%/19%), 42 personas en el CEEIS (69 en 2024) con Serendipia/Ítaca/Kairós, 409 voluntarios, y el desglose completo de la medición de satisfacción (5.104 encuestados en 5 grupos) — todos exactos salvo un hallazgo.
+
+**Un error real: el `dato` de Academia SOS mezclaba las cifras de satisfacción.** Verificado por posición exacta en la p.55 de la Memoria (números y etiquetas emparejados por su disposición en el PDF): familias 4,62, administración 4,63, centros educativos 4,70, voluntarios/practicum 4,58, niños/as 4,38. El `desc` ya tenía la pareja correcta, pero el `dato` decía «familias 4,63» (en realidad el valor de administración) y «centros educativos 4,68» (un valor que no aparece en ningún sitio de la fuente). Corregido el `dato` para que coincida con el `desc` y con la fuente.
+
+Revisadas las 27 menciones a 2024 que quedan en la ficha: todas históricas, comparativas explícitas o años de vídeo, sin ningún dato de 2024 presentado como si fuera de 2025.
+
+`verificado` y `ultimaActualizacion` ya estaban en septiembre 2026.
+
 ## Fundación Española del Corazón (FEC)
 
 **Fuentes oficiales**: Memoria Anual FEC 2025 (PDF, Informe de Actividad, descargado y verificado línea a línea) · Informe de Actividad SEC-FEC 2025 · Revista FEC nº160 (Verano 2026) · fundaciondelcorazon.com y secardiologia.es (notas de prensa institucionales) · mujerycorazon.secardiologia.es · Revista Española de Cardiología · La Moncloa/INSST (convenios) · donaciones.fundaciondelcorazon.com · blog-impulso-vital.fundaciondelcorazon.com · INE (Defunciones según la Causa de Muerte 2024).
