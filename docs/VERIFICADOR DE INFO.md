@@ -368,6 +368,13 @@ Sin puntos abiertos.
 
 `verificado` y `ultimaActualizacion` sincronizados a septiembre 2026.
 
+**Barrido de arrastre (04/09/2026): tres sitios que la corrección anterior no alcanzó.** El usuario revisó el resto de materiales de WWF (el deck y contradiccionesbiblio.md, ambos fuera de esta ficha y ya corregidos por su cuenta) y localizó tres copias de los mismos dos datos que se quedaron sin actualizar dentro de la ficha:
+1. `resumenClave` del programa de Agua seguía con «más de 140 hectáreas» — corregido a 134, igual que ya estaba en `desc`, `dato` y `cifras` de ese mismo programa.
+2. `speech.discurso` (el argumentario embebido en la ficha, no `speech_wwf.md`, que es un fichero aparte fuera de este repositorio) tenía la misma cifra en su párrafo final — corregida a 134.
+3. El `dato` del programa de Especies marinas (el que menciona Chinijo) seguía diciendo del Mar de las Calmas «tramitación en curso», mientras su propio `desc` y el programa de Pesca sostenible ya cuentan que el Consejo de la Red de Parques Nacionales aprobó su creación en 2025 — alineado.
+
+Ninguna cifra nueva: son las mismas dos correcciones de la auditoría anterior, que no se habían propagado a los tres campos adicionales donde también aparecían.
+
 ## Cruz Roja Española
 
 **Fuentes oficiales**: Memoria 2024 · Presupuesto 2026 · Informe de Auditoría de Cuentas Anuales 2024 (EY) · Portal de Transparencia (todos documentos propios de Cruz Roja, con URL) · IFRC (ifrc.org, para la escala del movimiento internacional) · fichas internas de proyecto y territoriales de Cruz Roja España · cruzroja.es/www2.cruzroja.es (áreas de actuación, historia, notas de prensa institucionales) · bp España (nota de prensa sobre el programa conjunto de pobreza energética 2022-2025).
